@@ -1,0 +1,18 @@
+User Stories:
+
+1. Wir möchten dafür sorgen, dass die Anwendung sich in der gegebenen Programmierumgebung anwenden lässt(und keinen Debug-
+Screen verursacht) und dass SVGMOrph example etwas ohne Probleme etwas ausgibt.
+
+2. Wir möchten die Klassendokumentation verbessern und streamlinen, sodass sie leichter verständlich ist
+
+3. Wir möchten die Skalierung der SVG-Images verbessern, sodass sie sich beim Vergrößern wie von der Spezifikation gegeben
+proportional und ohne Pixelisierung vergrößern.
+
+Ofiziell umfomuliert:
+1. Als Nutzerin möchte ich wissen welche Arten von SVGs durch den SVGMorph dargestellt werden können, um einschätzen 
+zu können welche SVGs ich für mein Projekt verwenden kann. (4)
+
+​2. Als Nutzerin möchte ich SVGMorphs ohne Verzerrungen vergrößern und verkleineren können, so dass ich mir das Bild auf 
+verschiednen Größen gleich anschauen kann. (10)
+
+Diese Iteration: Story 1
