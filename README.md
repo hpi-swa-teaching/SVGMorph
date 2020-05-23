@@ -11,6 +11,8 @@ Use the command "SVGMorph example" and the choose an SVG file from your computer
 
 Use the Halo to scale the opened SVGMorph
 
+Display Rectangles, Circles, Ellipses, Linees, Polylines, Polygons and Paths(defined according to https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
+
 # Known Issues
 
 -not all SVGs can displayed correctly
