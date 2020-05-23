@@ -22,3 +22,7 @@ Display Rectangles, Circles, Ellipses, Linees, Polylines, Polygons and Paths(def
 
 -when downscaling the SVGMOrph, the TextMorphs cannot be downscaled anymore after a while and leave theitr boundaries while everything else 
 shrinks(add example picture)
+
+-an image with all basic image types separated from one another throws SAXParseException when opened with SVGMorph example
+
+-basic shapes are filled with black color(does not affect polygon and polyline)
