@@ -13,11 +13,10 @@ Use the Halo to scale the opened SVGMorph
 
 Display Rectangles, Circles, Ellipses, Linees, Polylines, Polygons and Paths(defined according to https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
 
-!(C:\Users\Ella\Ella-Kopie\Studium\Semester6\SWT\SVGs\demo1.svg?raw = true)
 
 # Known Issues
 
--not all SVGs can displayed correctly
+-not all SVGs can displayed correctly(check how this image(demo1.svg) looks when you open it with your web browser
 
 -not all values cann be changed by interacting with the object menu(accessed using "inspect")
 
