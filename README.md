@@ -5,36 +5,32 @@
 
 # Usage
 
-(enter some pictures)
-
-Use the command "SVGMorph example" and the choose an SVG file from your computer to open thta file in Squeak
+Use the command "SVGMorph example" and the choose an SVG file from your computer to open that file in Squeak
 
 Use the Halo to scale the opened SVGMorph
 
 Display Rectangles, Circles, Ellipses, Linees, Polylines, Polygons and Paths(defined according to https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
 
-Can Display Paths, arcs and Bezier curves.
+Can Display Paths, arcs and Bezier curves(defined according to:https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths).
 
-Can Display Text in various ways(like curves)
+Can Display Text in various ways(like curves)(defined according to:https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts)
 
 # Known Issues
 
--not all SVGs can displayed correctly(check how this image(demo1.svg) looks when you open it with your web browser
+-not all SVGs can displayed correctly
 
 -not all values cann be changed by interacting with the object menu(accessed using "inspect")
 
--when downscaling the SVGMOrph, the TextMorphs cannot be downscaled anymore after a while and leave theitr boundaries while everything else 
-shrinks(add example picture)
+-when downscaling the SVGMorph, the TextMorphs cannot be downscaled anymore after a while and leave their boundaries while everything else 
+shrinks
 
 -an image with all basic image types separated from one another throws SAXParseException when opened with SVGMorph example - could be caused by problematic xml-related expression at the start
 
--basic shapes are filled with black color(does not affect polygon and polyline)
+-basic shapes are filled with black color when that is not specified(does not affect polygon and polyline)
 
--cannot display bezier curves properly(they are displayed as fille-out ellipses) - in contrast: arcs are mostly displayed well except for some full shapes that are filled with black(even though they appear to be slightly different
+-cannot display bezier curves properly(they are displayed as fille-out ellipses) - in contrast: arcs are mostly displayed well except for some full shapes that are filled with black(even though they appear to be slightly different from wat is displayed in the web browser)
 
--properties cannot be changed with inspect window
-
--when enlarging path1 and path2, the red dots get deformed to cubes with spikes(path3 has yet to be tested)
+-when enlarging path1.svg and path2.svg, the red dots get deformed to cubes with spikes(path3.svg has yet to be tested)
 
 -when enlarging, some edges stick a bit out
 
@@ -42,7 +38,7 @@ shrinks(add example picture)
 
 -fetching an arbitrary path via xlink: hhref does not work
 
--sometimes TextMorphs, when reduce in size, do not shrink but disappear upward
+-sometimes TextMorphs, when reduced in size, do not shrink but disappear upward from the field of view
 
 -when enlarging textMorph, size changes do not happen smoothly but rather sudden
 
