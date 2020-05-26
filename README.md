@@ -21,7 +21,7 @@ Everything else in the SVG Standard.
 
 # Usage
 
-Use the command "SVGMorph example" and the choose an SVG file from your computer to open that file in Squeak
+Open the Squeak Workspace. Type the command "SVGMorph example", mark it und and press Ctrl+D for "do it"on it. Then, a dialog will pop up that will allow you to choose a file from the file system. Choose the svg file you wnat to open in Squeak. Then click the "ok" option in the dialog(if you do not want to insert an image, click "cancel", also in the same dialog)
 
 # Known Issues
 
@@ -36,5 +36,6 @@ shrinks
 
 -cannot display bezier curves properly(they are displayed as filled-out split ellipses) - in contrast: arcs are mostly displayed well except for some full shapes that are filled with black
 
--when enlarging a sample image, the red dots get deformed to cubes with spikes
+-when enlarging this image, the dots at the edges of the rectangle get deformed to cubes with spikes:
 
+![](https://raw.githubusercontent.com/hpi-swa-teaching/SVGMorph/dev/docs/issues/deformed_circles.svg)
