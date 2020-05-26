@@ -36,6 +36,17 @@ shrinks
 
 -cannot display bezier curves properly(they are displayed as filled-out split ellipses) - in contrast: arcs are mostly displayed well except for some full shapes that are filled with black
 
--when enlarging this image, the dots at the edges of the rectangle get deformed to cubes with spikes:
+-when enlarging this image, the dots at the edges of the rectangle get deformed to cubes with spikes(source code without enlarging below):
 
 ![](https://raw.githubusercontent.com/hpi-swa-teaching/SVGMorph/dev/docs/issues/deformed_circles.svg)
+
+```
+<svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+
+  <path d="M10 10"/>
+
+  <!-- Points -->
+  <circle cx="10" cy="10" r="2" fill="red"/>
+
+</svg>
+```
