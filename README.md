@@ -6,14 +6,17 @@
 # Supported/Not Supported Features
 
 Supported:
+Scaling the opened SVGMOrphs via Halo.
 
 Display Rectangles, Circles, Ellipses, Linees, Polylines, Polygons and Paths(defined according to https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
-
-Scaling the opened SVGMOrphs via Halo.
 
 Can Display Paths, arcs and Bezier curves(defined according to:https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths).
 
 Can Display Text in various ways(like curves)(defined according to:https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Texts)
+
+Can Display Fills and Strokes(defined according to:https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Fills_and_Strokes).
+
+Can Display Gradients(defined according to:https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients)
 
 Not supported:
 
@@ -21,7 +24,13 @@ Everything else in the SVG Standard.
 
 # Usage
 
+Using SVGMorph example:
+
 Open the Squeak Workspace. Type the command "SVGMorph example", mark it und and press Ctrl+D for "do it"on it. Then, a dialog will pop up that will allow you to choose a file from the file system. Choose the svg file you wnat to open in Squeak. Then click the "ok" option in the dialog(if you do not want to insert an image, click "cancel", also in the same dialog)
+
+Using SVGMorph fromFile:
+Open the Squeak Workspace. Find the absolute or relative Path to the file ypu want to open. Then type the command "(SVGMorph fromFile: 'absoluteOrRelativePathToFile') openInWorld" and then the morph will appear
+
 
 # Known Issues
 
@@ -50,3 +59,13 @@ shrinks
 
 </svg>
 ```
+-stroke-linejoin and stroke-linecap properties specified in the programs are not always adhered to
+
+-path may wrongly have the same color as stroke(?)
+
+-stroke-dasharray does not always create dashed lines on a stroke
+
+-strokes and fills are not always properly manipulated using CSS
+
+-gradients are only displayed as specified in rare cases(in the other other cases the shapes just have the color of the stop-color offset 0%)
+-cannot display patterns because it does not recognize a pattern specification(it apppears to read it as a fill for some reason)
