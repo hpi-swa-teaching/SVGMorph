@@ -8,13 +8,15 @@ Supported:
 Scaling the opened SVGMOrphs via Halo.
 Scaling the opened SVGMorphs via Halo.
 
-Display Rectangles, Circles, Ellipses, Linees, Polylines, Polygons and Paths(defined according to https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Basic_Shapes)
+Display SVG Rectangles, Circles, Ellipses, Linees, Polylines, Polygons and Paths.
 
-@@ -18,18 +17,21 @@ Can Display Fills and Strokes(defined according to:https://developer.mozilla.org
+Can Display SVG Fills and Strokes.
 
-Can Display Gradients(defined according to:https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Gradients)
+Can Display SVG Gradients.
 
-Can Display Patterns(defined according to:https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Patterns)
+Can Display SVG Patterns.
+
+Every supported SVG Feature is defined as according to: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial
 
 Not supported:
 
@@ -35,7 +37,6 @@ Open the Squeak Workspace. Find the absolute or relative Path to the file you wa
 
 
 # Known Issues
-@@ -39,13 +41,11 @@ shrinks
 
 -sometimes TextMorphs, when reduced in size, do not shrink but disappear upward from the field of view
 
@@ -52,7 +53,6 @@ Open the Squeak Workspace. Find the absolute or relative Path to the file you wa
 
 ![](https://raw.githubusercontent.com/hpi-swa-teaching/SVGMorph/dev/docs/issues/deformed_circles.svg)
 
-@@ -61,8 +61,6 @@ shrinks
 ```
 -stroke-linejoin and stroke-linecap properties specified in the programs are not always adhered to
 
