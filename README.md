@@ -51,7 +51,7 @@ Open the Squeak Workspace. Find the absolute or relative Path to the file you wa
 -when enlarging this image, the dots at the edges of the rectangle get deformed to cubes with spikes(source code without enlarging below):
 -when enlarging this image, the dots at the edges of the rectangle get deformed to cubes with spikes(source code without enlarging below the image):
 
-"![](https://raw.githubusercontent.com/hpi-swa-teaching/SVGMorph/dev/docs/issues/deformed_circles.svg)"
+![](docs/issues/deformed_circles.PNG)
 
 ```
 -stroke-linejoin and stroke-linecap properties specified in the programs are not always adhered to
