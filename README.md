@@ -1,27 +1,56 @@
 # SVGMorph
 (swt20-18)
 # Installation
+First of all, you need download a Squeak Image from https://hpi.de/intern/studium/materialien.html?tx_dscfilebrowser_filebrowser%5Baction%5D=main&tx_dscfilebrowser_filebrowser%5Bcontroller%5D=Static&tx_dscfilebrowser_filebrowser%5Bfolder%5D=%2Fmaterialien%2FFG%20Software-Architekturen%2FSWT20_V%2FSqueak%2FNoEmpiricalStudy%2F&cHash=ad164fee13950c0211ab58777c9a5930 if you haven't yet(this assumes you are a HPI student or staff annd thus justified to access the  image. Decompress the image.
 
-# Supported/Not Supported Features
+Once you are done with that,  you will need the Git Browser in the image to download the project(the following steps are copied from an E-mail by Patrick Rein and only minimally adapted by me to specifically refer to this project - I also removed some general hints that do not specifically apply to this project):
+
+1. Open the Git Browser. Depending on your Squeak version, you can find it under Apps or under Tools. If this is the first time you open it, it might ask you, whether you want to add your first project now. You can decline for now, as we do not want to add a new project.
+
+2. The pane at the top left pane is the list of projects which are currently managed through Squot. We will now add SVGMorph by opening the context menu of the list and selecting either "Clone Project" directly or "New project..." > "Clone Project".
+
+3. A wizard opens which will guide us through the steps to clone SVGMorph.
+
+4. First, it asks for an URL to clone from. We use the https URL of our repository, so in our case, that would be https://github.com/hpi-swa-teaching/SVGMorph.git). 
+
+5. Second, we can enter a project name for SVGMorph which helps us remember our project(I recommend you just use "SVGMorph").
+
+6. Third, we have to select a folder in which Squot can store a file-based version of the repository. You should create a dedicated folder for that even if you will not work with the working copy in the filesystem.
+
+7. We have now provided all necessary details and Squot will go ahead and clone SVGMorph for us.
+
+8. As soon as Squot finished cloning, we have the repository in the system but we do not yet have the objects loaded from the repository. For that to happen, we have to click on "Checkout objects" in the context menu on the topmost commit in the list of commits, which is the pane on the top right of the git browser.
+
+9.  We are now presented with a list of changes to be loaded through the checkout. If you have no special requirements for loading the packages, you can simply click the "accept" button.
+
+10. After a short loading time, the objects are now loaded in the system. If the repository stored packages, you can now start browsing your code - or just start using SVGMorph right away.
+
+# Supported/Not Supported Features of SVG
+
+(List of SVG Functionality/Features as defined by:https://en.wikipedia.org/wiki/Scalable_Vector_Graphics and  https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
 
 Supported:
 Scaling the opened SVGMOrphs via Halo.
 Scaling the opened SVGMorphs via Halo.
 
-Display SVG Rectangles, Circles, Ellipses, Linees, Polylines, Polygons and Paths.
+SVG Rectangles, Circles, Ellipses, Lines, Polylines, Polygons and Paths(i.e SVG Basic Shapes).
+SVG Fills and Strokes.
+SVG Gradients.
+SVG Patterns.
 
-Can Display SVG Fills and Strokes.
-
-Can Display SVG Gradients.
-
-Can Display SVG Patterns.
-
-Every supported SVG Feature is defined as according to: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial
+Every supported SVG Feature and its content is defined as according to: https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial
 
 Not supported:
 
-Everything else in the SVG Standard.
-Everything else inside and outside the SVG Standard.
+SVG Text
+SVG Clipping,Masking and Compositing
+SVG Filter effects
+SVG Interactivity
+SVG Linking 
+SVG Scripting
+SVG Animation
+SVG Fonts
+SVG Metadata
 
 # Usage
 There are two ways of using the morph:
@@ -42,16 +71,13 @@ Open the Squeak Workspace. Find the absolute or relative Path to the file you wa
 
 -when enlarging textMorph, size changes do not happen smoothly but rather sudden
 
--basic shapes are filled with black color when that is not in the fill attribute(which is usually tansparent in that case), only in the stroke attribute(only shapes with fill attributes are affected)
--basic shapes are filled with black color when that is not in the fill attribute(which is usually transparent in that case), only in the stroke attribute(only shapes with fill attributes are affected)
+-basic shapes are filled with black color when they are specified to be transparent(which is usually tansparent in that case), only in the stroke attribute(only shapes with fill attributes are affected)
 
 -cannot display bezier curves properly(they are displayed as filled-out split ellipses) - in contrast: arcs are mostly displayed well except for some full shapes that are filled with black
--cannot display bezier curves properly(they are displayed as filled-out half ellipses) - in contrast: arcs are mostly displayed well
 
--when enlarging this image, the dots at the edges of the rectangle get deformed to cubes with spikes(source code without enlarging below):
 -when enlarging this image, the dots at the edges of the rectangle get deformed to cubes with spikes(source code without enlarging below the image):
 
-![](docs/issues/deformed_circles.PNG)
+![](/docs/issues/deformed_circles.png)
 
 ```
 -stroke-linejoin and stroke-linecap properties specified in the programs are not always adhered to
