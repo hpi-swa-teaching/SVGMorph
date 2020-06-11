@@ -54,7 +54,7 @@ Open the Squeak Workspace. Find a string that correctly describes an SVG object.
 
 ![](docs/strokess2.svg) 
 
-´´´
+```
 <svg width="160" height="280" xmlns="http://www.w3.org/2000/svg" version="1.1">
   <polyline points="40 60 80 20 120 60" stroke="black" stroke-width="20"
       stroke-linecap="butt" fill="none" stroke-linejoin="miter"/>
@@ -65,7 +65,7 @@ Open the Squeak Workspace. Find a string that correctly describes an SVG object.
   <polyline points="40 220 80 180 120 220" stroke="black" stroke-width="20"
       stroke-linecap="square" fill="none" stroke-linejoin="bevel"/>
 </svg>
-´´´
+```
 
 -path may wrongly have the same color as stroke
 -stroke-dasharray does not always create dashed lines on a stroke
@@ -86,4 +86,4 @@ Open the Squeak Workspace. Find a string that correctly describes an SVG object.
   <circle cx="90" cy="10" r="2" fill="red"/>
   <circle cx="10" cy="90" r="2" fill="red"/>
 
-</svg> ```
+</svg> 
