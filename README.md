@@ -1,5 +1,7 @@
 # SVGMorph
 (swt20-18)
+Implements the SVG Standard in the Squeak programming language.
+
 # Installation
 Install metacello-work in your Squeak-image if you have not done so already. In nay casem,  copy the following ito your woorkspace to get started:
 ```
@@ -15,7 +17,7 @@ Metacello new
 (List of SVG Functionality/Features as defined by:https://en.wikipedia.org/wiki/Scalable_Vector_Graphics and  https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
 
 Supported:
-Scaling the opened SVGMOrphs via Halo.
+Scaling the opened SVGMorphs via Halo.
 
 Scaling the opened SVGMorphs via Halo.
 
@@ -30,23 +32,6 @@ SVG Patterns.
 SVG Text
 
 Not supported:
-SVG Text
-
-SVG Clipping,Masking and Compositing
-
-SVG Filter effects
-
-SVG Interactivity
-
-SVG Linking 
-
-SVG Scripting
-
-SVG Animation
-
-SVG Fonts
-
-SVG Metadata
 
 # Usage
 There are three ways of using SVGMorph:
