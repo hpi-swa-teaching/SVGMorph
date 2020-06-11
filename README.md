@@ -16,22 +16,36 @@ Metacello new
 
 Supported:
 Scaling the opened SVGMOrphs via Halo.
+
 Scaling the opened SVGMorphs via Halo.
+
 SVG Rectangles, Circles, Ellipses, Lines, Polylines, Polygons and Paths(i.e SVG Basic Shapes).
+
 SVG Fills and Strokes.
+
 SVG Gradients.
+
 SVG Patterns.
+
 SVG Text
 
 Not supported:
 SVG Text
+
 SVG Clipping,Masking and Compositing
+
 SVG Filter effects
+
 SVG Interactivity
+
 SVG Linking 
+
 SVG Scripting
+
 SVG Animation
+
 SVG Fonts
+
 SVG Metadata
 
 # Usage
