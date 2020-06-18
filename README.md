@@ -12,21 +12,25 @@ Metacello new
 ```
   
  Now you will be able to use SVGMorph in your Squeakkk image.
-# Supported/Not Supported Features of SVG
+# Supported
 (List of SVG Functionality/Features as defined by:https://en.wikipedia.org/wiki/Scalable_Vector_Graphics and  https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
 
-Supported:
-Scaling the opened SVGMOrphs via Halo.
+Scaling the opened SVGMOrphs via Halo.  
+
 Scaling the opened SVGMorphs via Halo.
 
 Scaling the opened SVGMorphs via Halo.
 
 SVG Rectangles, Circles, Ellipses, Lines, Polylines, Polygons and Paths(i.e SVG Basic Shapes).
+
 SVG Fills and Strokes.
+
 SVG Gradients.
+
 SVG Text
 
-Not supported:
+# Not Supported Features of SVG
+
 SVG Patterns.
 
 
@@ -46,9 +50,13 @@ Using SVGMorph fromstring:
 Open the Squeak Workspace. Find a string that correctly describes an SVG object. Then type the command "(SVGMorph fromString: 'SVGObjectString') openInWorld" and then the morph will appear in your Squeak image.
 # Known Issues
 -sometimes TextMorphs, when reduced in size, do not shrink but disappear upward from the field of view
+
 -when enlarging textMorph, size changes do not happen smoothly but rather sudden
+
 -basic shapes are filled with black color from the stroke Attribute specification when they are specified to be transparent (only shapes with fill attributes are affected)
+
 -cannot display bezier curves properly(they are displayed as filled-out split ellipses) - in contrast: arcs are mostly displayed well except for some full shapes that are filled with black - likely also because of previous problem
+
 -stroke-linejoin and stroke-linecap properties specified in the programs are not always adhered to(stroke-linecap only seems o be displayed as "square" and stroke-linejoin has not the sxact specified shape, the shape "bevel" comes closest). Following is a picture of it and then its SVG data:
 ![](docs/strokess2.svg) 
 ```
@@ -64,10 +72,15 @@ Open the Squeak Workspace. Find a string that correctly describes an SVG object.
 </svg>
 ```
 -path may wrongly have the same color as stroke
+
 -stroke-dasharray does not always create dashed lines on a stroke
+
 -gradients are only displayed as specified in rare cases(in the other other cases the shapes just have the color of the stop-color offset 0% and no other)
+
 -cannot display patterns because it does not recognize a pattern specification(it apppears to read it as a fill for some reason)-may be related to the other errors related to fill
+
 -when enlarging this image, the dots at the edges of the rectangle get deformed to cubes with spikes(source code without enlarging below the image):
+
 ![](docs/issues/deformed_circles.PNG)
 ```
 <svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
