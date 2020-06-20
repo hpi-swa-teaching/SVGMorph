@@ -4,6 +4,10 @@ baseline: spec
 	spec for: #'common'
 		do: [
 			spec
-				group: 'default' with: #();
-				group: 'tests' with: #()];
-				yourself
+				package: 'SVGMorph';
+				package: 'Tests - SVG-Morphic' with: [spec requires: #('core')].
+			spec
+				group: 'default' with: #('SVGMorph''Tests - SVG-Morphic');
+				group: 'core' with: #('SVGMorph');
+				group: 'tests' with: #( 'Tests - SVG-Morphic')];
+				yourself.
