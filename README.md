@@ -2,8 +2,9 @@
 (swt20-18)
 
 Implements the SVG Standard in the Squeak programming language.
+
 # Installation
-Install metacello-work in your Squeak-image if you have not done so already. In nay casem,  copy the following ito your woorkspace to get started:
+Install metacello-work in your Squeak-image if you have not done so already. In any case,  copy the following into your workspace to get started:
 ```
 Metacello new
 	baseline: 'SVGMorph';
@@ -11,18 +12,13 @@ Metacello new
 	load
 ```
 
- Now you will be able to use SVGMorph in your Squeakkk image.
-# Supported/Not Supported Features of SVG
+ Now you will be able to use SVGMorph in your Squeak image.
+ 
 # Supported
 (List of SVG Functionality/Features as defined by:https://en.wikipedia.org/wiki/Scalable_Vector_Graphics and  https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
 
 Supported:
-Scaling the opened SVGMOrphs via Halo.
 Scaling the opened SVGMOrphs via Halo.  
-
-Scaling the opened SVGMorphs via Halo.
-
-Scaling the opened SVGMorphs via Halo.
 
 SVG Rectangles, Circles, Ellipses, Lines, Polylines, Polygons and Paths(i.e SVG Basic Shapes).
 
@@ -32,7 +28,6 @@ SVG Gradients.
 
 SVG Text
 
-Not supported:
 # Not Supported Features of SVG
 
 SVG Patterns.
@@ -40,11 +35,17 @@ SVG Patterns.
 
 # Usage
 There are three ways of using SVGMorph:
+
 Using SVGMorph example:
+
 Open the Squeak Workspace. Type the command "SVGMorph example" inside, mark it und and press Ctrl+D for "do it"on it. Then, a dialog will pop up that will allow you to choose a file from the file system. Choose the svg file you want to open in Squeak. Then click the "ok" option in the dialog(if you do not want to insert an image, click "cancel", also in the same dialog). If you chose "ok", the SVGMorph of your chosen picture just appeared in your Squeak image.
+
 Using SVGMorph fromFile:
+
 Open the Squeak Workspace. Find the absolute or relative Path to the file you want to open. Then type the command "(SVGMorph fromFile: 'absoluteOrRelativePathToFile') openInWorld" and then the morph will appear in your Squeak image.
+
 Using SVGMorph fromstring:
+
 Open the Squeak Workspace. Find a string that correctly describes an SVG object. Then type the command "(SVGMorph fromString: 'SVGObjectString') openInWorld" and then the morph will appear in your Squeak image.
 # Known Issues
 -sometimes TextMorphs, when reduced in size, do not shrink but disappear upward from the field of view
@@ -55,7 +56,7 @@ Open the Squeak Workspace. Find a string that correctly describes an SVG object.
 
 -cannot display bezier curves properly(they are displayed as filled-out split ellipses) - in contrast: arcs are mostly displayed well except for some full shapes that are filled with black - likely also because of previous problem
 
--stroke-linejoin and stroke-linecap properties specified in the programs are not always adhered to(stroke-linecap only seems o be displayed as "square" and stroke-linejoin has not the sxact specified shape, the shape "bevel" comes closest). Following is a picture of it and then its SVG data:
+-stroke-linejoin and stroke-linecap properties specified in the programs are not always adhered to(stroke-linecap only seems ot be displayed as "square" and stroke-linejoin has not the exact specified shape, the shape "bevel" comes closest). Following is a picture of it and then its SVG data:
 ![](docs/strokess2.svg) 
 ```
 <svg width="160" height="280" xmlns="http://www.w3.org/2000/svg" version="1.1">
