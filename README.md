@@ -50,8 +50,6 @@ Open the Squeak Workspace. Find a string that correctly describes an SVG object.
 # Known Issues
 -sometimes TextMorphs, when reduced in size, do not shrink but disappear upward from the field of view
 
--when enlarging textMorph, size changes do not happen smoothly but rather sudden
-
 -basic shapes are filled with black color from the stroke Attribute specification when they are specified to be transparent (only shapes with fill attributes are affected)
 
 -cannot display bezier curves properly(they are displayed as filled-out split ellipses) - in contrast: arcs are mostly displayed well except for some full shapes that are filled with black - likely also because of previous problem
