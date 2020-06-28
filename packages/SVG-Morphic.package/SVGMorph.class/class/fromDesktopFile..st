@@ -1,9 +1,10 @@
 as yet unclassified
-fromFile: filename
-	"Open an SVGMorph from the given file."
-	| s answer|
+fromDesktopFile:filename
+	"opens a Stream on a given file "
+
+	| s answer |
 	s := FileStream oldFileNamed: filename.
-	s ifNil: [^nil].
 	[answer _ self fromFileStream: s]
 		ensure: [s close].
 	^answer
+	
