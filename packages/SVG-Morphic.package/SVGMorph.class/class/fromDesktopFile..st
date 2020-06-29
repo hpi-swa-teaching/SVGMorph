@@ -1,10 +1,6 @@
 as yet unclassified
 fromDesktopFile:filename
 	"opens a Stream on a given file "
+	^(self fromFile: filename)openInWorld
 
-	| s answer |
-	s := FileStream oldFileNamed: filename.
-	[answer _ self fromFileStream: s]
-		ensure: [s close].
-	^answer
 	

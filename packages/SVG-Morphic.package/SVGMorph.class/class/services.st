@@ -1,7 +1,7 @@
 as yet unclassified
 services
-self halt.
-^ SimpleServiceEntry 
+
+^ {SimpleServiceEntry 
 		provider: self
 		label: 'Open SVG' 
-		selector: #fromFile
+		selector: #fromDesktopFile:}
