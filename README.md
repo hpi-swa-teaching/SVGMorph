@@ -30,8 +30,9 @@ SVG Text
 
 # Not Supported Features of SVG
 
-SVG Patterns.
+SVG Patterns
 
+SVG Linking
 
 # Usage
 There are three ways of using SVGMorph:
