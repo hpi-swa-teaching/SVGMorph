@@ -1,12 +1,12 @@
 {
 	"class" : {
 		"example" : "gvc 10/17/2005 17:41",
-		"fileReaderServicesForFile:suffix:" : "E.R 6/29/2020 13:14",
-		"fromDesktopFile:" : "E.R 6/29/2020 13:18",
+		"fileReaderServicesForFile:suffix:" : "E.R 7/4/2020 11:17",
+		"fromDroppedFile:" : "E.R 7/4/2020 11:22",
 		"fromFile:" : "E.R 6/28/2020 21:07",
 		"fromFileStream:" : "gvc 10/17/2005 17:39",
 		"fromString:" : "E.R 6/28/2020 22:09",
-		"services" : "E.R 6/29/2020 13:23",
+		"services" : "E.R 7/4/2020 11:23",
 		"statementsfileReaderServicesForFile:suffix:" : "E.R 6/27/2020 11:33" },
 	"instance" : {
 		"composedStyle" : "gvc 7/29/2005 21:22",

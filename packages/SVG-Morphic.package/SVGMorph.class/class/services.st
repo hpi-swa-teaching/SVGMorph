@@ -3,5 +3,5 @@ services
 
 ^ {SimpleServiceEntry 
 		provider: self
-		label: 'Open SVG' 
-		selector: #fromDesktopFile:}
+		label: 'Open as SVGMorph' 
+		selector: #fromDroppedFile}
