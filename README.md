@@ -32,7 +32,9 @@ SVG Text
 
 SVG Patterns
 
-SVG Linking
+SVG Linking(results in white windows with nothing in them)
+
+SVG Animations(not nothing shows up the opened window or if it does it is not animated)
 
 # Usage
 There are three ways of using SVGMorph:
