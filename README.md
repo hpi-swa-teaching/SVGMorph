@@ -77,7 +77,49 @@ Open the Squeak Workspace. Find a string that correctly describes an SVG object.
 
 -stroke-dasharray does not always create dashed lines on a stroke
 
--gradients are only displayed as specified in rare cases(in the other other cases the shapes just have the color of the stop-color offset 0% and no other)
+-gradients are only displayed as specified in rare cases(in the other other cases the shapes just have the color of the stop-color offset 0% and no other). Following are two examples with their SVG Code:
+
+![](docs/issues/gradients2.JPG)
+
+```
+<svg width="120" height="240" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+      <radialGradient id="RadialGradient1">
+        <stop offset="0%" stop-color="red"/>
+        <stop offset="100%" stop-color="blue"/>
+      </radialGradient>
+      <radialGradient id="RadialGradient2" cx="0.25" cy="0.25" r="0.25">
+        <stop offset="0%" stop-color="red"/>
+        <stop offset="100%" stop-color="blue"/>
+      </radialGradient>
+  </defs>
+ 
+  <rect x="10" y="10" rx="15" ry="15" width="100" height="100" fill="url(#RadialGradient1)"/> 
+  <rect x="10" y="120" rx="15" ry="15" width="100" height="100" fill="url(#RadialGradient2)"/> 
+  
+</svg>
+```
+![](docs/issues/gradients3.JPG)
+```<svg width="120" height="120" version="1.1"
+  xmlns="http://www.w3.org/2000/svg">
+  <defs>
+      <radialGradient id="Gradient"
+            cx="0.5" cy="0.5" r="0.5" fx="0.25" fy="0.25">
+        <stop offset="0%" stop-color="red"/>
+        <stop offset="100%" stop-color="blue"/>
+      </radialGradient>
+  </defs>
+ 
+  <rect x="10" y="10" rx="15" ry="15" width="100" height="100"
+        fill="url(#Gradient)" stroke="black" stroke-width="2"/>
+  <circle cx="60" cy="60" r="50" fill="transparent" stroke="white" stroke-width="2"/>
+  <circle cx="35" cy="35" r="2" fill="white" stroke="white"/>
+  <circle cx="60" cy="60" r="2" fill="white" stroke="white"/>
+  <text x="38" y="40" fill="white" font-family="sans-serif" font-size="10pt">(fx,fy)</text>
+  <text x="63" y="63" fill="white" font-family="sans-serif" font-size="10pt">(cx,cy)</text>
+  
+</svg>
+```
 
 -cannot display patterns because it does not recognize a pattern specification(it apppears to read it as a fill for some reason)-may be related to the other errors related to fill
 
