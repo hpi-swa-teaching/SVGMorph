@@ -1,0 +1,16 @@
+{
+	"category" : "Tests - SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testMorph_rectangle",
+		"testMorph_stroke",
+		"testMorph_dottedStroke" ],
+	"name" : "Tests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
