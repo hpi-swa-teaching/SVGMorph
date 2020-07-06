@@ -7,3 +7,4 @@ fromFile: filename
 	[answer _ self fromFileStream: s]
 		ensure: [s close].
 	^answer
+	
