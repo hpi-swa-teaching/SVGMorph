@@ -17,4 +17,7 @@ fromCSS2String: aString
 						ifTrue: [(values third asNumber min: 100 max: 0) / 100.0]
 						ifFalse: [(values third asInteger min: 255 max: 0) / 255.0].
 				^self r: r g: g b: b].
+	 aString = 'transparent'
+                ifTrue: ["https://www.w3.org/TR/css-color-3/#transparent"
+                        ^ self transparent].
 	^self css2NamedColors at: aString ifAbsent: [Color black]
