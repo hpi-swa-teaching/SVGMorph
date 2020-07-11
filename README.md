@@ -8,7 +8,7 @@ Install metacello-work in your Squeak-image if you have not done so already. In 
 ```
 Metacello new
 	baseline: 'SVGMorph';
-	repository: 'github://hpi-swa-teaching/SVGMorph:master/packages';
+	repository: 'github://hpi-swa-teaching/SVGMorph:dev/packages';
 	load
 ```
 
@@ -18,7 +18,7 @@ Metacello new
 (List of SVG Functionality/Features as defined by:https://en.wikipedia.org/wiki/Scalable_Vector_Graphics and  https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
 
 Supported:
-Scaling the opened SVGMOrphs via Halo.  
+Scaling the opened SVGMorphs via Halo.  
 
 SVG Rectangles, Circles, Ellipses, Lines, Polylines, Polygons and Paths(i.e SVG Basic Shapes).
 
