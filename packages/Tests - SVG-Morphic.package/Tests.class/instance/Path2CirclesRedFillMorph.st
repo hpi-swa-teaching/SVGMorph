@@ -1,0 +1,13 @@
+as yet unclassified
+Path2CirclesRedFillMorph
+^'<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg">
+  
+  <path d="M 10 10 H 90 V 90 H 10 L 10 10"/>
+
+  <!-- Points -->
+  <circle cx="10" cy="10" r="2" fill="red"/>
+  <circle cx="90" cy="90" r="2" fill="red"/>
+  <circle cx="90" cy="10" r="2" fill="red"/>
+  <circle cx="10" cy="90" r="2" fill="red"/>
+
+</svg>'
