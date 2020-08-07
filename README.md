@@ -136,3 +136,13 @@ Open the Squeak Workspace. Find a string that correctly describes an SVG object.
   <circle cx="90" cy="10" r="2" fill="red"/>
   <circle cx="10" cy="90" r="2" fill="red"/>
 </svg> 
+```
+
+-When the following SVG specification demands rounded edges on the second rectangle(rx="10" ry="10"), they are not displayed:
+
+```
+<svg width="200" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <rect x="10" y="10" width="30" height="30" stroke="black" fill="transparent" stroke-width="5"/>
+  <rect x="60" y="10" rx="10" ry="10" width="30" height="30" stroke="black" fill="transparent" stroke-width="5"/>
+</svg>
+```
