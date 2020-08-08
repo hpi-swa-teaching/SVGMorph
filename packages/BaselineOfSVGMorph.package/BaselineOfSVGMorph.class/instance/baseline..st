@@ -9,5 +9,5 @@ baseline: spec
 			spec
 				group: 'default' with: #('SVG-Morphic' 'Tests-SVG-Morphic');
 				group: 'core' with: #('SVG-Morphic');
-				group: 'tests' with: #( 'Tests-SVG-Morphic')]
-				"yourself".
+				group: 'tests' with: #( 'Tests-SVG-Morphic');
+				yourself ].
