@@ -1,0 +1,6 @@
+SVGTestMorphs
+LineOrangeStrokeMorph
+
+^'<svg width="200" height="250" version="1.1" xmlns="http://www.w3.org/2000/svg">
+ <line x1="10" x2="50" y1="110" y2="150" stroke="orange" stroke-width="10"/>
+ </svg>'
