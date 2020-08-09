@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfSVGMorph",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfSVGMorph",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }

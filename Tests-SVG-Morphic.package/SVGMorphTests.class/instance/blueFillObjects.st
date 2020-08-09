@@ -1,0 +1,4 @@
+Parsing SVG Strings
+blueFillObjects
+
+^#(#CircleBlueFillBrownStrokeMorph #EllipseBlueFillBrownStrokeMorph #PolylineBlueFillBrownStrokeMorph #RectangleBlueFillBrownStrokeMorph #PolygonBlueFillBrownStrokeMorph)
