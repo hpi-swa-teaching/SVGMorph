@@ -1,0 +1,39 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"  width="100%" height="100%" viewBox="-4 -4 8 8" 
+
+ onload="init()">
+
+  <title>SVG animation using requestAnimationFrame()</title>
+
+  <script>
+
+    var object;
+
+   
+
+    function init() {
+
+      object = document.getElementById('rot');     
+
+      window.requestAnimationFrame(rotate);
+
+    }
+
+   
+
+    function rotate(timestamp) {
+
+      var milliseconds = timestamp % 1000;
+
+      var degrees      = milliseconds * 0.36; // 360 degrees in 1000 ms
+
+      object.setAttribute('transform', 'rotate(' + degrees + ')');
+
+      window.requestAnimationFrame(rotate);
+
+    }
+
+  </script>
+
+  <circle id="rot" cx="0" cy="1" r="2" stroke="green" fill="none"/>
+
+</svg>

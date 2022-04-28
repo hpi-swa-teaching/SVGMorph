@@ -1,0 +1,3 @@
+<a xlink:href="http://example.com/link/" xlink:title="The link opens an example page in a new tab/window" xlink:show="new">
+  <text x="10" y="25" >An example link.</text>
+</a>

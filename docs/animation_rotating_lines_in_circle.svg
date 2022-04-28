@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="240px" height="240px" viewBox="0 0 240 240">
+<g transform="translate(120,120) rotate(180)">
+  <g>
+    <line stroke-width="5" y2="80" stroke="black" opacity=".5" />
+      <animateTransform attributeName="transform" type="rotate"
+         repeatCount="indefinite" dur="12h" by="360" />
+    <circle r="7" />
+  </g>
+  <g>
+    <line stroke-width="4" y2="95" stroke="red" opacity=".9" />
+      <animateTransform attributeName="transform" type="rotate"
+         repeatCount="indefinite" dur="60min" by="360" />
+    <circle r="6" fill="red"/>
+  </g>
+  <g>
+    <line stroke-width="2" y2="100" stroke="blue" />
+    <animateTransform attributeName="transform" type="rotate"
+        repeatCount="indefinite" dur="60s" by="360" />
+    <circle r="4" fill="blue"/>
+  </g>
+</g>
+</svg>
