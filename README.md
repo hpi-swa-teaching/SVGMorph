@@ -1,5 +1,5 @@
 # SVGMorph
-(swt20-18)
+(SWT22-04)
 
 Implements the SVG Standard in the Squeak programming language.
 
