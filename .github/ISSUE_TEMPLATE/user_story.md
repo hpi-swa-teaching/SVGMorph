@@ -3,8 +3,7 @@ name: User Story
 about: Erstelle eine neue User Story für unser Projekt
 title: "[User Story]"
 labels: User Story
-assignees: ''
-
+assignees: ""
 ---
 
 **Was möchte wer tun?**
