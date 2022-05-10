@@ -13,7 +13,7 @@ body:
         bei der Implementierung leichter, gute Designentscheidungen zu treffen.'
       label: 'Warum möchte man es tun?'
       placeholder: Ich möchte ZY tun um WY zu erreichen...
-     validations:
+    validations:
        required: true
     type: textarea
   - attributes:
