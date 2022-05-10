@@ -13,22 +13,24 @@ body:
         bei der Implementierung leichter, gute Designentscheidungen zu treffen.'
       label: 'Warum möchte man es tun?'
       placeholder: Ich möchte ZY tun um WY zu erreichen...
-      validations:
-        required: true
+     validations:
+       required: true
     type: textarea
   - attributes:
-    description: 'Wenn möglich, füge Screenshots oder passend SVGs hinzu. Gibt es
-      die gewünschte Funktionalität bereits an anderer Stelle, verlinke die Ressourcen
-      gerne hier.'
-    label: Zusätzlicher Kontext
-    placeholder: Eine ähnliche Funktionalität gibt es hier... Ein SVG bei dem es nicht
+      description: 'Wenn möglich, füge Screenshots oder passend SVGs hinzu. Gibt es
+        die gewünschte Funktionalität bereits an anderer Stelle, verlinke die Ressourcen
+        gerne hier.'
+      label: Zusätzlicher Kontext
+      placeholder: Eine ähnliche Funktionalität gibt es hier... Ein SVG bei dem es nicht
       funktioniert ist dieses...
+    validations:
+      required: true
     type: textarea
   - attributes:
+      value: 'Vielen Dank für das Erstellen der Nutzerstory. Falls du ein Entwickler
+        bist, denke bitte daran alle nötigen Labels zu vergeben und die User Story beim
+        nächsten Treffen zu schätzen!'
     type: markdown
-    value: 'Vielen Dank für das Erstellen der Nutzerstory. Falls du ein Entwickler
-      bist, denke bitte daran alle nötigen Labels zu vergeben und die User Story beim
-      nächsten Treffen zu schätzen!'
 description: Erstelle eine neue User Story für unser Projekt
 labels: User Story
 name: User Story
