@@ -21,8 +21,8 @@ body:
         die gewünschte Funktionalität bereits an anderer Stelle, verlinke die Ressourcen
         gerne hier.'
       label: Zusätzlicher Kontext
-      placeholder: Eine ähnliche Funktionalität gibt es hier... Ein SVG bei dem es nicht
-      funktioniert ist dieses...
+      placeholder: 'Eine ähnliche Funktionalität gibt es hier... Ein SVG bei dem es nicht
+      funktioniert ist dieses...'
     validations:
       required: true
     type: textarea
