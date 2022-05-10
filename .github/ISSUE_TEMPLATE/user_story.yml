@@ -24,7 +24,7 @@ body:
       placeholder: 'Eine ähnliche Funktionalität gibt es hier... Ein SVG bei dem es nicht
       funktioniert ist dieses...'
     validations:
-      required: true
+      required: false
     type: textarea
   - attributes:
       value: 'Vielen Dank für das Erstellen der Nutzerstory. Falls du ein Entwickler
