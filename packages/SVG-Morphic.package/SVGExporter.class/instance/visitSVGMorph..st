@@ -1,6 +1,8 @@
 as yet unclassified
 visitSVGMorph: aMorph
 	
+	self applyCommonAttributesFrom: aMorph on: self document.
+
 	self document 
 		name: 'svg';
 		attributeAt: 'version' put: '1.1';

@@ -3,7 +3,7 @@ styleFromSVG: anElement
 	"Answer a dictionary of the style parameters from the element."
 
 	|svgStyle answer attrs|
-	answer := SVGPropertyDictionary withParent: self context.
+	answer := Dictionary new.
 	attrs := anElement attributes.
 	svgStyle := anElement attributeAt: 'style'.
 	svgStyle isNil ifFalse: [
