@@ -12,6 +12,4 @@ visitSVGRectangle: aRectangle
 		attributeAt: 'y' put: aRectangle rectangle origin y asString;
 		attributeAt: 'width' put: aRectangle rectangle width asString;
 		attributeAt: 'height' put: aRectangle rectangle height asString;
-		yourself.
-		
-	
+		yourself

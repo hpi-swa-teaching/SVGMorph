@@ -7,4 +7,4 @@ testExportRectangle
 	exportedString := SVGExporter new 
 		visitSVGMorph: morph;
 		exportString.
-	self assert: self RectangleYellowFillRedStrokeExpected equals: exportedString.
+	self assert: self RectangleYellowFillRedStrokeExpected equals: exportedString

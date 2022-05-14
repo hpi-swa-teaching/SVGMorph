@@ -1,4 +1,4 @@
 accessing
 accept: aVisitor
 
-	aVisitor visitSVGMorph: self
+	^ aVisitor visitSVGMorph: self

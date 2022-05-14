@@ -7,4 +7,4 @@ testExportHeightWidth
 	exportedString := SVGExporter new 
 		visitSVGMorph: morph;
 		exportString.
-	self assert: (self widthHeightTestSVGExpected) equals: exportedString.
+	self assert: (self widthHeightTestSVGExpected) equals: exportedString

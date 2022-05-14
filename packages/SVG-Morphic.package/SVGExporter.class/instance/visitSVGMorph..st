@@ -10,5 +10,5 @@ visitSVGMorph: aMorph
 		attributeAt: 'width' put: aMorph extent x asString;
 		attributeAt: 'height' put: aMorph extent y asString.
 
-	aMorph submorphs do: [:morph | 
+	aMorph submorphs reversed do: [:morph | 
 		self document addElement: (morph accept: self)]
