@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"document" : "aes 5/14/2022 11:08",
+		"document:" : "aes 5/14/2022 11:08",
+		"exportString" : "aes 5/14/2022 11:54",
+		"initialize" : "aes 5/14/2022 11:34",
+		"visitSVGCircle:" : "aes 5/14/2022 11:06",
+		"visitSVGEllipse:" : "aes 5/14/2022 11:06",
+		"visitSVGGroup:" : "aes 5/14/2022 11:06",
+		"visitSVGLine:" : "aes 5/14/2022 11:06",
+		"visitSVGMorph:" : "aes 5/14/2022 12:18",
+		"visitSVGPath:" : "aes 5/14/2022 11:06",
+		"visitSVGPolygon:" : "aes 5/14/2022 11:06",
+		"visitSVGPolyline:" : "aes 5/14/2022 11:06",
+		"visitSVGRectangle:" : "aes 5/14/2022 12:27",
+		"visitSVGTest:" : "aes 5/14/2022 11:06" } }

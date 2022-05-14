@@ -1,0 +1,14 @@
+{
+	"category" : "SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"document" ],
+	"name" : "SVGExporter",
+	"pools" : [
+		 ],
+	"super" : "SVGVisitor",
+	"type" : "normal" }
