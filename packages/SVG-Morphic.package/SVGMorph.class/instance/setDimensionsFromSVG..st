@@ -11,13 +11,13 @@ setDimensionsFromSVG: anElement
 		ifFalse: [str := str readStream.
 				str nextNumber@str nextNumber extent: str nextNumber@str nextNumber].
 	(w withBlanksTrimmed endsWith: '%')
-		ifTrue: [w := viewBox width * w asNumber // 100]
+		ifTrue: [viewBox := viewBox withWidth: (viewBox width * w asNumber // 100)]
 		ifFalse: [(w withBlanksTrimmed endsWith: 'mm')
-				ifTrue: [w := (w asNumber * 3.571429) rounded]
-				ifFalse: [w := w asInteger]].
+				ifTrue: [viewBox := viewBox withWidth: (w asNumber * 3.571429) rounded]
+				ifFalse: [viewBox := viewBox withWidth: w asInteger]].
 	(h withBlanksTrimmed endsWith: '%')
-		ifTrue: [h := viewBox height * h asNumber // 100]
+		ifTrue: [viewBox := viewBox withHeight: ( viewBox height * h asNumber // 100)]
 		ifFalse: [(h withBlanksTrimmed endsWith: 'mm')
-				ifTrue: [h := (h asNumber * 3.571429) rounded]
-				ifFalse: [h := h asInteger]].
-	self extent: w@h
+				ifTrue: [viewBox := viewBox withHeight: (h asNumber * 3.571429) rounded]
+				ifFalse: [viewBox := viewBox withHeight: h asInteger]].
+	self rectangle: viewBox.
