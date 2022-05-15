@@ -2,6 +2,7 @@ accessing
 model: anObject
 	
 	self model = anObject ifTrue: [^ self].
-	self model ifNil: [self model removeDependent: self].
-	anObject addDependent: self.
-	model := anObject
+	
+	self model ifNotNil: [self model removeDependent: self].
+	model := anObject.
+	self model addDependent: self

@@ -1,4 +1,4 @@
-toolbuilder
+accessing
 canCloseFile
 
 	 ^ self svg isNil not

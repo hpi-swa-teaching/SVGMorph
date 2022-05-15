@@ -1,6 +1,5 @@
 toolbuilder
-buildAndOpenNoFile
-
+buildAndOpen
 	
 	| builder  windowSpec |
 	builder := ToolBuilder default.

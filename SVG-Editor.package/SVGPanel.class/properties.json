@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"svgMorph",
+		"svg",
 		"model",
-		"getChildrenSelector" ],
+		"svgSelector" ],
 	"name" : "SVGPanel",
 	"pools" : [
 		 ],

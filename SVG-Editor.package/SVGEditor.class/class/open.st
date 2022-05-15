@@ -1,4 +1,4 @@
 instance creation
 open
 
-	self new buildAndOpenNoFile
+	self new buildAndOpen

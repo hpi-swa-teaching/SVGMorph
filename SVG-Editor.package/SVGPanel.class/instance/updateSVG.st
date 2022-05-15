@@ -1,6 +1,11 @@
 updating
 updateSVG
 
-	self submorphs
-		do: [:aMorph | self removeMorph: aMorph].
-	(self model perform: self getChildrenSelector) ifNotNil: [:child| self addMorph: child fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1) )]
+	self svg ifNotNil:
+		[ self removeMorph: self svg ].
+	
+	self svg: (self model perform: self svgSelector).
+	
+	self svg ifNotNil:
+		[ self addMorph: self svg
+				 fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1)) ]

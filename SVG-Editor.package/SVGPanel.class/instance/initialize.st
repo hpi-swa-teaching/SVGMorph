@@ -2,4 +2,6 @@ initialization
 initialize
 
 	super initialize.
-	self clipSubmorphs: true
+	self
+		clipSubmorphs: true;
+		beTransparent
