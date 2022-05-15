@@ -1,0 +1,4 @@
+accessing
+windowTitle
+
+	^ 'SVG Editor'

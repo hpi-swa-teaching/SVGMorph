@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"open" : "nh 5/15/2022 15:16" },
+	"instance" : {
+		"actionCloseFile" : "nh 5/15/2022 17:50",
+		"actionOpenFile" : "nh 5/15/2022 16:30",
+		"buildAndOpenNoFile" : "nh 5/15/2022 15:25",
+		"buildCloseButtonWith:" : "nh 5/15/2022 17:48",
+		"buildDrawingAreaWith:" : "nh 5/15/2022 17:20",
+		"buildOpenButtonWith:" : "nh 5/15/2022 16:30",
+		"buildSwitchesWIth:" : "nh 5/15/2022 17:51",
+		"buildWith:" : "nh 5/15/2022 17:02",
+		"buttonHeight" : "nh 5/15/2022 15:51",
+		"canCloseFile" : "nh 5/15/2022 17:51",
+		"panelDrawingFrame" : "nh 5/15/2022 17:46",
+		"svg" : "nh 5/15/2022 16:28",
+		"svg:" : "nh 5/15/2022 17:52",
+		"switchesFrame" : "nh 5/15/2022 16:34",
+		"windowTitle" : "nh 5/15/2022 15:56" } }
