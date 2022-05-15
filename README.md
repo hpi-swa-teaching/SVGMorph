@@ -99,6 +99,8 @@ Open the Squeak Workspace. Find a string that correctly describes an SVG object.
   
 </svg>
 ```
+The Problem with the gradients is, that the coordinates of the fill are taken relative to the main SVG and not relative to the element it is used in and percentage values are not dealt with properly.
+
 ![](docs/issues/gradients3.JPG)
 ```<svg width="120" height="120" version="1.1"
   xmlns="http://www.w3.org/2000/svg">
