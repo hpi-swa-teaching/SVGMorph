@@ -36,13 +36,11 @@ transformFromSVGAttributeStream: str
 									composedWithLocal: matrix)
 									composedWithLocal: (MatrixTransform2x3 withOffset: x negated@y negated)]].
 	(type = 'skewX')
-		ifTrue: [str match: 'skewX('.
-				a := str nextNumber.		
-				matrix
-					setSkew: a@0].
-	(type = 'skewY')
-		ifTrue: [str match: 'skewY('.
-				a := str nextNumber.		
+		ifTrue: [	a := str nextNumber.		
 				matrix
 					setSkew: 0@a].
+	(type = 'skewY')
+		ifTrue: [	a := str nextNumber.		
+				matrix
+					setSkew: a@0].
 	^matrix
