@@ -35,6 +35,8 @@ transformFromSVGAttributeStream: str
 					ifTrue: [matrix := ((MatrixTransform2x3 withOffset: x@y)
 									composedWithLocal: matrix)
 									composedWithLocal: (MatrixTransform2x3 withOffset: x negated@y negated)]].
+							
+	"The X and Y may seem switched here, however, this is correct for SVG parsing"
 	(type = 'skewX')
 		ifTrue: [	a := str nextNumber.		
 				matrix
