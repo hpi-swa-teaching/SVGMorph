@@ -1,10 +1,12 @@
 actions
 actionOpenFile
 
-	| file svg |
-	file := FileList2 modalFileSelectorForSuffixes: #('svg' 'svgz').
-	file ifNil: [^nil].
+	| filename stream |
+	filename := UIManager default
+		chooseFileMatchingSuffixes: {'svg' . 'svgz'}
+		label: 'Choose an SVG file (.svg, .svgz)'.
+	filename ifNil: [^ self].
+	stream := FileDirectory default readOnlyFileNamed: filename.
 	
-	[svg := SVGMorph fromFileStream: file]
-		ensure: [file close].
-	self svg: svg
+	[self svg: (SVGMorph fromFileStream: stream)]
+		ensure: [stream close]

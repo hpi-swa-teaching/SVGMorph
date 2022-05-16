@@ -6,4 +6,5 @@ svg: anSVGMorph
 	svg := anSVGMorph.
 	self
 		changed: #svg;
-		changed: #canCloseFile
+		changed: #canCloseFile;
+		changed: #canSaveFile 
