@@ -1,3 +1,3 @@
 as yet unclassified
-visitSVGTest: aPath
+visitSVGText: aPath
 	self shouldBeImplemented
