@@ -24,5 +24,5 @@ createFillFromSVGLinearGradient: anElement
 		direction: p2 - p1;
 		normal: nil;
 		radial: false;
-		units: (anElement attributeAt: 'gradientUnits' ifAbsent: [#userSpaceOnUse]) asSymbol;
+		units: (anElement attributeAt: 'gradientUnits' ifAbsent: [#objectBoundingBox]) asSymbol;
 		spread: (anElement attributeAt: 'spreadMethod' ifAbsent: [#pad]) asSymbol)

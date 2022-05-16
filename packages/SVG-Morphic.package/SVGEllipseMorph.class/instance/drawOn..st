@@ -4,7 +4,7 @@ drawOn: aCanvas
 	
 	(self composedStyle at: 'visibility')
 		ifFalse: [^self].
-	super drawOn: aCanvas.
+	"super drawOn: aCanvas."
 	self renderer
 		renderEllipse: self
 		on: aCanvas
