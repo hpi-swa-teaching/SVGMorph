@@ -3,5 +3,6 @@ OrderedDictionary {
 	'packages/BaselineOfSVGMorph.package' : #SquotCypressCodeSerializer,
 	'packages/Tests-SVG-Morphic.package' : #SquotCypressCodeSerializer,
 	'SVG-Morphic.package' : #SquotCypressCodeSerializer,
-	'SVG-Editor.package' : #SquotCypressCodeSerializer
+	'SVG-Editor.package' : #SquotCypressCodeSerializer,
+	'Tests-SVG-Editor.package' : #SquotCypressCodeSerializer
 }

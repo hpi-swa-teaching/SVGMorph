@@ -5,9 +5,12 @@ baseline: spec
 		do: [
 			spec
 				package: 'SVG-Morphic';
-				package: 'Tests-SVG-Morphic' with: [spec requires: #('core')].
+				package: 'SVG-Editor';
+				package: 'Tests-SVG-Morphic' with: [spec requires: #('core')];
+				package: 'Tests-SVG-Editor' with:  [spec requires: #('editor')].
 			spec
-				group: 'default' with: #('SVG-Morphic' 'Tests-SVG-Morphic');
+				group: 'default' with: #('SVG-Morphic' 'SVG-Editor' 'Tests-SVG-Morphic' 'Tests-SVG-Editor');
 				group: 'core' with: #('SVG-Morphic');
-				group: 'tests' with: #( 'Tests-SVG-Morphic')];
+				group: 'editor' with: #('SVG-Editor');
+				group: 'tests' with: #( 'Tests-SVG-Morphic' 'Tests-SVG-Editor')];
 				yourself .
