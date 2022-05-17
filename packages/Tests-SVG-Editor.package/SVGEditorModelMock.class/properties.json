@@ -1,0 +1,18 @@
+{
+	"category" : "Tests-SVG-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"canCloseFile",
+		"canSaveFile",
+		"actionOpenFileCount",
+		"actionCloseFileCount",
+		"actionSaveFileCount" ],
+	"name" : "SVGEditorModelMock",
+	"pools" : [
+		 ],
+	"super" : "SVGEditorModel",
+	"type" : "normal" }

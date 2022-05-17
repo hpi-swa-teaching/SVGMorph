@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"getSubclassObject" : "lha 5/17/2022 19:41",
+		"let:openAFileAt:" : "lha 5/17/2022 20:17",
+		"let:writeFileAt:to:" : "lha 5/17/2022 20:20",
+		"setUp" : "lha 5/17/2022 19:39",
+		"subject" : "lha 5/17/2022 18:32",
+		"subject:" : "lha 5/17/2022 18:32",
+		"testActionCloseFile" : "lha 5/17/2022 19:15",
+		"testActionOpenFile" : "lha 5/17/2022 20:17",
+		"testActionOpenFilePathNil" : "lha 5/17/2022 20:18",
+		"testActionSaveFile" : "lha 5/17/2022 20:20",
+		"testActionSaveFilePathNil" : "lha 5/17/2022 20:20",
+		"testUpdateCanClose" : "lha 5/17/2022 19:12",
+		"testUpdateCanSave" : "lha 5/17/2022 19:13",
+		"testUpdateSVG" : "lha 5/17/2022 19:12",
+		"update:" : "lha 5/17/2022 18:30",
+		"updateObjects" : "lha 5/17/2022 18:30",
+		"updateObjects:" : "lha 5/17/2022 18:30" } }

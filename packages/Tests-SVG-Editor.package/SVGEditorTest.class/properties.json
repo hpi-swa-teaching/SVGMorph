@@ -1,0 +1,15 @@
+{
+	"category" : "Tests-SVG-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"updateObjects",
+		"modelMock" ],
+	"name" : "SVGEditorTest",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }

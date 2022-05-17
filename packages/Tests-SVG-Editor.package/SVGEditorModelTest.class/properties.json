@@ -1,0 +1,15 @@
+{
+	"category" : "Tests-SVG-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"updateObjects",
+		"subject" ],
+	"name" : "SVGEditorModelTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
