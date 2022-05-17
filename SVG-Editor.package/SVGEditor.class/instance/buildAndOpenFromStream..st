@@ -1,6 +1,5 @@
 toolbuilder
 buildAndOpenFromStream: aStream
 
-	self
-		svg: (SVGMorph fromFileStream: aStream);
-		buildAndOpen
+	self model svg: (SVGMorph fromFileStream: aStream).
+	self buildAndOpen

@@ -1,6 +1,5 @@
 toolbuilder
 buildAndOpenFromString: aString
 
-	self
-		svg: (SVGMorph fromString: aString);
-		buildAndOpen
+	self model svg: (SVGMorph fromString: aString).
+	self buildAndOpen

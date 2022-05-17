@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"modelMock" : "lha 5/17/2022 19:57",
+		"modelMock:" : "lha 5/17/2022 19:57",
+		"setUp" : "lha 5/17/2022 19:57",
+		"tearDown" : "lha 5/17/2022 18:03",
+		"testCloseButtonAction" : "lha 5/17/2022 20:12",
+		"testCloseButtonExists" : "lha 5/17/2022 18:25",
+		"testDrawingAreaExists" : "lha 5/17/2022 18:25",
+		"testMorphExists" : "lha 5/17/2022 18:25",
+		"testOpenButtonAction" : "lha 5/17/2022 20:00",
+		"testOpenButtonExists" : "lha 5/17/2022 18:25",
+		"testSaveButtonAction" : "lha 5/17/2022 20:00",
+		"testSaveButtonExists" : "lha 5/17/2022 20:10" } }

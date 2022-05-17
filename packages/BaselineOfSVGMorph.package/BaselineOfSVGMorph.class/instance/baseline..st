@@ -5,7 +5,7 @@ baseline: spec
 		do: [
 			spec
 				package: 'SVG-Morphic';
-				package: 'SVG-Editor';
+				package: 'SVG-Editor' with: [spec requires: #('core')];
 				package: 'Tests-SVG-Morphic' with: [spec requires: #('core')];
 				package: 'Tests-SVG-Editor' with:  [spec requires: #('editor')].
 			spec

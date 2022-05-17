@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actionCloseFile" : "lha 5/17/2022 19:27",
+		"actionOpenFile" : "lha 5/17/2022 19:27",
+		"actionSaveFile" : "lha 5/17/2022 19:27",
+		"askOpenPath" : "lha 5/17/2022 19:27",
+		"askSavePath" : "lha 5/17/2022 19:28",
+		"canCloseFile" : "lha 5/17/2022 19:28",
+		"canSaveFile" : "lha 5/17/2022 19:28",
+		"getReadStreamForFileNamed:" : "lha 5/17/2022 19:28",
+		"getWriteStreamForFileNamed:" : "lha 5/17/2022 19:28",
+		"svg" : "lha 5/17/2022 19:28",
+		"svg:" : "lha 5/17/2022 19:36" } }

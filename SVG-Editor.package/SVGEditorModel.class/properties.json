@@ -1,0 +1,14 @@
+{
+	"category" : "SVG-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"svg" ],
+	"name" : "SVGEditorModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

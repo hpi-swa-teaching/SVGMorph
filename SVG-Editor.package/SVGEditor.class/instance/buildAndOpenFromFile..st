@@ -1,6 +1,5 @@
 toolbuilder
 buildAndOpenFromFile: aFilePath
 
-	self
-		svg: (SVGMorph fromFile: aFilePath);
-		buildAndOpen
+	self model svg: (SVGMorph fromFile: aFilePath).
+	self buildAndOpen
