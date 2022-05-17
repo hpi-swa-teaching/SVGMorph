@@ -1,4 +1,0 @@
-accessing
-getSubclassObject
-
-	^ SVGEditorModelTestSubclass new

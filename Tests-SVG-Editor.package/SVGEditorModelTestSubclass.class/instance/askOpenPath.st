@@ -1,4 +1,0 @@
-accessing
-askOpenPath
-
-	^ self path

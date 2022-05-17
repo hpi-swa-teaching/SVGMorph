@@ -1,4 +1,0 @@
-accessing
-askSavePath
-
-	^ self path
