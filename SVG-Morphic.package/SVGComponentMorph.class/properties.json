@@ -8,11 +8,9 @@
 	"instvars" : [
 		"id",
 		"style",
-		"cachedComposedStyle",
-		"rectangle",
-		"transform" ],
+		"cachedComposedStyle" ],
 	"name" : "SVGComponentMorph",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "MatrixTransformMorph",
 	"type" : "normal" }

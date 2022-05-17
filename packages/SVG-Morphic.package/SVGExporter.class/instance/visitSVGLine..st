@@ -1,3 +1,15 @@
 as yet unclassified
 visitSVGLine: aLine
-	self shouldBeImplemented
+	
+	|element|
+	element := XMLElement new.
+	
+	self applyCommonAttributesFrom: aLine on: element.
+	
+	^ element
+		name: 'line';
+		attributeAt: 'x1' put: aLine rectangle origin x asString;
+		attributeAt: 'y1' put: aLine rectangle origin y asString;
+		attributeAt: 'x2' put: aLine rectangle corner x asString;
+		attributeAt: 'y2' put: aLine rectangle corner y asString;
+		yourself
