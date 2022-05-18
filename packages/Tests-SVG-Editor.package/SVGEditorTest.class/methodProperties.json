@@ -7,10 +7,13 @@
 		"setUp" : "lha 5/17/2022 19:57",
 		"tearDown" : "lha 5/17/2022 18:03",
 		"testCloseButtonAction" : "lha 5/17/2022 20:12",
+		"testCloseButtonActionWithoutSVG" : "lha 5/18/2022 12:35",
 		"testCloseButtonExists" : "lha 5/17/2022 18:25",
 		"testDrawingAreaExists" : "lha 5/17/2022 18:25",
 		"testMorphExists" : "lha 5/17/2022 18:25",
 		"testOpenButtonAction" : "lha 5/17/2022 20:00",
 		"testOpenButtonExists" : "lha 5/17/2022 18:25",
 		"testSaveButtonAction" : "lha 5/17/2022 20:00",
-		"testSaveButtonExists" : "lha 5/17/2022 20:10" } }
+		"testSaveButtonActionWithoutSVG" : "lha 5/18/2022 12:35",
+		"testSaveButtonExists" : "lha 5/17/2022 20:10",
+		"testWindowTitle" : "lha 5/18/2022 12:38" } }
