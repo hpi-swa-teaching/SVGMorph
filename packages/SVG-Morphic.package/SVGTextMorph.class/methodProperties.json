@@ -3,7 +3,8 @@
 		 },
 	"instance" : {
 		"accept:" : "aes 5/16/2022 17:02",
-		"createFromSVG:" : "gvc 8/1/2005 11:17",
+		"computeBounds" : "AS 5/19/2022 14:15",
+		"createFromSVG:" : "AS 5/19/2022 14:09",
 		"createTSpanFromSVGTSpan:" : "gvc 8/1/2005 11:12",
 		"createTextFromSVG:" : "gvc 10/4/2005 09:10",
 		"drawOn:" : "gvc 10/4/2005 09:06",
