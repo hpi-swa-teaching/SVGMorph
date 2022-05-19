@@ -4,6 +4,6 @@ createFromSVG: anElement
 
 	super createFromSVG: anElement.
 	self createSegmentsFromSVG: anElement.
-	self updateRectangle
+	self computeBounds
 	
 	

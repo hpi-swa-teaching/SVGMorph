@@ -8,8 +8,8 @@ visitSVGEllipse: anEllipse
 	
 	^ element
 		name: 'ellipse';
-		attributeAt: 'cx' put: anEllipse rectangle center x asString;
-		attributeAt: 'cy' put: anEllipse rectangle center y asString;
-		attributeAt: 'rx' put: (anEllipse rectangle width / 2)  asString;
-		attributeAt: 'ry' put: (anEllipse rectangle height / 2) asString;
+		attributeAt: 'cx' put: anEllipse bounds center x asString;
+		attributeAt: 'cy' put: anEllipse bounds center y asString;
+		attributeAt: 'rx' put: (anEllipse bounds width / 2)  asString;
+		attributeAt: 'ry' put: (anEllipse bounds height / 2) asString;
 		yourself

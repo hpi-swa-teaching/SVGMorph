@@ -8,5 +8,4 @@ boundsChangedFrom: oldBounds to: newBounds
 		transform := transform composedWithGlobal:
 			(MatrixTransform2x3 withOffset: newBounds origin).
 	].
-	transform offset: transform offset + (newBounds origin - oldBounds origin).
-	self computeBounds
+	transform offset: transform offset + (newBounds origin - oldBounds origin)

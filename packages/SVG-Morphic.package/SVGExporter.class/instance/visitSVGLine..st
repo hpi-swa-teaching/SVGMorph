@@ -8,8 +8,8 @@ visitSVGLine: aLine
 	
 	^ element
 		name: 'line';
-		attributeAt: 'x1' put: aLine rectangle origin x asString;
-		attributeAt: 'y1' put: aLine rectangle origin y asString;
-		attributeAt: 'x2' put: aLine rectangle corner x asString;
-		attributeAt: 'y2' put: aLine rectangle corner y asString;
+		attributeAt: 'x1' put: aLine bounds origin x asString;
+		attributeAt: 'y1' put: aLine bounds origin y asString;
+		attributeAt: 'x2' put: aLine bounds corner x asString;
+		attributeAt: 'y2' put: aLine bounds corner y asString;
 		yourself

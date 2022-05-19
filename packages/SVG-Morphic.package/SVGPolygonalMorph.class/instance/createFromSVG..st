@@ -4,7 +4,5 @@ createFromSVG: anElement
 
 	super createFromSVG: anElement.
 	self createPointsFromSVG: anElement.
-	self points size == 0 ifTrue: [^ self].
-	self rectangle: (Rectangle encompassing: (self points)).
-	self rectangle: (self rectangle outsetBy: ((self composedStyle at: 'stroke-width') // 2))
+	self comupteBounds
 	

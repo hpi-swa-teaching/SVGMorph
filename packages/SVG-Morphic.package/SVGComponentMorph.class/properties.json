@@ -9,7 +9,6 @@
 		"id",
 		"style",
 		"cachedComposedStyle",
-		"rectangle",
 		"transform" ],
 	"name" : "SVGComponentMorph",
 	"pools" : [
