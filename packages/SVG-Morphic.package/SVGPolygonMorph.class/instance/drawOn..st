@@ -4,6 +4,7 @@ drawOn: aCanvas
 	
 	(self composedStyle at: 'visibility')
 		ifFalse: [^self].
+	super drawOn: aCanvas.
 	self renderer
 		renderPolygon: self
 		on: aCanvas

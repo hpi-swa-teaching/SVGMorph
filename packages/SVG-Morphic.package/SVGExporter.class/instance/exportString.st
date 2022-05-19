@@ -3,5 +3,5 @@ exportString
 
 	| stream |
 	stream := WriteStream on: String new.
-	self document printOn: stream.
+	self exportOn: stream.
 	^ stream contents withBlanksTrimmed.

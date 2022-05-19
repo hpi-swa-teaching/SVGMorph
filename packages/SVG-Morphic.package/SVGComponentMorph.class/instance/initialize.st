@@ -4,4 +4,4 @@ initialize
 
 	super initialize.
 	self 
-		style: Dictionary new.
+		style: Dictionary new
