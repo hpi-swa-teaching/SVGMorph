@@ -8,7 +8,7 @@ renderPolyline: anSVGPolyine on: aCanvas
 	lineWidth := anSVGPolyine composedStyle at: 'stroke-width'.
 	lineColor := anSVGPolyine composedStyle at: 'stroke'.
 	aCanvas asBalloonCanvas preserveStateDuring: [:bc|
-		bc transformBy: anSVGPolyine transform during: [:balloonCanvas |
+		bc transformBy: (anSVGPolyine transformFrom: anSVGPolyine world) during: [:balloonCanvas |
 			balloonCanvas
 				aaLevel: anSVGPolyine antialiasingLevel;
 				drawOpenPolygon: anSVGPolyine points asArray
