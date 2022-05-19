@@ -10,6 +10,7 @@
 	"instance" : {
 		"accept:" : "aes 5/14/2022 17:41",
 		"composedStyle" : "aes 5/14/2022 16:42",
+		"computeBounds" : "AS 5/19/2022 10:26",
 		"createDefsFromSVGDefs:" : "gvc 8/1/2005 13:32",
 		"createFillsFromSVG:" : "gvc 10/3/2005 08:44",
 		"createFromSVG:" : "gvc 7/30/2005 10:21",
@@ -20,4 +21,4 @@
 		"drawSubmorphsOn:" : "gvc 7/30/2005 22:19",
 		"getFill:" : "gvc 7/30/2005 20:12",
 		"initialize" : "gvc 8/1/2005 13:42",
-		"setDimensionsFromSVG:" : "AS 5/15/2022 14:26" } }
+		"setDimensionsFromSVG:" : "AS 5/19/2022 10:30" } }

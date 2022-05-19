@@ -7,7 +7,7 @@ boundsChangedFrom: oldBounds to: newBounds
 			(MatrixTransform2x3 withScale: newBounds extent / oldBounds extent).
 		transform := transform composedWithGlobal:
 			(MatrixTransform2x3 withOffset: newBounds origin)."
-		rectangle := rectangle withWidth: newBounds width.
-		rectangle := rectangle withHeight: newBounds height.
+		bounds := bounds withWidth: newBounds width.
+		bounds := bounds withHeight: newBounds height.
 	].
 	transform offset: transform offset + (newBounds origin - oldBounds origin)

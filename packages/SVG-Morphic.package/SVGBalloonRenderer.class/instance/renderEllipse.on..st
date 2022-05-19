@@ -7,10 +7,10 @@ renderEllipse: anSVGEllipse on: aCanvas
 	lineWidth := (anSVGEllipse composedStyle at: 'stroke-width') rounded max: 1.
 	lineColor := anSVGEllipse composedStyle at: 'stroke'.
 	aCanvas asBalloonCanvas preserveStateDuring: [:bc|
-		bc transformBy: anSVGEllipse transform during: [:balloonCanvas |
+		bc transformBy: (anSVGEllipse transformFrom: anSVGEllipse world) during: [:balloonCanvas |
 			balloonCanvas
 				aaLevel: anSVGEllipse antialiasingLevel;
-				drawOval: anSVGEllipse rectangle
+				drawOval: anSVGEllipse bounds
 				color: fill
 				borderWidth: lineWidth
 				borderColor: lineColor]]
