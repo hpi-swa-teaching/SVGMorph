@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"boundsChangedFrom:to:" : "AS 5/19/2022 15:20",
 		"computeBounds" : "AS 5/19/2022 15:21",
 		"createFromSVG:" : "AS 5/19/2022 15:17",
 		"createPointsFromSVG:" : "gvc 8/1/2005 13:54",

@@ -13,5 +13,5 @@
 	"name" : "SVGComponentMorph",
 	"pools" : [
 		 ],
-	"super" : "MatrixTransformMorph",
+	"super" : "Morph",
 	"type" : "normal" }

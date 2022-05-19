@@ -1,4 +1,5 @@
 as yet unclassified
 computeBounds
-
-	fullBounds := bounds := self transform localBoundsToGlobal: bounds.
+	
+	rectangle ifNil: [^ self].
+	fullBounds := bounds := self transform localBoundsToGlobal: rectangle.

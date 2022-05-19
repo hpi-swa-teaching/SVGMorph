@@ -4,7 +4,6 @@ drawOn: aCanvas
 	
 	(self composedStyle at: 'visibility')
 		ifFalse: [^self].
-	super drawOn: aCanvas.
 	self renderer
 		renderPath: self
 		on: aCanvas

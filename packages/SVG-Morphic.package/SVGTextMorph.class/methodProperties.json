@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"accept:" : "aes 5/16/2022 17:02",
-		"boundsChangedFrom:to:" : "AS 5/19/2022 14:32",
 		"computeBounds" : "AS 5/19/2022 14:33",
 		"createFromSVG:" : "AS 5/19/2022 14:09",
 		"createTSpanFromSVGTSpan:" : "gvc 8/1/2005 11:12",

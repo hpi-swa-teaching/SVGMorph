@@ -10,7 +10,7 @@ renderEllipse: anSVGEllipse on: aCanvas
 		bc transformBy: (anSVGEllipse transformFrom: anSVGEllipse world) during: [:balloonCanvas |
 			balloonCanvas
 				aaLevel: anSVGEllipse antialiasingLevel;
-				drawOval: anSVGEllipse bounds
+				drawOval: anSVGEllipse rectangle
 				color: fill
 				borderWidth: lineWidth
 				borderColor: lineColor]]
