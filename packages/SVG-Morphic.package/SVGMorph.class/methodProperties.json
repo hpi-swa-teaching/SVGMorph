@@ -20,5 +20,6 @@
 		"drawOn:" : "gvc 8/1/2005 12:09",
 		"drawSubmorphsOn:" : "gvc 7/30/2005 22:19",
 		"getFill:" : "gvc 7/30/2005 20:12",
+		"handlesMouseOver:" : "AS 5/20/2022 16:02",
 		"initialize" : "gvc 8/1/2005 13:42",
-		"setDimensionsFromSVG:" : "AS 5/19/2022 10:30" } }
+		"setDimensionsFromSVG:" : "AS 5/20/2022 15:58" } }

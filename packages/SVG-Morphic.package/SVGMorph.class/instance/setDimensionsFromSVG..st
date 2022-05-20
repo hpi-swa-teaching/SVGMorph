@@ -10,6 +10,7 @@ setDimensionsFromSVG: anElement
 		ifTrue: [self defaultViewBox]
 		ifFalse: [str := str readStream.
 				str nextNumber@str nextNumber extent: str nextNumber@str nextNumber].
+	Transcript showln: viewBox.
 	(w withBlanksTrimmed endsWith: '%')
 		ifTrue: [w := viewBox width * w asNumber // 100]
 		ifFalse: [(w withBlanksTrimmed endsWith: 'mm')
@@ -20,4 +21,5 @@ setDimensionsFromSVG: anElement
 		ifFalse: [(h withBlanksTrimmed endsWith: 'mm')
 				ifTrue: [viewBox := viewBox withHeight: (h asNumber * 3.571429) rounded]
 				ifFalse: [viewBox := viewBox withHeight: h asInteger]].
+	Transcript showln: viewBox.
 	fullBounds := bounds := viewBox.
