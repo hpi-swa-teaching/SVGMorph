@@ -1,7 +1,7 @@
 OrderedDictionary {
 	'packages/BaselineOfSVGMorph.package' : #SquotCypressCodeSerializer,
+	'packages/Tests-SVG-Editor.package' : #SquotCypressCodeSerializer,
 	'packages/Tests-SVG-Morphic.package' : #SquotCypressCodeSerializer,
-	'packages/SVG-Morphic.package' : #SquotCypressCodeSerializer,
 	'packages/SVG-Editor.package' : #SquotCypressCodeSerializer,
-	'packages/Tests-SVG-Editor.package' : #SquotCypressCodeSerializer
+	'packages/SVG-Morphic.package' : #SquotCypressCodeSerializer
 }
