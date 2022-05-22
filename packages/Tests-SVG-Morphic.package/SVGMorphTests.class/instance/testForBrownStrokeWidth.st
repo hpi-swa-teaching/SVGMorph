@@ -1,4 +1,4 @@
-Parsing SVG Strings
+SVG colors (fill, stroke, width)
 testForBrownStrokeWidth
 
 |brownStrokeObjects brownStrokeMorphs|

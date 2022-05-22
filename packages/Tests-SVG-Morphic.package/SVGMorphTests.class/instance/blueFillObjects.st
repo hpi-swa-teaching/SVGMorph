@@ -1,4 +1,4 @@
-Parsing SVG Strings
+SVG colors - selector sets
 blueFillObjects
 
 ^#(#CircleBlueFillBrownStrokeMorph #EllipseBlueFillBrownStrokeMorph #PolylineBlueFillBrownStrokeMorph #RectangleBlueFillBrownStrokeMorph #PolygonBlueFillBrownStrokeMorph)

@@ -8,4 +8,4 @@ fromFileStream: aStream
 		ifTrue: [aStream binary.
 				sx := (GZipReadStream on: aStream contentsOfEntireFile) upToEnd asString readStream].
 	doc :=(XMLDOMParser parseDocumentFrom: sx).
-	^self new createFromSVGDocument: doc
+	^ self new createFromSVGDocument: doc
