@@ -9,7 +9,8 @@
 		"id",
 		"style",
 		"cachedComposedStyle",
-		"transform" ],
+		"transform",
+		"renderer" ],
 	"name" : "SVGComponentMorph",
 	"pools" : [
 		 ],

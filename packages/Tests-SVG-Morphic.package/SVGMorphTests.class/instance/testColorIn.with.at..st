@@ -1,4 +1,4 @@
-Parsing SVG Strings
-testColorIn:aSVGMorph with: aColor at: aSVGAttribute
+SVG colors (fill, stroke, width)
+testColorIn: aSVGMorph with: aColor at: aSVGAttribute
 
 ^self testSVGValue: aSVGMorph at: aSVGAttribute against: aColor

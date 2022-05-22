@@ -1,4 +1,4 @@
-Parsing SVG Strings
+SVG colors - selector sets
 redFillObjects
 
 ^#(#CircleRedFillOrangeStrokeMorph #EllipseRedFillOrangeStrokeMorph #PolygonRedFillOrangeStrokeMorph #PolylineRedFillOrangeStrokeMorph #RectangleRedFillOrangeStrokeMorph)
