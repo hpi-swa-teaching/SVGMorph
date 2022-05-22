@@ -1,4 +1,4 @@
-testing
+testing - properties
 testSVGTSpan
 
 	^self shouldBeImplemented

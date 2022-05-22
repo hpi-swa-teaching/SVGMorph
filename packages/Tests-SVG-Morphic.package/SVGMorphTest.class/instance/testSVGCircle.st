@@ -1,4 +1,0 @@
-testing
-testSVGCircle
-
-	^self shouldBeImplemented

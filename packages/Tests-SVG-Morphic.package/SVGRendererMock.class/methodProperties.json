@@ -2,6 +2,16 @@
 	"class" : {
 		 },
 	"instance" : {
+		"increment:" : "lha 5/22/2022 15:25",
 		"initialize" : "lha 5/22/2022 14:01",
+		"renderCircle:on:" : "lha 5/22/2022 15:25",
 		"renderCount" : "lha 5/22/2022 13:59",
-		"renderCount:" : "lha 5/22/2022 14:00" } }
+		"renderCount:" : "lha 5/22/2022 14:00",
+		"renderEllipse:on:" : "lha 5/22/2022 15:25",
+		"renderLine:on:" : "lha 5/22/2022 15:25",
+		"renderPath:on:" : "lha 5/22/2022 15:26",
+		"renderPolygon:on:" : "lha 5/22/2022 15:26",
+		"renderPolyline:on:" : "lha 5/22/2022 15:27",
+		"renderRect:on:" : "lha 5/22/2022 15:27",
+		"renderTSpan:on:" : "lha 5/22/2022 15:28",
+		"renderText:on:" : "lha 5/22/2022 15:28" } }

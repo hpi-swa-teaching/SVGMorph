@@ -1,4 +1,4 @@
-testing
+testing - properties
 testSVGText
 
 	^self shouldBeImplemented

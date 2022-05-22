@@ -1,4 +1,4 @@
-testing
+testing - properties
 testSVGRectangle
 
 	^self shouldBeImplemented

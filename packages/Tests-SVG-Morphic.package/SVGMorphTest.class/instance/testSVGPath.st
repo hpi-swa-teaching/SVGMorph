@@ -1,4 +1,4 @@
-testing
+testing - properties
 testSVGPath
 
 	^self shouldBeImplemented
