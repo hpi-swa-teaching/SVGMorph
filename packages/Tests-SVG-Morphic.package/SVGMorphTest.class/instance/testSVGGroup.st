@@ -1,15 +1,16 @@
 testing - properties
 testSVGGroup
 
-	| bounds morph |
+	| bounds morph submorphBounds |
 	
 	self wantsToTestGroup.
 	morph := self subject findByClass: SVGGroupMorph.
 	bounds := morph bounds.
+	submorphBounds := self submorphBoundsOf: morph.
 	
 	self
-		assert: ((morph submorphs collect: [:submorph| submorph bounds origin x]) asSortedArray first) equals: bounds origin x;
-		assert: ((morph submorphs collect: [:submorph| submorph bounds origin y]) asSortedArray first) equals: bounds origin y ;
-		assert: ((morph submorphs collect: [:submorph| submorph bounds corner x]) asSortedArray last)  equals: bounds corner x ;
-		assert: ((morph submorphs collect: [:submorph| submorph bounds corner y]) asSortedArray last) equals: bounds corner y.
+		assert: submorphBounds origin x equals: bounds origin x;
+		assert: submorphBounds origin y equals: bounds origin y ;
+		assert: submorphBounds corner x equals: bounds corner x ;
+		assert: submorphBounds corner y equals: bounds corner y.
 	

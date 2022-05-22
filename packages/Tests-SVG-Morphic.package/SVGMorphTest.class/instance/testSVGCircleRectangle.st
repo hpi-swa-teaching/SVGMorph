@@ -6,7 +6,7 @@ testSVGCircleRectangle
 	self wantsToTestCircle.
 	rectangle := (self subject findByClass: SVGCircleMorph) rectangle.
 	self
-		assert: rectangle origin x equals: -30;
-		assert: rectangle origin y equals: -20;
-		assert: rectangle corner x equals: 90;
-		assert: rectangle corner y equals: 100.
+		assert: -30 equals: rectangle origin x;
+		assert: -20 equals: rectangle origin y;
+		assert: 90 equals: rectangle corner x;
+		assert: 100 equals: rectangle corner y.
