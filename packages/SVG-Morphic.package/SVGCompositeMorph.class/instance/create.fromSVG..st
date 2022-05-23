@@ -4,8 +4,6 @@ create: anSVGComponentMorphClass fromSVG: anElement
 
 	|comp|
 	comp := anSVGComponentMorphClass new.
-	comp extent: self extent.
-	comp transform: MatrixTransform2x3 identity.
 	self addMorph: comp.
 	^comp createFromSVG: anElement
 	

@@ -9,7 +9,7 @@ renderPolygon: anSVGPolygon on: aCanvas
 	lineWidth := anSVGPolygon composedStyle at: 'stroke-width'.
 	lineColor := anSVGPolygon composedStyle at: 'stroke'.
 	aCanvas asBalloonCanvas preserveStateDuring: [:bc|
-		bc transformBy: anSVGPolygon transform during: [:balloonCanvas |
+		bc transformBy: (anSVGPolygon transformFrom: anSVGPolygon world ) during: [:balloonCanvas |
 			balloonCanvas
 				aaLevel: anSVGPolygon antialiasingLevel;
 				drawPolygon: anSVGPolygon points asArray

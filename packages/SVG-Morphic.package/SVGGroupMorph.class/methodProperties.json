@@ -3,4 +3,7 @@
 		 },
 	"instance" : {
 		"accept:" : "aes 5/14/2022 17:41",
-		"boundsChangedFrom:to:" : "5/17/2022 19:30:37" } }
+		"computeBounds" : "AS 5/19/2022 10:18",
+		"createFromSVG:" : "AS 5/19/2022 15:50",
+		"drawOn:" : "AS 5/19/2022 16:11",
+		"handlesMouseOver:" : "AS 5/20/2022 15:52" } }

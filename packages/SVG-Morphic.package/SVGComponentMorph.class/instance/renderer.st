@@ -1,5 +1,4 @@
-as yet unclassified
+accessing
 renderer
-	"Answer a the renderer for the receiver.."
 
-	^SVGRenderer default
+	^ renderer

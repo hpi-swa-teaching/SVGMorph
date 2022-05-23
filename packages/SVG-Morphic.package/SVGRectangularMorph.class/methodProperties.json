@@ -2,8 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createFromSVG:" : "gvc 8/1/2005 13:49",
+		"computeBounds" : "AS 5/19/2022 16:00",
+		"createFromSVG:" : "AS 5/19/2022 15:51",
 		"createRectangleFromSVG:" : "gvc 8/1/2005 13:50",
-		"rectangle" : "gvc 8/1/2005 13:49",
-		"rectangle:" : "gvc 8/1/2005 13:49",
+		"rectangle" : "AS 5/19/2022 15:54",
+		"rectangle:" : "AS 5/19/2022 15:58",
 		"userSpaceBoundingBoxWithRespectTo:" : "gvc 8/1/2005 13:50" } }

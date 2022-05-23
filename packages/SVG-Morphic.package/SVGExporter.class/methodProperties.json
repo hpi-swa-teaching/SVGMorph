@@ -17,6 +17,7 @@
 		"applyTransformOf:on:" : "aes 5/23/2022 12:08",
 		"document" : "aes 5/14/2022 11:08",
 		"document:" : "aes 5/14/2022 11:08",
+		"exportOn:" : "nh 5/16/2022 16:12",
 		"exportString" : "aes 5/23/2022 12:29",
 		"generatePointString:" : "aes 5/23/2022 10:48",
 		"initialize" : "aes 5/14/2022 11:34",
@@ -31,4 +32,5 @@
 		"visitSVGPolyline:" : "aes 5/23/2022 12:25",
 		"visitSVGRectangle:" : "aes 5/23/2022 12:22",
 		"visitSVGTSpan:" : "aes 5/16/2022 17:20",
+		"visitSVGTest:" : "aes 5/14/2022 11:06",
 		"visitSVGText:" : "aes 5/23/2022 12:24" } }
