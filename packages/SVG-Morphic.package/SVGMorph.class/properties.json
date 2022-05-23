@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "E.R 6/27/2020 11:19",
 	"instvars" : [
-		 ],
+		"viewBox",
+		"svgWidth",
+		"svgHeight" ],
 	"name" : "SVGMorph",
 	"pools" : [
 		 ],

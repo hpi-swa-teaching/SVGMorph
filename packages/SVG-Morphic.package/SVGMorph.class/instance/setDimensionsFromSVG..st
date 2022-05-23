@@ -3,7 +3,7 @@ setDimensionsFromSVG: anElement
 	"Set the receiver's dimensions from the given svg element."
 
 	|w h viewBox str|
-	w := anElement attributeAt: 'width'ifAbsent: ['100%'].
+	w := anElement attributeAt: 'width' ifAbsent: ['100%'].
 	h := anElement attributeAt: 'height' ifAbsent: ['100%'].
 	str := anElement attributeAt: 'viewBox'.
 	viewBox := str isNil

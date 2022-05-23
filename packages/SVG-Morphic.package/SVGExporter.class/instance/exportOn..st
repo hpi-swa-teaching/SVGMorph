@@ -1,4 +1,4 @@
-as yet unclassified
+exporting
 exportOn: aWriteStream
 
 	self document printOn: aWriteStream
