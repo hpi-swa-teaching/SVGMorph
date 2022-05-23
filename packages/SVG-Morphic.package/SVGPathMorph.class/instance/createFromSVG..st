@@ -4,6 +4,7 @@ createFromSVG: anElement
 
 	super createFromSVG: anElement.
 	self createSegmentsFromSVG: anElement.
-	self computeBounds
+	self computeBounds.
+	self d: (anElement attributeAt: 'd')
 	
 	
