@@ -6,7 +6,7 @@ baseline: spec
 			spec
 				package: 'SVG-Morphic';
 				package: 'SVG-Editor' with: [spec requires: #('core')];
-				package: 'Tests-SVG-Morphic' with: [spec requires: #('core')];
+				package: 'Tests-SVG-Morphic' with: [spec requires: #('core' 'mtf')];
 				package: 'Tests-SVG-Editor' with:  [spec requires: #('editor' 'mtf')];
 				baseline: 'MorphicTestingFramework' with: [spec repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'].
 			spec
