@@ -1,4 +1,0 @@
-exporting SVGs
-testExportTranslation
-	
-	self assertTestCaseToBeCorrect: self transformTranslateTestCase

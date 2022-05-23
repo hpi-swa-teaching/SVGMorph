@@ -1,0 +1,4 @@
+tests
+testExportRotationPoint
+	
+	self assertTestCaseToBeCorrect: self transformRotatePointTestCase
