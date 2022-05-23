@@ -1,14 +1,11 @@
-as yet unclassified
+visiting
 visitSVGGroup: aGroup
 
 	|element|
 	element := XMLElement new.
 	
-	self applyCommonAttributesFrom: aGroup on: element.
-	
-	aGroup submorphs reversed do: [:morph | 
-		element addElement: (morph accept: self)].
+	self applyCommonAttributesOf: aGroup on: element.
+	self applyGroupAttributesOf: aGroup on: element.
+	self addSubmorphsOf: aGroup to: element.
 	
 	^ element
-		name: 'g';
-		yourself

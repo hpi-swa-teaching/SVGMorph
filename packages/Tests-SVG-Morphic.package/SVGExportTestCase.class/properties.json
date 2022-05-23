@@ -1,0 +1,15 @@
+{
+	"category" : "Tests-SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"input",
+		"expected" ],
+	"name" : "SVGExportTestCase",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

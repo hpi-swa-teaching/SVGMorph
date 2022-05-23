@@ -1,14 +1,10 @@
-as yet unclassified
+visiting
 visitSVGCircle: aCircle
 	
 	|element|
 	element := XMLElement new.
 	
-	self applyCommonAttributesFrom: aCircle on: element.
+	self applyCommonAttributesOf: aCircle on: element.
+	self applyCircleAttributesOf: aCircle on: element.
 	
 	^ element
-		name: 'circle';
-		attributeAt: 'cx' put: aCircle rectangle center x asString;
-		attributeAt: 'cy' put: aCircle rectangle center y asString;
-		attributeAt: 'r' put: (aCircle rectangle width / 2)  asString;
-		yourself

@@ -1,3 +1,10 @@
-as yet unclassified
+visiting
 visitSVGPath: aPath
-	self shouldBeImplemented
+	
+	|element|
+	element := XMLElement new.
+	
+	self applyCommonAttributesOf: aPath on: element.
+	self applyPathAttributesOf: aPath on: element.
+	
+	^ element

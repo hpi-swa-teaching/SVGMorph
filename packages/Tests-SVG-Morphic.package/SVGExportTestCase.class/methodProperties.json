@@ -1,0 +1,8 @@
+{
+	"class" : {
+		"for:toBe:" : "aes 5/23/2022 11:07" },
+	"instance" : {
+		"expected" : "aes 5/23/2022 11:05",
+		"expected:" : "aes 5/23/2022 11:05",
+		"input" : "aes 5/23/2022 11:05",
+		"input:" : "aes 5/23/2022 11:05" } }

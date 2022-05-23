@@ -1,3 +1,3 @@
-as yet unclassified
+visiting
 visitSVGTSpan: aTSpan
 	self shouldBeImplemented

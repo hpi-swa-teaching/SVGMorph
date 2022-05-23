@@ -3,4 +3,5 @@ createFromSVG: anElement
 	"Create a path from the svg path."
 
 	super createFromSVG: anElement.
-	self createSegmentsFromSVG: anElement
+	self createSegmentsFromSVG: anElement.
+	self d: (anElement attributeAt: 'd')

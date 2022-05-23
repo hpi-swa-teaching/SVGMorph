@@ -1,3 +1,5 @@
-as yet unclassified
+visiting
 visitSVGPolyline: aPolyline
-	self shouldBeImplemented
+	
+	^ (self visitSVGPolygonal: aPolyline)
+		name: 'polyline'

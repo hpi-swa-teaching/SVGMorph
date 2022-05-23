@@ -1,3 +1,5 @@
-as yet unclassified
+visiting
 visitSVGPolygon: aPolygon
-	self shouldBeImplemented
+	
+	^ (self visitSVGPolygonal: aPolygon)
+		name: 'polygon'

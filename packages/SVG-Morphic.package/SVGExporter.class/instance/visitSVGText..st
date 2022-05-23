@@ -1,14 +1,10 @@
-as yet unclassified
+visiting
 visitSVGText: aText
 	
 	|element|
 	element := XMLElement new.
 	
-	self applyCommonAttributesFrom: aText on: element.
+	self applyCommonAttributesOf: aText on: element.
+	self applyTextAttributesOf: aText on: element.
 	
 	^ element
-		name: 'text';
-		attributeAt: 'x' put: aText location x asString;
-		attributeAt: 'y' put: aText location y asString;
-		addElement: (XMLStringNode string: aText text);
-		yourself

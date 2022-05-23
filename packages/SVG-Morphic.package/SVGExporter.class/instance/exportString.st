@@ -1,7 +1,7 @@
-as yet unclassified
+accessing
 exportString
 
-	| stream |
+	|stream|
 	stream := WriteStream on: String new.
 	self document printOn: stream.
-	^ stream contents withBlanksTrimmed.
+	^ stream contents withBlanksTrimmed
