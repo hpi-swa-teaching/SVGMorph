@@ -1,0 +1,1 @@
+A SVGVisitor is a visitor to apply operations to SVGMorphs.
