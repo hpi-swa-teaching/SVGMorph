@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 visitSVGPolyline: aPolyline
 
 	^ self subclassResponsibility

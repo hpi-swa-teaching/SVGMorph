@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 visitSVGCircle: aCircle
 
 	^ self subclassResponsibility

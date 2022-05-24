@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 visitSVGEllipse: anEllipse
 
 	^ self subclassResponsibility

@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 visitSVGPolygon: aPolygon
 
 	^ self subclassResponsibility

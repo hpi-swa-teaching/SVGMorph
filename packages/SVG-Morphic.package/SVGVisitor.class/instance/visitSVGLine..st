@@ -1,4 +1,4 @@
-as yet unclassified
+visiting
 visitSVGLine: aLine
 
 	^ self subclassResponsibility
