@@ -1,0 +1,4 @@
+accessing
+humanReadableClassName
+
+	^ self subclassResponsibility

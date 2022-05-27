@@ -4,4 +4,5 @@
 	"instance" : {
 		"accept:" : "aes 5/16/2022 17:20",
 		"createTextFromSVG:" : "aes 5/23/2022 16:21",
+		"humanReadableClassName" : "aes 5/27/2022 14:28",
 		"processSVGElements:" : "gvc 8/1/2005 11:15" } }

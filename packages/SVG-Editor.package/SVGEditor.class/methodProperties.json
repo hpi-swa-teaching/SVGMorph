@@ -14,10 +14,12 @@
 		"buildOpenButtonWith:" : "lha 5/17/2022 19:32",
 		"buildSaveButtonWith:" : "lha 5/17/2022 19:32",
 		"buildSwitchesWIth:" : "nh 5/16/2022 15:54",
-		"buildWith:" : "lha 5/17/2022 19:34",
+		"buildTreeViewWith:" : "aes 5/27/2022 14:20",
+		"buildWith:" : "aes 5/27/2022 13:55",
 		"buttonHeight" : "nh 5/15/2022 15:51",
 		"initialize" : "lha 5/17/2022 19:31",
 		"model" : "lha 5/17/2022 19:30",
 		"model:" : "lha 5/17/2022 19:30",
-		"panelDrawingFrame" : "lha 5/15/2022 19:10",
-		"switchesFrame" : "lha 5/15/2022 19:10" } }
+		"panelDrawingFrame" : "aes 5/27/2022 13:48",
+		"switchesFrame" : "lha 5/15/2022 19:10",
+		"treeFrame" : "aes 5/27/2022 13:51" } }

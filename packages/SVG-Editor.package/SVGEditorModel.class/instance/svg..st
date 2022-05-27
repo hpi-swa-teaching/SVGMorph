@@ -7,4 +7,5 @@ svg: anSVGMorph
 	self
 		changed: #svg;
 		changed: #canCloseFile;
-		changed: #canSaveFile 
+		changed: #canSaveFile;
+		changed: #svgTree
