@@ -9,4 +9,5 @@ buildTreeViewWith: aToolBuilder
 		hasChildren: #hasChildren:;
 		setSelected: #selectedElement:;
 		getSelected: #selectedElement;
+		getSelectedPath: #selectedPath;
 		label: #displayNameOf:
