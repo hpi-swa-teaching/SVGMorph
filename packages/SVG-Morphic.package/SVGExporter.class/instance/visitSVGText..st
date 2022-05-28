@@ -2,7 +2,7 @@ visiting
 visitSVGText: aText
 	
 	|element|
-	element := XMLElement new.
+	element := SVGXMLElement new.
 	
 	self applyCommonAttributesOf: aText on: element.
 	self applyTextAttributesOf: aText on: element.

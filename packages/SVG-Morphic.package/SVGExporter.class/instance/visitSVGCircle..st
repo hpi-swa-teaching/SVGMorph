@@ -2,7 +2,7 @@ visiting
 visitSVGCircle: aCircle
 	
 	|element|
-	element := XMLElement new.
+	element := SVGXMLElement new.
 	
 	self applyCommonAttributesOf: aCircle on: element.
 	self applyCircleAttributesOf: aCircle on: element.

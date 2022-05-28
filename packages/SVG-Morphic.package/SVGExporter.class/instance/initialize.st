@@ -1,5 +1,5 @@
 initialization
 initialize
 	
-	self document: XMLElement new
+	self document: SVGXMLElement new
 		
