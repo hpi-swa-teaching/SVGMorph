@@ -1,8 +1,8 @@
-testing - existence
-testSVGRectangleExists
+testing - printing
+testDisplayNameBasic
 
 	| rectangle |
 	self wantsToTestRectangle.
 	
 	rectangle := self subject findByClass: SVGRectMorph.
-	self deny: rectangle morphs isEmpty
+	self assert: 'Rectangle' equals: (rectangle displayName)
