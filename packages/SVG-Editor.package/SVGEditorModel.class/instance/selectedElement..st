@@ -2,4 +2,6 @@ accessing
 selectedElement: anObject
 	
 	selectedElement := anObject.
-	self changed: #selectedElement
+	self 
+		changed: #selectedElement;
+		changed: #infoForSelectedElement

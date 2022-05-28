@@ -1,0 +1,15 @@
+{
+	"category" : "SVG-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"keys",
+		"values" ],
+	"name" : "SVGInfoPanelGenerator",
+	"pools" : [
+		 ],
+	"super" : "SVGVisitor",
+	"type" : "normal" }
