@@ -5,6 +5,7 @@
 		"addRenderer:on:" : "lha 5/22/2022 15:59",
 		"circleTestSVG" : "aes 5/28/2022 12:15",
 		"ellipseTestSVG" : "lha 5/22/2022 13:14",
+		"expectedFailures" : "aes 5/29/2022 12:13",
 		"groupTestSVG" : "lha 5/22/2022 17:11",
 		"lineTestSVG" : "lha 5/22/2022 13:15",
 		"pathTestSVG" : "lha 5/22/2022 13:39",
