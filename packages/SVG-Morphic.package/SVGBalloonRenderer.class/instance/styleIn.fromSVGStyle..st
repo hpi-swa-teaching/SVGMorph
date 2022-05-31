@@ -14,7 +14,7 @@ styleIn: aComponent fromSVGStyle: svgStyle
 				textStyle isNil ifTrue: [textStyle := TextStyle default].
 				balloonStyle at: 'font' put: (textStyle fontOfSize: (balloonStyle at: 'font-size'))]
 		ifFalse: [(balloonStyle includesKey: 'font')
-				ifFalse: [balloonStyle at: 'font' put: (TextStyle actualTextStyles select: [:t | t isTTCStyle]) values first fonts first.]].
+				ifFalse: [balloonStyle at: 'font' put: (TextStyle defaultSVGFont)]].
 	(svgStyle includesKey: 'text-anchor')
 		ifTrue: [balloonStyle at: 'text-anchor' put: (svgStyle at: 'text-anchor')]
 		ifFalse: [(balloonStyle includesKey: 'text-anchor')
@@ -71,4 +71,4 @@ styleIn: aComponent fromSVGStyle: svgStyle
 			ifTrue: [balloonStyle at: 'stroke-width' put: 0]
 			ifFalse: [balloonStyle at: 'stroke' put: ((balloonStyle at: 'stroke') alpha: (balloonStyle at: 'stroke-opacity'))]]
 		ifFalse: [].
-	^balloonStyle 
+	^balloonStyle
