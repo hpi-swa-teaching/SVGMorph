@@ -8,7 +8,7 @@ jobs:
     strategy:
       matrix:
         # Select platform(s)
-        os: [ ubuntu-latest, macos-latest, windows-latest ]
+        os: [ ubuntu-latest, macos-latest, windows-2019 ]
         # Select compatible Smalltalk image(s)
         smalltalk: [ Squeak64-trunk, Squeak64-5.3 ]
     name: ${{ matrix.smalltalk }} on ${{ matrix.os }}
@@ -19,3 +19,6 @@ jobs:
           smalltalk-version: ${{ matrix.smalltalk }}
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         timeout-minutes: 15
+        env:
+          # for uploading coverage reports
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
