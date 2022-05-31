@@ -14,7 +14,7 @@ styleIn: aComponent fromSVGStyle: svgStyle
 				textStyle isNil ifTrue: [textStyle := TextStyle default].
 				balloonStyle at: 'font' put: (textStyle fontOfSize: (balloonStyle at: 'font-size'))]
 		ifFalse: [(balloonStyle includesKey: 'font')
-				ifFalse: [balloonStyle at: 'font' put: TextStyle defaultFont]].
+				ifFalse: [balloonStyle at: 'font' put: (TextStyle actualTextStyles select: [:t | t isTTCStyle]) values first fonts first.]].
 	(svgStyle includesKey: 'text-anchor')
 		ifTrue: [balloonStyle at: 'text-anchor' put: (svgStyle at: 'text-anchor')]
 		ifFalse: [(balloonStyle includesKey: 'text-anchor')
@@ -33,7 +33,7 @@ styleIn: aComponent fromSVGStyle: svgStyle
 		ifTrue: [balloonStyle at: 'fill' put: (svgStyle at: 'fill').
 				regenFill := true]
 		ifFalse: [(balloonStyle includesKey: 'fill')
-				ifFalse: [balloonStyle at: 'fill' put: Color transparent]].
+						ifFalse: [balloonStyle at: 'fill' put: Color black]].
 	regenFill 
 		ifTrue: [balloonStyle at: 'fill' put: ((balloonStyle at: 'fill')
 					alphaMixed: (balloonStyle at: 'fill-opacity') * (balloonStyle at: 'opacity'))].
