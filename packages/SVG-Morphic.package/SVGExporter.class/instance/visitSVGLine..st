@@ -2,7 +2,7 @@ visiting
 visitSVGLine: aLine
 	
 	|element|
-	element := XMLElement new.
+	element := SVGXMLElement new.
 	
 	self applyCommonAttributesOf: aLine on: element.
 	self applyLineAttributesOf: aLine on: element.

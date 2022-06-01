@@ -2,7 +2,7 @@ visiting
 visitSVGGroup: aGroup
 
 	|element|
-	element := XMLElement new.
+	element := SVGXMLElement new.
 	
 	self applyCommonAttributesOf: aGroup on: element.
 	self applyGroupAttributesOf: aGroup on: element.

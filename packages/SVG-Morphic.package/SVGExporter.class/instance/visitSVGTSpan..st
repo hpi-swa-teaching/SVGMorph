@@ -2,7 +2,7 @@ visiting
 visitSVGTSpan: aTSpan
 	
 	|element|
-	element := XMLElement new.
+	element := SVGXMLElement new.
 
 	self applyCommonAttributesOf: aTSpan on: element.
 	self applyTSpanAttributesOf: aTSpan on: element.
