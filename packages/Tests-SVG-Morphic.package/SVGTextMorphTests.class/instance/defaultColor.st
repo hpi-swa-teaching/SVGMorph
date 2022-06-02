@@ -1,0 +1,4 @@
+defaultColor
+defaultColor
+
+	^ 'black'
