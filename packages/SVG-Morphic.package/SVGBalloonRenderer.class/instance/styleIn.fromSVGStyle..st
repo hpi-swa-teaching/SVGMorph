@@ -1,4 +1,4 @@
-as yet unclassified
+style
 styleIn: aComponent fromSVGStyle: svgStyle
 	"Answer a dictionary of the style parameters for the given svg style dictionary."
 
@@ -8,7 +8,7 @@ styleIn: aComponent fromSVGStyle: svgStyle
 	(svgStyle includesKey: 'font-size')
 		ifTrue: [balloonStyle at: 'font-size' put: (svgStyle at: 'font-size')]
 		ifFalse: [(balloonStyle includesKey: 'font-size')
-				ifFalse: [balloonStyle at: 'font-size' put: 12]].
+				ifFalse: [balloonStyle at: 'font-size' put: self defaultSVGTextSize]].
 	(svgStyle includesKey: 'font-family')
 		ifTrue: [textStyle := TextStyle named: (svgStyle at: 'font-family').
 				textStyle isNil ifTrue: [textStyle := TextStyle default].
