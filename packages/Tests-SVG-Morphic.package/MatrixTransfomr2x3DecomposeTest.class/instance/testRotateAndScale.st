@@ -1,8 +1,8 @@
 testing - integration
-testScaleAndRotate
+testRotateAndScale
 
 	self
-		scale: -15 @ 4;
-		rotate: 50.
+		rotate: 60;
+		scale: 1 @ 4.
 
 	self assertReconstructable

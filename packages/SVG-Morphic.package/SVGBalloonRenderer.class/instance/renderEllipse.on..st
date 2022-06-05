@@ -2,15 +2,23 @@ as yet unclassified
 renderEllipse: anSVGEllipse on: aCanvas
 	"Render the given object on the canvas."
 	
-	|fill lineWidth lineColor|
+	| fill lineWidth lineColor matrix rectangle scale |
 	fill := anSVGEllipse composedFillStyle.
-	lineWidth := (anSVGEllipse composedStyle at: 'stroke-width') rounded max: 1.
 	lineColor := anSVGEllipse composedStyle at: 'stroke'.
-	aCanvas asBalloonCanvas preserveStateDuring: [:bc|
-		bc transformBy: (anSVGEllipse transformFrom: anSVGEllipse world) during: [:balloonCanvas |
+	matrix := anSVGEllipse transformFrom: anSVGEllipse world.
+	rectangle := anSVGEllipse rectangle.
+	
+	scale := matrix compositeScale.
+	rectangle := rectangle scaleBy: scale .
+	matrix := matrix composedWithLocal: (MatrixTransform2x3 withScale: scale reciprocal).
+	
+	lineWidth := ((anSVGEllipse composedStyle at: 'stroke-width') * scale x) rounded clampLow: 1.
+	
+	aCanvas preserveStateDuring: [:bc|
+		bc transformBy: matrix during: [:balloonCanvas |
 			balloonCanvas
-				aaLevel: anSVGEllipse antialiasingLevel;
-				drawOval: anSVGEllipse rectangle
+				aaLevel: 4;
+				drawOval: rectangle
 				color: fill
 				borderWidth: lineWidth
 				borderColor: lineColor]]
