@@ -1,4 +1,4 @@
-as yet unclassified
+style
 composedStyle
 	"Answer the composed style dictionary"
 

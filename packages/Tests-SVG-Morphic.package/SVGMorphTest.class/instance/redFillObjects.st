@@ -1,0 +1,4 @@
+colors - selector sets
+redFillObjects
+
+^#(#CircleRedFillOrangeStrokeMorph #EllipseRedFillOrangeStrokeMorph #PolygonRedFillOrangeStrokeMorph #PolylineRedFillOrangeStrokeMorph #RectangleRedFillOrangeStrokeMorph)

@@ -4,11 +4,16 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "E.R 8/7/2020 23:24",
 	"instvars" : [
-		 ],
+		"orangeStrokeObjects",
+		"brownStrokeObjects",
+		"balckStrokeObjects",
+		"redFillObjects",
+		"blueFillObjects",
+		"transparentFillObjects" ],
 	"name" : "SVGMorphTest",
 	"pools" : [
 		 ],
-	"super" : "MTFTestCase",
+	"super" : "TestCase",
 	"type" : "normal" }
