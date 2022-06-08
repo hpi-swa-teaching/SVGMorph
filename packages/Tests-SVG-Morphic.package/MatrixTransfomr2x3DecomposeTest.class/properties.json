@@ -1,0 +1,14 @@
+{
+	"category" : "Tests-SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "nh 6/5/2022 23:38",
+	"instvars" : [
+		"subject" ],
+	"name" : "MatrixTransfomr2x3DecomposeTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

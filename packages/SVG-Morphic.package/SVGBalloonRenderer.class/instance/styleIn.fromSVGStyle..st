@@ -68,7 +68,5 @@ styleIn: aComponent fromSVGStyle: svgStyle
 				ifFalse: [balloonStyle at: 'visibility' put: true]].
 	(balloonStyle at: 'stroke') isColor
 		ifTrue: [(balloonStyle at: 'stroke') isTransparent
-			ifTrue: [balloonStyle at: 'stroke-width' put: 0]
-			ifFalse: [balloonStyle at: 'stroke' put: ((balloonStyle at: 'stroke') alpha: (balloonStyle at: 'stroke-opacity'))]]
-		ifFalse: [].
-	^balloonStyle 
+			ifFalse: [balloonStyle at: 'stroke' put: ((balloonStyle at: 'stroke') alpha: (balloonStyle at: 'stroke-opacity'))]].
+	^balloonStyle
