@@ -19,3 +19,6 @@ jobs:
           smalltalk-version: ${{ matrix.smalltalk }}
       - run: smalltalkci -s ${{ matrix.smalltalk }}
         timeout-minutes: 15
+        env:
+          # for uploading coverage reports
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
