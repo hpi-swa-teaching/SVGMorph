@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"modelMock" : "lha 6/9/2022 11:32",
+		"modelMock:" : "lha 6/9/2022 11:32",
+		"setUp" : "lha 6/9/2022 11:33",
+		"tearDown" : "lha 6/9/2022 11:33",
+		"testCloseButtonAction" : "lha 6/9/2022 11:33",
+		"testCloseButtonActionWithoutSVG" : "lha 6/9/2022 11:33",
+		"testCloseButtonExists" : "lha 6/9/2022 11:33",
+		"testDrawingAreaExists" : "lha 6/9/2022 11:33",
+		"testMorphExists" : "lha 6/9/2022 11:33",
+		"testOpenButtonAction" : "lha 6/9/2022 11:33",
+		"testOpenButtonExists" : "lha 6/9/2022 11:33",
+		"testSaveButtonAction" : "lha 6/9/2022 11:33",
+		"testSaveButtonActionWithoutSVG" : "lha 6/9/2022 11:34",
+		"testSaveButtonExists" : "lha 6/9/2022 11:34",
+		"testTreeViewExists" : "lha 6/9/2022 11:34",
+		"testWindowTitle" : "lha 6/9/2022 11:34" } }
