@@ -1,5 +1,5 @@
 ![CI Status](https://github.com/hpi-swa-teaching/SVGMorph/actions/workflows/ci.yml/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SVGMorph/badge.svg?branch=coverage-ci)](https://coveralls.io/github/hpi-swa-teaching/SVGMorph?branch=coverage-ci)
+[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SVGMorph/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/SVGMorph?branch=dev)
 
 # SVGMorph
 (SWT22-04)
