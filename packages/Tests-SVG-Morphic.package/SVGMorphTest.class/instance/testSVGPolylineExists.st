@@ -1,4 +1,4 @@
-testing - existance
+testing - existence
 testSVGPolylineExists
 
 	| polyline |

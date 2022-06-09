@@ -2,7 +2,7 @@ visiting
 visitSVGRectangle: aRectangle
 	
 	|element|
-	element := XMLElement new.
+	element := SVGXMLElement new.
 	
 	self applyCommonAttributesOf: aRectangle on: element.
 	self applyRectangleAttributesOf: aRectangle on: element.

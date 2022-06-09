@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"svg" ],
+		"svg",
+		"selectedElement",
+		"selectedPath" ],
 	"name" : "SVGEditorModel",
 	"pools" : [
 		 ],

@@ -4,4 +4,5 @@
 	"instance" : {
 		"accept:" : "aes 5/14/2022 12:18",
 		"createRectangleFromSVG:" : "AS 5/15/2022 13:36",
-		"drawOn:" : "AS 5/19/2022 16:10" } }
+		"drawOn:" : "AS 5/19/2022 16:10",
+		"humanReadableClassName" : "aes 5/27/2022 14:30" } }

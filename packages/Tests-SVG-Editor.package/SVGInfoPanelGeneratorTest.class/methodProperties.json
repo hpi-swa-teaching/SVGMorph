@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"demoSVG" : "aes 5/30/2022 14:10",
+		"hasValue:atKey:in:" : "aes 5/28/2022 13:29",
+		"setUp" : "aes 5/28/2022 13:40",
+		"testCircle" : "aes 5/30/2022 14:29",
+		"testColor" : "aes 5/28/2022 13:44",
+		"testEllipse" : "aes 5/30/2022 14:29",
+		"testGroup" : "aes 5/30/2022 14:26",
+		"testID" : "aes 5/28/2022 13:40",
+		"testLine" : "aes 5/30/2022 14:26",
+		"testPath" : "aes 5/30/2022 14:11",
+		"testPolygon" : "aes 5/30/2022 14:26",
+		"testPolyline" : "aes 5/30/2022 14:26",
+		"testRectangle" : "aes 5/30/2022 14:28",
+		"testSVG" : "aes 5/30/2022 14:27",
+		"testTSpan" : "aes 5/30/2022 14:27",
+		"testText" : "aes 5/30/2022 14:27" } }

@@ -6,7 +6,11 @@ transformFromSVGAttribute: trans
 	matrix := MatrixTransform2x3 identity.
 	trans ifNil: [^matrix].
 	str := trans readStream.
+	str skipSeparators.
 	[str atEnd] whileFalse: [
-		str upToAny: 'mtsr'. "find the next transform in the list"
-		matrix := matrix composedWithLocal: (self transformFromSVGAttributeStream: str)].
-	^matrix
+		matrix := matrix composedWithLocal: (self transformFromSVGAttributeStream: str).
+		str skipSeparators.
+		(str peek = $,)
+			ifTrue: [str next].
+		str skipSeparators].
+	^ matrix
