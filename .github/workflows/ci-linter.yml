@@ -3,12 +3,12 @@ name: CI-Lint
 on:
   push:
     branches:
-      - develop
+      - dev
       - master
   pull_request:
     branches:
       - master
-      - develop
+      - dev
 
 jobs:
   build:
