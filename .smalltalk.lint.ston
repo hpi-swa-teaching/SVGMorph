@@ -1,0 +1,13 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'SVGMorph',
+      #platforms : [ #squeak ],
+      #directory : 'packages',
+      #load : [ 'linter' ],
+      #useLatestMetacello : true
+    }
+  ],
+  #testing : {
+    #classes : [ #SVGLinterTests ]
+  }
