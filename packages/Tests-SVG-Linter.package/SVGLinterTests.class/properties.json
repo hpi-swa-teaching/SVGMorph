@@ -1,0 +1,15 @@
+{
+	"category" : "Tests-SVG-Linter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AS",
+	"instvars" : [
+		"classes",
+		"classTestObjects" ],
+	"name" : "SVGLinterTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
