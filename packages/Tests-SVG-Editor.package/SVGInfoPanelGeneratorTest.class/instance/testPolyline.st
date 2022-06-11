@@ -6,4 +6,4 @@ testPolyline
 
 	self
 		hasValue: 'Polyline' atKey: 'Type' in: panelInfo;
-		hasValue: '0 @ 100 50 @ 25 50 @ 75 100 @ 0' atKey: 'Points' in: panelInfo
+		hasValue: '0@100 50@25 50@75 100@0' atKey: 'Points' in: panelInfo

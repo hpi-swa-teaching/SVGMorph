@@ -6,6 +6,6 @@ testRectangle
 
 	self
 		hasValue: 'Rectangle' atKey: 'Type' in: panelInfo;
-		hasValue: '100 @ 100' atKey: 'Position' in: panelInfo;
+		hasValue: '100@100' atKey: 'Position' in: panelInfo;
 		hasValue: '60' atKey: 'Width' in: panelInfo;
 		hasValue: '50' atKey: 'Height' in: panelInfo
