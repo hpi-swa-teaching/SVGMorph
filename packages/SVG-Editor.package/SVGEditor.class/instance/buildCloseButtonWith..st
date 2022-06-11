@@ -8,4 +8,4 @@ buildCloseButtonWith: aToolBuilder
 		help: 'Close the currently opened file';
 		enabled: #canCloseFile;
 		action: #actionCloseFile;
-		yourself	
+		yourself

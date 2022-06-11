@@ -1,6 +1,6 @@
 serializer
 applyCircleAttributesOf: aCircle on: anElement
-	
+
 	anElement
 		name: 'circle';
 		attributeAt: 'cx' put: aCircle rectangle center x asString;

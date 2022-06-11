@@ -1,6 +1,6 @@
 accessing
 selectElement: anElement
-	
+
 	|current|
 	selectedPath := OrderedCollection new.
 	current := anElement.

@@ -4,4 +4,4 @@ createTextFromSVG: anElement
 	Doen't handle tspans yet!"
 
 	self text: anElement characterData.
-	self location: (anElement attributeAt: 'x' ifAbsent: [0]) asSVGNumber@(anElement attributeAt: 'y' ifAbsent: [0]) asSVGNumber
+	self location: (anElement attributeAt: 'x' ifAbsent: [0]) asSVGNumber @ (anElement attributeAt: 'y' ifAbsent: [0]) asSVGNumber

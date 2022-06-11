@@ -1,7 +1,7 @@
 testing
 testOpenButtonAction
 
-	| button |
+	|button|
 	self assert: self modelMock actionOpenFileCount equals: 0 description: 'button should not yet have called action open'.
 	button := self subject findByName: #openButton.
 	button click.

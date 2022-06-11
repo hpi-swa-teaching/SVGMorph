@@ -9,4 +9,4 @@ setUp
 		model: self modelMock;
 		buildWith: builder.
 	morph := builder build: windowSpec.
-	self wantsToTest: morph.
+	self wantsToTest: morph

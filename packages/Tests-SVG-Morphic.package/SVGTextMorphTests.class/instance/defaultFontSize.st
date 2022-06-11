@@ -1,4 +1,4 @@
 textSize
 defaultFontSize
-	
+
 	^ 16

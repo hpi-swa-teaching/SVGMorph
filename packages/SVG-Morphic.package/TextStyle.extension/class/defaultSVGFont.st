@@ -1,4 +1,4 @@
 *SVG-Morphic
 defaultSVGFont
 
-	^ self defaultSVGTextStyle defaultFont.
+	^ self defaultSVGTextStyle defaultFont

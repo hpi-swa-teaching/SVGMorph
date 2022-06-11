@@ -1,4 +1,4 @@
 testing - rendering
 addRenderer: aSVGRenderer on: aSVGComponentClass
 
-	(self subject findByClass: aSVGComponentClass) renderer: aSVGRenderer.
+	(self subject findByClass: aSVGComponentClass) renderer: aSVGRenderer

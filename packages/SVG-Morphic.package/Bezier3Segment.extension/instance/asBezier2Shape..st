@@ -8,7 +8,7 @@ asBezier2Shape: pixelError
 	pts := PointArray new: curves * 3.
 	step := 1.0 / (curves * 2).
 	prev := self start.
-	1 to: curves do: [ :c |
+	1 to: curves do: [:c |
 		index := 3*c.
 		a := pts at: index-2 put: prev.
 		b := (self valueAt: (c*2-1)*step).
@@ -17,5 +17,4 @@ asBezier2Shape: pixelError
 		prev := pts at: index.
 		].
 	pts at: pts size put: self end.
-	^ pts.
-	
+	^ pts

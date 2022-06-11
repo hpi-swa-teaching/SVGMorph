@@ -1,7 +1,7 @@
 testing
 testSaveButtonAction
 
-	| button |
+	|button|
 	self modelMock canSaveFile: true.
 	self assert: self modelMock actionSaveFileCount equals: 0 description: 'button should not yet have called action save'.
 	button := self subject findByName: #saveButton.

@@ -2,7 +2,7 @@
 drawGeneralSegments: segments fill: fillStyle borderWidth: borderWidth borderColor: borderFill transform: aTransform
 	"Draw the given segments."
 
-	| fills |
+	|fills|
 	self edgeTransform: aTransform.
 	self resetIfNeeded.
 	fills := self registerFill: fillStyle and: borderFill.
@@ -16,4 +16,4 @@ drawGeneralSegments: segments fill: fillStyle borderWidth: borderWidth borderCol
 	].
 	"And set the flush bit afterwards"
 	self primFlushNeeded: true.
-	self postFlushIfNeeded.
+	self postFlushIfNeeded

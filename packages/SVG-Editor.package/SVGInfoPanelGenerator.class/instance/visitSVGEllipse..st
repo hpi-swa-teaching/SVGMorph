@@ -1,7 +1,7 @@
 visiting
 visitSVGEllipse: anEllipse
-	
-	^ self 
+
+	^ self
 		readCommonAttributesOf: anEllipse;
 		readEllipseAttributesOf: anEllipse;
 		asList

@@ -1,8 +1,8 @@
 testing - printing
 testDisplayNameOfText
 
-	| text |
+	|text|
 	self wantsToTestText.
-	
+
 	text := self subject findByClass: SVGTextMorph.
 	self assert: 'Text ("Test")' equals: (text displayName)

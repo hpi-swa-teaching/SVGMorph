@@ -4,7 +4,7 @@ transformFromSVGAttributeStream: str
 
 	| matrix type argStream args |
 	matrix := MatrixTransform2x3 identity.
-	type := str upToAny: { $(. Character space . Character tab . Character cr . Character lf}.
+	type := str upToAny: {$(. Character space . Character tab . Character cr . Character lf}.
 	str upTo: $(.
 	argStream := (str upTo: $)) readStream.
 	args := OrderedCollection new.
@@ -38,7 +38,7 @@ transformFromSVGAttributeStream: str
 					ifTrue: [matrix := ((MatrixTransform2x3 withOffset: (args at: 1) @ (args at: 2))
 									composedWithLocal: matrix)
 									composedWithLocal: (MatrixTransform2x3 withOffset: (args at: 1) @ (args at: 2) negated)]].
-							
+
 	"The X and Y may seem switched here, however, this is correct for SVG parsing"
 	(type = 'skewX')
 		ifTrue: [matrix

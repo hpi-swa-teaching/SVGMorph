@@ -1,6 +1,6 @@
 visiting
 visitSVGGroup: aGroup
-	
-	^ self 
+
+	^ self
 		readCommonAttributesOf: aGroup;
 		asList

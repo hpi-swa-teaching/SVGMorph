@@ -5,7 +5,7 @@ createCubicBezierSegmentFrom: data at: aPoint
 	|position|
 	self
 		createCubicBezierSegmentFrom: aPoint
-		via: data first@data second
-		and: data third@data fourth
-		to: (position _ data fifth@data sixth).
+		via: data first @ data second
+		and: data third @ data fourth
+		to: (position := data fifth @ data sixth).
 	^position

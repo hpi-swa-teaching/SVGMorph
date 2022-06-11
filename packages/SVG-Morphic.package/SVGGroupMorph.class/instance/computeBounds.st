@@ -1,13 +1,13 @@
 as yet unclassified
 computeBounds
-	| box |
+	|box|
 	(submorphs isNil or:[submorphs isEmpty]) ifTrue:[^self].
 	box := nil.
-	submorphs do:[:m| | subBounds |
+	submorphs do:[:m|| subBounds |
 		subBounds := self transform localBoundsToGlobal: m bounds.
-		box 
+		box
 			ifNil:[box := subBounds]
 			ifNotNil:[box := box quickMerge: subBounds].
 	].
-	box ifNil:[box := 0@0 corner: 20@20].
+	box ifNil:[box := 0 @ 0 corner: 20 @ 20].
 	fullBounds := bounds := box

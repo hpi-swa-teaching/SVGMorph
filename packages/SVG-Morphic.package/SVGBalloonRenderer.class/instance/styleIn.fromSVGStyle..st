@@ -21,7 +21,7 @@ styleIn: aComponent fromSVGStyle: svgStyle
 				ifFalse: [balloonStyle at: 'text-anchor' put: 'start']].
 	(svgStyle includesKey: 'opacity')
 		ifTrue: [balloonStyle at: 'opacity' put: (svgStyle at: 'opacity').
-				regenFill := true.]
+				regenFill := true]
 		ifFalse: [(balloonStyle includesKey: 'opacity')
 				ifFalse: [balloonStyle at: 'opacity' put: 1.0]].
 	(svgStyle includesKey: 'fill-opacity')
@@ -34,7 +34,7 @@ styleIn: aComponent fromSVGStyle: svgStyle
 				regenFill := true]
 		ifFalse: [(balloonStyle includesKey: 'fill')
 						ifFalse: [balloonStyle at: 'fill' put: Color black]].
-	regenFill 
+	regenFill
 		ifTrue: [balloonStyle at: 'fill' put: ((balloonStyle at: 'fill')
 					alphaMixed: (balloonStyle at: 'fill-opacity') * (balloonStyle at: 'opacity'))].
 	(svgStyle includesKey: 'fill-rule')

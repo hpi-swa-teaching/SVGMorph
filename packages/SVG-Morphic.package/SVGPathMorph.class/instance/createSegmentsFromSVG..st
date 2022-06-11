@@ -6,7 +6,7 @@ createSegmentsFromSVG: anElement
 	c := nil.
 	initialPosition := nil.
 	data := self pathDataFromSVG: anElement.
-	position := 0@0.
+	position := 0 @ 0.
 	data do: [:cmd |
 		((cmd = $S or: [cmd = $s]) and: ['CcSs' includes: c not])
 			ifTrue: [lastCubicControl := position].
@@ -15,14 +15,14 @@ createSegmentsFromSVG: anElement
 		c := cmd key.
 		d := cmd value.
 		c = $M
-			ifTrue: [position := d first@d second.
+			ifTrue: [position := d first @ d second.
 					initialPosition isNil
-						ifTrue: [initialPosition := position].			
+						ifTrue: [initialPosition := position].
 					subpathStartPosition := position].
 		c = $m
 			ifTrue: [initialPosition isNil
-						ifTrue: [position := d first@d second. initialPosition :=  position]
-						ifFalse: [position := position + (d first@d second)].
+						ifTrue: [position := d first @ d second. initialPosition :=  position]
+						ifFalse: [position := position + (d first @ d second)].
 					subpathStartPosition := position].
 		c = $A
 			ifTrue: [position := self createArcSegmentFrom: d at: position].
@@ -53,14 +53,14 @@ createSegmentsFromSVG: anElement
 					d at: 2 put: (d second + position y).
 					position := self createLineSegmentFrom: d at: position].
 		c = $C
-			ifTrue: [lastCubicControl := d third@d fourth.
+			ifTrue: [lastCubicControl := d third @ d fourth.
 					position := self createCubicBezierSegmentFrom: d at: position].
 		c = $c
 			ifTrue: [d at: 1 put: (d first + position x).
 					d at: 2 put: (d second + position y).
 					d at: 3 put: (d third + position x).
 					d at: 4 put: (d fourth + position y).
-					lastCubicControl := d third@d fourth.
+					lastCubicControl := d third @ d fourth.
 					d at: 5 put: (d fifth + position x).
 					d at: 6 put: (d sixth + position y).
 					position := self createCubicBezierSegmentFrom: d at: position].
@@ -68,7 +68,7 @@ createSegmentsFromSVG: anElement
 			ifTrue: [lastCubicControl := lastCubicControl reflectedAbout: position.
 					d addFirst: lastCubicControl y.
 					d addFirst: lastCubicControl x.
-					lastCubicControl := d third@d fourth.
+					lastCubicControl := d third @ d fourth.
 					position := self createCubicBezierSegmentFrom: d at: position].
 		c = $s
 			ifTrue: [lastCubicControl := lastCubicControl reflectedAbout: position.
@@ -76,17 +76,17 @@ createSegmentsFromSVG: anElement
 					d addFirst: lastCubicControl x.
 					d at: 3 put: (d third + position x).
 					d at: 4 put: (d fourth + position y).
-					lastCubicControl := d third@d fourth.
+					lastCubicControl := d third @ d fourth.
 					d at: 5 put: (d fifth + position x).
 					d at: 6 put: (d sixth + position y).
 					position := self createCubicBezierSegmentFrom: d at: position].
 		c = $Q
-			ifTrue: [lastQuadraticControl := d first@d second .
+			ifTrue: [lastQuadraticControl := d first @ d second .
 					position := self createQuadraticBezierSegmentFrom: d at: position].
 		c = $q
 			ifTrue: [d at: 1 put: (d first + position x).
 					d at: 2 put: (d second + position y).
-					lastQuadraticControl := d first@d second.
+					lastQuadraticControl := d first @ d second.
 					d at: 3 put: (d third + position x).
 					d at: 4 put: (d fourth + position y).
 					position := self createQuadraticBezierSegmentFrom: d at: position].
@@ -94,13 +94,13 @@ createSegmentsFromSVG: anElement
 			ifTrue: [lastQuadraticControl := lastQuadraticControl reflectedAbout: position.
 					d addFirst: lastQuadraticControl y.
 					d addFirst: lastQuadraticControl x.
-					lastQuadraticControl := d first@d second.
+					lastQuadraticControl := d first @ d second.
 					position := self createQuadraticBezierSegmentFrom: d at: position].
 		c = $t
 			ifTrue: [lastQuadraticControl := lastQuadraticControl reflectedAbout: position.
 					d addFirst: lastQuadraticControl y.
 					d addFirst: lastQuadraticControl x.
-					lastQuadraticControl := d first@d second.
+					lastQuadraticControl := d first @ d second.
 					d at: 3 put: (d third + position x).
 					d at: 4 put: (d fourth + position y).
 					position := self createQuadraticBezierSegmentFrom: d at: position].

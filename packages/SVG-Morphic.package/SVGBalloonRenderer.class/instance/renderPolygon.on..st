@@ -1,7 +1,7 @@
 rendering
 renderPolygon: anSVGPolygon on: aCanvas
 	"Render the given object on the canvas."
-	
+
 	|fill lineWidth lineColor|
 	anSVGPolygon points isEmpty
 		ifTrue: [^anSVGPolygon].
@@ -9,7 +9,7 @@ renderPolygon: anSVGPolygon on: aCanvas
 	lineWidth := anSVGPolygon composedStyle at: 'stroke-width'.
 	lineColor := anSVGPolygon composedStyle at: 'stroke'.
 	aCanvas asBalloonCanvas preserveStateDuring: [:bc|
-		bc transformBy: (anSVGPolygon transformFrom: anSVGPolygon world ) during: [:balloonCanvas |
+		bc transformBy: (anSVGPolygon transformFrom: anSVGPolygon world) during: [:balloonCanvas |
 			balloonCanvas
 				aaLevel: anSVGPolygon antialiasingLevel;
 				drawPolygon: anSVGPolygon points asArray

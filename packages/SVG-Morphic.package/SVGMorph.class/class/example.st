@@ -11,6 +11,6 @@ example
 	w extent: svg extent.
 	w
 		addMorph: svg
-		frame: (0@0 corner: 1@1);
+		frame: (0 @ 0 corner: 1 @ 1);
 		clipSubmorphs: true;
 		openAsIs

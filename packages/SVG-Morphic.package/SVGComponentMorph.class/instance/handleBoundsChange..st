@@ -4,4 +4,4 @@ handleBoundsChange: aBlock
 	oldBounds := bounds.
 	aBlock value.
 	newBounds := bounds.
-	self boundsChangedFrom: oldBounds to: newBounds.
+	self boundsChangedFrom: oldBounds to: newBounds

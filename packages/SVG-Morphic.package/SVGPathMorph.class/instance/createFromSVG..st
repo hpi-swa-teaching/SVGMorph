@@ -6,5 +6,5 @@ createFromSVG: anElement
 	self createSegmentsFromSVG: anElement.
 	self computeBounds.
 	self d: (anElement attributeAt: 'd')
-	
-	
+
+

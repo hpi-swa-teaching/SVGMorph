@@ -1,7 +1,7 @@
 as yet unclassified
 demoSVG
 
-	^ 
+	^
 '<svg width="200" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <rect id="testID" x="100" y="100" height="50" width="60" stroke="black"/>
     <ellipse rx="20" ry="50" cx="100" cy="120" />

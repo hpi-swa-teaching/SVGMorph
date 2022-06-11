@@ -9,4 +9,4 @@ drawOpenPolygon: vertices fillStyle: aFillStyle borderWidth: borderWidth borderC
 		fill: fillC
 		borderWidth: borderWidth
 		borderColor: borderC
-		transform: transform.
+		transform: transform

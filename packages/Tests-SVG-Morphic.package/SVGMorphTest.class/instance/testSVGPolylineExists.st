@@ -1,8 +1,8 @@
 testing - existence
 testSVGPolylineExists
 
-	| polyline |
+	|polyline|
 	self wantsToTestPolyline.
-	
+
 	polyline := self subject findByClass: SVGPolylineMorph.
 	self deny: polyline morphs isEmpty

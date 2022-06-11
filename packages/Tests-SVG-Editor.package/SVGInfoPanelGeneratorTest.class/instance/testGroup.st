@@ -3,6 +3,6 @@ testGroup
 
 	|panelInfo|
 	panelInfo :=  SVGInfoPanelGenerator for: (self subject findByClass: SVGGroupMorph).
-		
-	self 
+
+	self
 		hasValue: 'Group' atKey: 'Type' in: panelInfo

@@ -1,7 +1,7 @@
 rendering
 renderLine: anSVGLine on: aCanvas
 	"Render the given object on the canvas."
-	
+
 	| lineWidth lineColor|
 	lineWidth := (anSVGLine composedStyle at: 'stroke-width') rounded max: 1.
 	lineColor := anSVGLine composedStyle at: 'stroke'.

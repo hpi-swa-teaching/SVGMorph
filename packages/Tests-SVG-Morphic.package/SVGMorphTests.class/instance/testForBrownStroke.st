@@ -4,5 +4,5 @@ testForBrownStroke
 
 |brownStrokeobjects brownStrokeMorphs|
 brownStrokeobjects := self brownStrokeObjects.
-brownStrokeMorphs := brownStrokeobjects collect: [ :aSVGMorph| (SVGMorph fromString: (self perform: aSVGMorph)) submorphs first].
-^brownStrokeMorphs do: [ :aSVGMorph| self testStrokeIn: aSVGMorph with: (Color r: 0.647 g: 0.164 b: 0.164).].
+brownStrokeMorphs := brownStrokeobjects collect: [:aSVGMorph| (SVGMorph fromString: (self perform: aSVGMorph)) submorphs first].
+^brownStrokeMorphs do: [:aSVGMorph| self testStrokeIn: aSVGMorph with: (Color r: 0.647 g: 0.164 b: 0.164)]

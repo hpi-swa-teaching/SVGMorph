@@ -8,5 +8,5 @@ boundsWithTransform: aTransform
 	tr := aTransform transformPoint: self topRight.
 	br := aTransform transformPoint: self bottomRight.
 	bl := aTransform transformPoint: self bottomLeft.
-	^(((tl x min: tr x) min: br x) min: bl x)@(((tl y min: tr y) min: br y) min: bl y)
-		corner: (((tl x max: tr x) max: br x) max: bl x)@(((tl y max: tr y) max: br y) max: bl y)
+	^(((tl x min: tr x) min: br x) min: bl x) @ (((tl y min: tr y) min: br y) min: bl y)
+		corner: (((tl x max: tr x) max: br x) max: bl x) @ (((tl y max: tr y) max: br y) max: bl y)
