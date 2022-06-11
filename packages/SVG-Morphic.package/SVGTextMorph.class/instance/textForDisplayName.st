@@ -1,6 +1,6 @@
 as yet unclassified
 textForDisplayName
 
-	^ (self text isEmpty) 
+	^ (self text isEmpty)
 		ifTrue: ['']
 		ifFalse: [' ("' , self text , '")']

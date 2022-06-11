@@ -5,4 +5,4 @@ createFromSVG: anElement
 	self
 		id: (anElement attributeAt: 'id');
 		transform: (self transformFromSVGElement: anElement);
-		setStyleFromSVG: anElement.
+		setStyleFromSVG: anElement

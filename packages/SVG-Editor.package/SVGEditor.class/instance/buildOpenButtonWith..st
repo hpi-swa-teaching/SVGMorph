@@ -7,4 +7,4 @@ buildOpenButtonWith: aToolBuilder
 		label: 'Open';
 		help: 'Open an SVG file for editing';
 		action: #actionOpenFile;
-		yourself	
+		yourself

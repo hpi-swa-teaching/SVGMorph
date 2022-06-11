@@ -2,4 +2,4 @@ accessing
 id: anObject
 	"Set the value of id"
 
-	id _ anObject
+	id := anObject

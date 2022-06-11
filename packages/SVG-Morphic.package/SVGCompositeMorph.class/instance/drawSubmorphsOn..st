@@ -1,7 +1,7 @@
 as yet unclassified
-drawSubmorphsOn: aCanvas 
+drawSubmorphsOn: aCanvas
 	"Display the receiver."
-	
+
 	(self composedStyle at: 'display')
 		ifFalse: [^self].
 	aCanvas asBalloonCanvas preserveStateDuring:[:balloonCanvas|

@@ -18,6 +18,6 @@ baseline: spec
 				group: 'editor' with: #('SVG-Editor');
 				group: 'tests' with: #('Tests-SVG-Morphic' 'Tests-SVG-Editor');
 				group: 'mtf' with: #('MorphicTestingFramework');
-        group: 'swalinter' with: #('SwaLint');
-				yourself .
+        		group: 'swalinter' with: #('SwaLint');
+				yourself
 ]

@@ -6,6 +6,5 @@ create: anSVGComponentMorphClass fromSVG: anElement
 	comp := anSVGComponentMorphClass new.
 	self addMorph: comp.
 	^comp createFromSVG: anElement
-	
 
-	
+

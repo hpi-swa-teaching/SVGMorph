@@ -8,7 +8,7 @@ fontToUse
 	trans := self transformFrom: self world.
 	fontSize := (self composedStyle at: 'font-size').
 	textFont := self composedStyle at: 'font'.
-	ptSize := (trans transformDirection: fontSize@0) x rounded max: 1.
+	ptSize := (trans transformDirection: fontSize @ 0) x rounded max: 1.
 	"textFont := TTCFontSet familyName: textFont familyName pointSize:  ptSize."
 	textFont isTTCFont
 		ifTrue: [textFont := (TextStyle named: textFont familyName) addNewFontSize: ptSize]

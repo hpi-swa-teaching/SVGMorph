@@ -1,6 +1,6 @@
 helpers
 readLineAttributesOf: aLine
 
-	self 
+	self
 		at: 'Start' put: aLine rectangle origin asString;
 		at: 'End' put: aLine rectangle corner asString

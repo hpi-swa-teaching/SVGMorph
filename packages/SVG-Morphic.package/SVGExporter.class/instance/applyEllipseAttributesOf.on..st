@@ -1,6 +1,6 @@
 serializer
 applyEllipseAttributesOf: anEllipse on: anElement
-	
+
 	anElement
 		name: 'ellipse';
 		attributeAt: 'cx' put: anEllipse rectangle center x asString;

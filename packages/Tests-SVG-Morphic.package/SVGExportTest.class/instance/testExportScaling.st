@@ -1,4 +1,4 @@
 tests
 testExportScaling
-	
+
 	self assertTestCaseToBeCorrect: self transformScaleTestCase

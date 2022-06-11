@@ -1,7 +1,7 @@
 as yet unclassified
 createFillFromSVGLinearGradient: anElement
 	"Create a linear fill style from the given element."
-	
+
 	|idg p1 p2 ramp xlink linkFill trans |
 	idg := (anElement attributeAt: 'id') withBlanksTrimmed.
 	trans := self transformFromSVGAttribute: (anElement attributeAt: 'gradientTransform').
@@ -12,11 +12,11 @@ createFillFromSVGLinearGradient: anElement
 			linkFill := self getFill: xlink allButFirst.
 			ramp isEmpty
 				ifTrue: [ramp :=linkFill colorRamp].
-			p1 := (anElement attributeAt: 'x1' ifAbsent: [linkFill origin x]) asSVGNumberOrPercentage@(anElement attributeAt: 'y1' ifAbsent: [linkFill origin y]) asSVGNumberOrPercentage.
-			p2 := (anElement attributeAt: 'x2' ifAbsent: [linkFill direction x]) asSVGNumberOrPercentage@(anElement attributeAt: 'y2' ifAbsent: [linkFill direction y]) asSVGNumberOrPercentage]
+			p1 := (anElement attributeAt: 'x1' ifAbsent: [linkFill origin x]) asSVGNumberOrPercentage @ (anElement attributeAt: 'y1' ifAbsent: [linkFill origin y]) asSVGNumberOrPercentage.
+			p2 := (anElement attributeAt: 'x2' ifAbsent: [linkFill direction x]) asSVGNumberOrPercentage @ (anElement attributeAt: 'y2' ifAbsent: [linkFill direction y]) asSVGNumberOrPercentage]
 		ifFalse: [
-			p1 := (anElement attributeAt: 'x1' ifAbsent: [0]) asSVGNumberOrPercentage@(anElement attributeAt: 'y1' ifAbsent: [0]) asSVGNumberOrPercentage.
-			p2 := (anElement attributeAt: 'x2' ifAbsent: [100]) asSVGNumberOrPercentage@(anElement attributeAt: 'y2' ifAbsent: [100]) asSVGNumberOrPercentage].
+			p1 := (anElement attributeAt: 'x1' ifAbsent: [0]) asSVGNumberOrPercentage @ (anElement attributeAt: 'y1' ifAbsent: [0]) asSVGNumberOrPercentage.
+			p2 := (anElement attributeAt: 'x2' ifAbsent: [100]) asSVGNumberOrPercentage @ (anElement attributeAt: 'y2' ifAbsent: [100]) asSVGNumberOrPercentage].
 	p1 := trans transformPoint: p1.
 	p2 := trans transformPoint: p2 .
 	self setFill: idg to: ((SVGGradientFillStyle ramp: ramp)

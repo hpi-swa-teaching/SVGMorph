@@ -10,4 +10,4 @@ drawGeneralSegments: segments color: c borderWidth: borderWidth borderColor: bor
 		fill: fillC
 		borderWidth: borderWidth
 		borderColor: borderC
-		transform: transform.
+		transform: transform

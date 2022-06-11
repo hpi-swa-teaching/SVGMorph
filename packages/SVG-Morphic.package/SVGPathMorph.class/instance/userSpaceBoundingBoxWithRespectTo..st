@@ -6,7 +6,7 @@ userSpaceBoundingBoxWithRespectTo: aComposite
 	|rect subRect trans|
 	self segments isEmpty
 		ifTrue: [^nil].
-	trans := self transformFrom: aComposite.				
+	trans := self transformFrom: aComposite.
 	rect := self segments first boundingBox boundsWithTransform: trans.
 	self segments do: [:s |
 		subRect := s boundingBox.

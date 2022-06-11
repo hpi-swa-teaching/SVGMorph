@@ -1,14 +1,13 @@
 testing - rendering
 testSVGLineRendering
 
-	| renderer |
-	
+	|renderer|
+
 	renderer := SVGRendererMock new.
 
-	self 
+	self
 		wantsToTestLine;
 		addRenderer: renderer on: SVGLineMorph;
 		render: SVGLineMorph;
 		assert:  (renderer renderCount at: #renderLine ifAbsent: 0) equals: 1.
-	
-	
+

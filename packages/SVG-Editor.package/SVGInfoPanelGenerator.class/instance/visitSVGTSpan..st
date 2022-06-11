@@ -1,7 +1,7 @@
 visiting
 visitSVGTSpan: aTSpan
 
-	^ self 
+	^ self
 		readCommonAttributesOf: aTSpan;
 		readTextAttributesOf: aTSpan;
 		asList

@@ -1,7 +1,7 @@
 as yet unclassified
 pointDataFromSVG: anElement
 	"Answer a collection of points from the polygon data."
-	
+
 	|points stream x y|
 	points := OrderedCollection new.
 	stream := (anElement attributeAt: 'points') readStream.

@@ -4,11 +4,11 @@ createArcSegmentFrom: data at: aPoint
 	Evil apporximation required for compatability with Balloon - no arcs!"
 
 	|position radii angle sweep large sp cp pd num root s cd c theta1 dtheta nSegs delta t ps|
-	radii := (data first@data second) abs.
+	radii := (data first @ data second) abs.
 	angle := data third degreesToRadians.
 	large := data fourth = 1.
 	sweep := data fifth = 1.
-	position  := data sixth@data seventh.
+	position  := data sixth @ data seventh.
 	ps := aPoint.
 
 	position = aPoint
@@ -19,7 +19,7 @@ createArcSegmentFrom: data at: aPoint
 
 	sp := angle sin.
 	cp := angle cos.
-	pd := (cp * (ps x - position x) + (sp * (ps y - position y)) @
+	pd := (cp * (ps x - position x) + (sp * (ps y - position y)) @ 
 		(sp negated * (ps x - position x) + (cp * (ps y - position y)))) / 2.
 	num := radii x squared * radii y squared - (radii x squared * pd y squared) - (radii y squared * pd x squared).
 	num < 0
@@ -30,9 +30,9 @@ createArcSegmentFrom: data at: aPoint
 					(num / (radii x squared * pd y squared + (radii y squared * pd x squared))) sqrt].
 	cd := root * radii * pd transposed / radii transposed.
 	cd := cd x @ cd y negated.
-	c := cp * cd x - (sp * cd y) + (ps x + position x / 2) @
+	c := cp * cd x - (sp * cd y) + (ps x + position x / 2) @ 
 		(sp * cd x + (cp * cd y) + (ps y + position y / 2)).
-	theta1 := 1@0 angleWith: pd - cd / radii.
+	theta1 := 1 @ 0 angleWith: pd - cd / radii.
 	dtheta := pd - cd / radii angleWith: pd negated - cd / radii.
 	(sweep not and: [dtheta > 0])
 		ifTrue: [dtheta := dtheta  - (2 * Float pi)]
@@ -47,11 +47,11 @@ createArcSegmentFrom: data at: aPoint
 		theta2 := theta1 + delta.
 		ct2 := theta2 cos.
 		st2 := theta2 sin.
-		pe := cp * radii x * ct2 - (sp * radii y * st2) + c x @
+		pe := cp * radii x * ct2 - (sp * radii y * st2) + c x @ 
 			(sp * radii x * ct2 + (cp * radii y  * st2) + c y).
-		 ds := t * ((cp negated * radii x * st1 - (sp * radii y * ct1)) @
+		 ds := t * ((cp negated * radii x * st1 - (sp * radii y * ct1)) @ 
 			(sp negated  * radii x * st1 + (cp * radii y*ct1))).
-		de := t * ((cp * radii x * st2 + (sp * radii y * ct2)) @
+		de := t * ((cp * radii x * st2 + (sp * radii y * ct2)) @ 
 			(sp  * radii x * st2 - (cp * radii y*ct2))).
 		self
 			createCubicBezierSegmentFrom: ps

@@ -1,14 +1,13 @@
 testing - rendering
 testSVGEllipseRendering
 
-	| renderer |
-	
+	|renderer|
+
 	renderer := SVGRendererMock new.
 
-	self 
+	self
 		wantsToTestEllipse;
 		addRenderer: renderer on: SVGEllipseMorph;
 		render: SVGEllipseMorph;
 		assert:  (renderer renderCount at: #renderEllipse ifAbsent: 0) equals: 1.
-	
-	
+

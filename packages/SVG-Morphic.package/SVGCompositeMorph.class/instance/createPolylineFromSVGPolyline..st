@@ -4,4 +4,3 @@ createPolylineFromSVGPolyline: anElement
 
 	^self create: SVGPolylineMorph fromSVG: anElement
 
-	

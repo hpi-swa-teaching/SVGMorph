@@ -1,7 +1,7 @@
 as yet unclassified
 services
 
-^ {SimpleServiceEntry 
+^ {SimpleServiceEntry
 		provider: self
-		label: 'open as SVGMorph' 
+		label: 'open as SVGMorph'
 		selector: #fromDroppedFile:}

@@ -1,14 +1,13 @@
 testing - rendering
 testSVGPathRendering
 
-	| renderer |
-	
+	|renderer|
+
 	renderer := SVGRendererMock new.
 
-	self 
+	self
 		wantsToTestPath;
 		addRenderer: renderer on: SVGPathMorph;
 		render: SVGPathMorph;
 		assert:  (renderer renderCount at: #renderPath ifAbsent: 0) equals: 1.
-	
-	
+

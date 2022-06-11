@@ -1,6 +1,6 @@
 visiting
 visitSVGTSpan: aTSpan
-	
+
 	|element|
 	element := SVGXMLElement new.
 

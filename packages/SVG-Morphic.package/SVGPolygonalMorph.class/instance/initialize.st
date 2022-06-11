@@ -3,5 +3,5 @@ initialize
 	"Initialize the receiver."
 
 	super initialize.
-	self 
+	self
 		points: OrderedCollection new

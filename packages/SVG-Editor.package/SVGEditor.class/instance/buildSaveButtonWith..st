@@ -8,4 +8,4 @@ buildSaveButtonWith: aToolBuilder
 		help: 'Save the SVG to a file';
 		enabled: #canSaveFile;
 		action: #actionSaveFile;
-		yourself	
+		yourself
