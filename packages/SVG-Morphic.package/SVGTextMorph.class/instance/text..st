@@ -1,5 +1,5 @@
 accessing
-text: anObject
+text: aString
 	"Set the value of text"
 
-	text := anObject
+	text := aString

@@ -1,5 +1,5 @@
 accessing
-spread: anObject
+spread: aSymbol
 	"Set the value of spread"
 
-	spread := anObject
+	spread := aSymbol

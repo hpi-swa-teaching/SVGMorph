@@ -1,4 +1,4 @@
 accessing
-svgWidth: anObject
+svgWidth: anInteger
 
-	svgWidth := anObject
+	svgWidth := anInteger

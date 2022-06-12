@@ -1,4 +1,4 @@
 accessing
-svgHeight: anObject
+svgHeight: anInteger
 
-	svgHeight := anObject
+	svgHeight := anInteger

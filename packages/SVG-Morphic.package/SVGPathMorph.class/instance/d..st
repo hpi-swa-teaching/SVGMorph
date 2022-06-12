@@ -1,4 +1,4 @@
 accessing
-d: anObject
+d: aString
 
-	d := anObject
+	d := aString

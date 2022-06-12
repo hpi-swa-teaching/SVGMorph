@@ -1,4 +1,4 @@
 accessing
-model: anObject
+model: anEditorModel
 
-	model := anObject
+	model := anEditorModel

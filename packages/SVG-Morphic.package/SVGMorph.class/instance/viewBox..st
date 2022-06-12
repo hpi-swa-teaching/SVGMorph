@@ -1,4 +1,4 @@
 accessing
-viewBox: anObject
+viewBox: anInteger
 
-	viewBox := anObject
+	viewBox := anInteger

@@ -18,11 +18,11 @@
 		"createQuadraticBezierSegmentFrom:via:to:" : "gvc 7/28/2005 15:59",
 		"createSegmentsFromSVG:" : "lra 6/12/2022 16:40",
 		"d" : "lra 6/12/2022 16:06",
-		"d:" : "lra 6/12/2022 16:06",
+		"d:" : "lra 6/12/2022 16:55",
 		"drawOn:" : "AS 5/19/2022 16:10",
 		"humanReadableClassName" : "aes 5/27/2022 14:29",
 		"initialize" : "gvc 7/28/2005 15:24",
 		"pathDataFromSVG:" : "gvc 10/3/2005 10:15",
 		"segments" : "gvc 7/28/2005 15:24",
-		"segments:" : "gvc 7/28/2005 15:24",
+		"segments:" : "lra 6/12/2022 16:56",
 		"userSpaceBoundingBoxWithRespectTo:" : "lra 6/12/2022 16:07" } }

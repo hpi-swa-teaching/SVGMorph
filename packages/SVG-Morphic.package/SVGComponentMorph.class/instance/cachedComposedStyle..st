@@ -1,5 +1,5 @@
 accessing
-cachedComposedStyle: anObject
+cachedComposedStyle: aDictionary
 	"Set the value of cachedComposedStyle"
 
-	cachedComposedStyle := anObject
+	cachedComposedStyle := aDictionary

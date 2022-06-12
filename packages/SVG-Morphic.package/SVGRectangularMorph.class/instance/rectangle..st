@@ -1,5 +1,5 @@
 accessing
-rectangle: anObject
+rectangle: aRectangle
 
-	rectangle := anObject.
+	rectangle := aRectangle.
 	self computeBounds
