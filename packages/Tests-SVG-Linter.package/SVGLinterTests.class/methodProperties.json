@@ -17,7 +17,7 @@
 		"methodsLinesDo:" : "pk 6/19/2021 18:20",
 		"methodsLinesDo:excludeClasses:" : "JB 6/10/2021 22:45",
 		"testAssertOrder" : "JB 6/10/2021 22:44",
-		"testCorrectClassPrefix" : "JB 6/7/2021 09:25",
+		"testCorrectClassPrefix" : "lra 6/12/2022 18:14",
 		"testIfTrueReturnsRule" : "js 6/13/2020 18:35",
 		"testInstanceVarAccess" : "js 6/13/2020 16:54",
 		"testMethodHasEmptyLine" : "lra 6/12/2022 16:02",
