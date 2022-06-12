@@ -11,4 +11,3 @@ applySVGAttributesOf: aMorph on: anElement
 		ifNotNil: [anElement attributeAt: 'height' put: aMorph svgHeight].
 	aMorph viewBox
 		ifNotNil: [anElement attributeAt: 'viewBox' put: aMorph viewBox]
-
