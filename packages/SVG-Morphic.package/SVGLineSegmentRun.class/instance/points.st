@@ -8,4 +8,4 @@ points
 		answer
 			add: s start;
 			add: s end].
-	^answer asArray
+	^ answer asArray

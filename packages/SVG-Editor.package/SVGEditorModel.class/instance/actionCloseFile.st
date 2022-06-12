@@ -1,6 +1,6 @@
 actions
 actionCloseFile
 
-	self canCloseFile ifFalse: [^self].
+	self canCloseFile ifFalse: [^ self].
 	self
 		svg: nil

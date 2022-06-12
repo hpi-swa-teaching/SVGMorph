@@ -2,4 +2,4 @@ initialization
 createLineFromSVGLine: anElement
 	"Create a line from the svg line."
 
-	^self create: SVGLineMorph fromSVG: anElement
+	^ self create: SVGLineMorph fromSVG: anElement

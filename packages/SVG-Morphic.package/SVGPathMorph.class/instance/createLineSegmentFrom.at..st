@@ -4,4 +4,4 @@ createLineSegmentFrom: data at: aPoint
 
 	|position|
 	self createLineSegmentFrom: aPoint to: (position := data first @ data second).
-	^position
+	^ position

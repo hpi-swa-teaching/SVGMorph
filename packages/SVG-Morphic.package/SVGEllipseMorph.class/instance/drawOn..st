@@ -3,7 +3,7 @@ drawOn: aCanvas
 	"Draw the component on the canvas."
 
 	(self composedStyle at: 'visibility')
-		ifFalse: [^self].
+		ifFalse: [^ self].
 	self renderer
 		renderEllipse: self
 		on: aCanvas

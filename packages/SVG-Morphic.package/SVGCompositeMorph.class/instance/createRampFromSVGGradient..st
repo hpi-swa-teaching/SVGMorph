@@ -18,4 +18,4 @@ createRampFromSVGGradient: anElement
 		stopOpacity isNil ifTrue: [stopOpacity := 1.0].
 		colour := stopColor alpha: stopOpacity.
 		ramp add: offset -> colour].
-	^ramp
+	^ ramp

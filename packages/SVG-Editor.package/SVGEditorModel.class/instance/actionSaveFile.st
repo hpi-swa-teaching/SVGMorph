@@ -2,7 +2,7 @@ actions
 actionSaveFile
 
 	| filename stream |
-	self canSaveFile ifFalse: [^self].
+	self canSaveFile ifFalse: [^ self].
 
 	filename := self askSavePath.
 	filename ifNil: [^ self].

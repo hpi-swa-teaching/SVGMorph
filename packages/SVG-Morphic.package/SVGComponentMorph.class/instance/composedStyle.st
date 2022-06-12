@@ -7,4 +7,4 @@ composedStyle
 				cachedComposedStyle: (self context composedStyle copy
 					addAll: self style;
 					yourself)].
-	^self cachedComposedStyle
+	^ self cachedComposedStyle

@@ -4,7 +4,7 @@ renderPolygon: anSVGPolygon on: aCanvas
 
 	|fill lineWidth lineColor|
 	anSVGPolygon points isEmpty
-		ifTrue: [^anSVGPolygon].
+		ifTrue: [^ anSVGPolygon].
 	fill := anSVGPolygon composedFillStyle.
 	lineWidth := anSVGPolygon composedStyle at: 'stroke-width'.
 	lineColor := anSVGPolygon composedStyle at: 'stroke'.

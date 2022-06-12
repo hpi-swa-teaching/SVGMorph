@@ -4,7 +4,7 @@ adjustSegmentEnds
 
 	|p1 p2 sw angle first last|
 	self segments isEmpty
-		ifTrue: [^self].
+		ifTrue: [^ self].
 	first := self segments first.
 	last := self segments last.
 	first class == LineSegment

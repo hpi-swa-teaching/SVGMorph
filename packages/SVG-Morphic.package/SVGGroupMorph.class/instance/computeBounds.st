@@ -2,7 +2,7 @@ helpers
 computeBounds
 
 	|box|
-	(self submorphs isNil or: [self submorphs isEmpty]) ifTrue:[^self].
+	(self submorphs isNil or: [self submorphs isEmpty]) ifTrue:[^ self].
 	box := nil.
 	self submorphs do:[:m|
 		|subBounds|

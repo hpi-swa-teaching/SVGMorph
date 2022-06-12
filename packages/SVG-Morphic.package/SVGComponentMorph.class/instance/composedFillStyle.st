@@ -5,6 +5,6 @@ composedFillStyle
 	|fill|
 	fill := self composedStyle at: 'fill'.
 	fill isGradientFill
-		ifFalse: [^fill].
+		ifFalse: [^ fill].
 	fill := fill mappedTo: self.
-	^fill
+	^ fill

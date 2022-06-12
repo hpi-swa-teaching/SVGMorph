@@ -5,7 +5,7 @@ runsFromSegments: aCollection
 	|answer str seg run runClass position|
 	answer := OrderedCollection new.
 	aCollection isEmpty
-		ifTrue: [^answer].
+		ifTrue: [^ answer].
 	str := aCollection readStream.
 	run := str next run.
 	runClass := aCollection first runClass.
@@ -19,4 +19,4 @@ runsFromSegments: aCollection
 			ifFalse: [run add: seg run].
 		position := seg end].
 	answer add: run.
-	^answer
+	^ answer

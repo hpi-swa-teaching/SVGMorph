@@ -2,4 +2,4 @@ initialization
 createTSpanFromSVGTSpan: anElement
 	"Create a text from the svg text."
 
-	^self create: SVGTSpanMorph fromSVG: anElement
+	^ self create: SVGTSpanMorph fromSVG: anElement

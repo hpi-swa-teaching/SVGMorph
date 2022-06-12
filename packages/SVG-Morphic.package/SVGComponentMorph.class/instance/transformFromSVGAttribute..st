@@ -4,7 +4,7 @@ transformFromSVGAttribute: trans
 
 	|str matrix|
 	matrix := MatrixTransform2x3 identity.
-	trans ifNil: [^matrix].
+	trans ifNil: [^ matrix].
 	str := trans readStream.
 	str skipSeparators.
 	[str atEnd] whileFalse: [

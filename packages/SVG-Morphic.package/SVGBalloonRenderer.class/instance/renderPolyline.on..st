@@ -4,7 +4,7 @@ renderPolyline: anSVGPolyine on: aCanvas
 
 	| lineWidth lineColor|
 	anSVGPolyine points isEmpty
-		ifTrue: [^anSVGPolyine].
+		ifTrue: [^ anSVGPolyine].
 	lineWidth := anSVGPolyine composedStyle at: 'stroke-width'.
 	lineColor := anSVGPolyine composedStyle at: 'stroke'.
 	aCanvas asBalloonCanvas preserveStateDuring: [:bc|

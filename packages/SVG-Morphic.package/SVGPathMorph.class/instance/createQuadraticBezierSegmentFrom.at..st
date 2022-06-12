@@ -7,4 +7,4 @@ createQuadraticBezierSegmentFrom: data at: aPoint
 		createQuadraticBezierSegmentFrom: aPoint
 		via: data first @ data second
 		to: (position := data third @ data fourth).
-	^position
+	^ position

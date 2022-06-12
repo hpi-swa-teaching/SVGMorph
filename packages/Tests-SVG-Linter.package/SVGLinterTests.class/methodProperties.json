@@ -32,6 +32,7 @@
 		"testNoUnclassifiedMethods" : "js 6/13/2020 18:06",
 		"testNoUnconditionalRecursion" : "js 6/13/2020 11:44",
 		"testSmallLintContains" : "js 6/13/2020 18:36",
+		"testSpaceAfterReturnCharacter" : "lra 6/12/2022 18:34",
 		"testTemporaryVariableCapitalization" : "js 6/13/2020 18:09",
 		"testsmallLintClassVariableCapitalization" : "js 6/13/2020 18:37",
 		"testsmallLintCodeCruftLeftInMethods" : "js 6/13/2020 18:37",

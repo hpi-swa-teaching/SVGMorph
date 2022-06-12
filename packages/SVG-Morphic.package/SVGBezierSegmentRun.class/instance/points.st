@@ -9,4 +9,4 @@ points
 			add: s start;
 			add: s via;
 			add: s end].
-	^answer asArray
+	^ answer asArray

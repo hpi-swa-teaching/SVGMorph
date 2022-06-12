@@ -4,7 +4,7 @@ example
 
 	|s svg w|
 	s := FileList2 modalFileSelectorForSuffixes: #('svg' 'svgz').
-	s ifNil: [^nil].
+	s ifNil: [^ nil].
 	[svg := self fromFileStream: s]
 		ensure: [s close].
 	w := SystemWindow labelled: s name.

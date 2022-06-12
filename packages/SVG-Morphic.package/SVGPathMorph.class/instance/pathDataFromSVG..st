@@ -29,4 +29,4 @@ pathDataFromSVG: anElement
 		size > 0
 			ifTrue: [1 to: params size by: (size := sizes at: (cmds indexOf: c)) do: [:i |
 					data add: c -> (params copyFrom: i to: i + size - 1)]]].
-	^data
+	^ data

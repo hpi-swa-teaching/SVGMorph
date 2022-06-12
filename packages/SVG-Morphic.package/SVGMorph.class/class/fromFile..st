@@ -4,7 +4,7 @@ fromFile: filename
 	
 	|s answer|
 	s := FileStream oldFileNamed: filename.
-	s ifNil: [^nil].
+	s ifNil: [^ nil].
 	[answer := self fromFileStream: s]
 		ensure: [s close].
 	^ answer

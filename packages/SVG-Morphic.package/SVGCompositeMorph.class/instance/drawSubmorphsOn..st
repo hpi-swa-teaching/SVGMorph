@@ -3,7 +3,7 @@ drawSubmorphsOn: aCanvas
 	"Display the receiver."
 
 	(self composedStyle at: 'display')
-		ifFalse: [^self].
+		ifFalse: [^ self].
 	aCanvas asBalloonCanvas preserveStateDuring:[:balloonCanvas|
 		balloonCanvas
 			aaLevel: 3.

@@ -4,7 +4,7 @@ applyTransformOf: aMorph on: anXMLElement
 	| transform description temp |
 	transform := aMorph transform.
 	transform isIdentity
-		ifTrue: [^self].
+		ifTrue: [^ self].
 	description := OrderedCollection new.
 	temp := transform compositeTranslation.
 	(temp closeTo: 0 @ 0)
