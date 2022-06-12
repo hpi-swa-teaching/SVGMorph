@@ -7,7 +7,7 @@ runsFromSegments: aCollection
 	aCollection isEmpty
 		ifTrue: [^answer].
 	str := aCollection readStream.
-	run  := str next run.
+	run := str next run.
 	runClass := aCollection first runClass.
 	position := aCollection first end.
 	[str atEnd] whileFalse: [

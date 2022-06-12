@@ -21,7 +21,7 @@ createSegmentsFromSVG: anElement
 					subpathStartPosition := position].
 		c = $m
 			ifTrue: [initialPosition isNil
-						ifTrue: [position := d first @ d second. initialPosition :=  position]
+						ifTrue: [position := d first @ d second. initialPosition := position]
 						ifFalse: [position := position + (d first @ d second)].
 					subpathStartPosition := position].
 		c = $A

@@ -14,7 +14,7 @@ applyTransformOf: aMorph on: anXMLElement
 		ifFalse: [description add: ('rotate({1})' format: {self printNum: temp})].
 	temp := transform compositeScale.
 	(temp closeTo: 1 @ 1)
-		ifFalse: [description add: ('scale({1},{2})' format: {self printNum: temp x . self printNum:  temp y})].
+		ifFalse: [description add: ('scale({1},{2})' format: {self printNum: temp x . self printNum: temp y})].
 	temp := transform compositeSkew.
 	(temp closeTo: 0)
 		ifFalse: [description add: ('skewY({1})' format: {self printNum: temp})].

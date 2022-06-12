@@ -3,13 +3,13 @@
 		 },
 	"instance" : {
 		"accept:" : "aes 5/16/2022 17:02",
-		"computeBounds" : "lra 6/12/2022 16:21",
+		"computeBounds" : "lra 6/12/2022 16:47",
 		"createFromSVG:" : "AS 5/19/2022 14:09",
 		"createTSpanFromSVGTSpan:" : "gvc 8/1/2005 11:12",
 		"createTextFromSVG:" : "lra 6/12/2022 16:22",
 		"displayName" : "aes 5/27/2022 14:36",
 		"drawOn:" : "AS 5/19/2022 14:31",
-		"fontToUse" : "lra 6/12/2022 16:23",
+		"fontToUse" : "lra 6/12/2022 16:48",
 		"humanReadableClassName" : "aes 5/27/2022 14:28",
 		"location" : "gvc 7/30/2005 10:34",
 		"location:" : "gvc 7/30/2005 10:34",
@@ -17,4 +17,4 @@
 		"text" : "gvc 7/30/2005 10:29",
 		"text:" : "gvc 7/30/2005 10:29",
 		"textForDisplayName" : "aes 5/27/2022 14:36",
-		"userSpaceBoundingBoxWithRespectTo:" : "lra 6/12/2022 16:23" } }
+		"userSpaceBoundingBoxWithRespectTo:" : "lra 6/12/2022 16:49" } }
