@@ -3,7 +3,6 @@ adjustSegmentEnds
 	"Adjust the end segments if not closed."
 
 	|p1 p2 sw angle first last|
-	self halt.
 	self segments isEmpty
 		ifTrue: [^self].
 	first := self segments first.
