@@ -1,7 +1,7 @@
 visiting
 visitSVGPolygon: aPolygon
 
-	^ self
+	self
 		readCommonAttributesOf: aPolygon;
-		readPointsOf: aPolygon;
-		asList
+		readPointsOf: aPolygon.
+	^ self asList

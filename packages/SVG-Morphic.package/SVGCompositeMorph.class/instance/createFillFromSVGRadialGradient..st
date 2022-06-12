@@ -25,4 +25,5 @@ createFillFromSVGRadialGradient: anElement
 		normal: 0 @ direction y;
 		radial: true;
 		units: (anElement attributeAt: 'gradientUnits' ifAbsent: [#userSpaceOnUse]) asSymbol;
-		spread: (anElement attributeAt: 'spreadMethod' ifAbsent: [#pad]) asSymbol)
+		spread: (anElement attributeAt: 'spreadMethod' ifAbsent: [#pad]) asSymbol;
+		yourself)

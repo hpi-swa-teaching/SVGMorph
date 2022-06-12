@@ -1,6 +1,5 @@
 visiting
 visitSVGMorph: aMorph
 
-	^ self
-		readCommonAttributesOf: aMorph;
-		asList
+	self readCommonAttributesOf: aMorph.
+	^ self asList

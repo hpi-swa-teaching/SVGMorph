@@ -1,6 +1,5 @@
 visiting
 visitSVGPath: aPath
 
-	^ self
-		readCommonAttributesOf: aPath;
-		asList
+	self readCommonAttributesOf: aPath.
+	^ self asList

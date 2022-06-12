@@ -47,6 +47,7 @@
 		"testsmallLintLiteralArrayCharacters" : "js 6/13/2020 18:37",
 		"testsmallLintMethodModifierOverride" : "js 6/13/2020 18:37",
 		"testsmallLintMissingTranslationsInMenus" : "js 6/13/2020 18:37",
+		"testsmallLintMissingYourself" : "lra 6/12/2022 19:53",
 		"testsmallLintModifiesCollection" : "js 6/13/2020 18:38",
 		"testsmallLintOnlyReadOrWrittenTemporary" : "js 6/13/2020 19:21",
 		"testsmallLintReturnsBooleanAndOther" : "js 6/13/2020 18:38",
