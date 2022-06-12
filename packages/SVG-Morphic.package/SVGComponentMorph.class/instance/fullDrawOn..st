@@ -13,5 +13,6 @@ fullDrawOn: aCanvas
 		ifTrue: [self drawRolloverBorderOn: aCanvas].
 
 	aCanvas drawMorph: self.
-	self drawSubmorphsOn: aCanvas.
-	self drawOverlayOn: aCanvas
+	self
+		drawSubmorphsOn: aCanvas;
+		drawOverlayOn: aCanvas

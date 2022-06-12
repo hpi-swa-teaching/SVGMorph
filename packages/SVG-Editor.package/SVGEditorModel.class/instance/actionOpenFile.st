@@ -1,7 +1,7 @@
 actions
 actionOpenFile
 
-	| filename stream |
+	|filename stream|
 	filename := self askOpenPath.
 	filename ifNil: [^ self].
 	stream := self getReadStreamForFileNamed: filename.
