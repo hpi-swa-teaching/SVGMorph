@@ -1,7 +1,6 @@
 as yet unclassified
 computeBounds
-	"Answer the bounding box of the receiver with respect to the transforms
-	intervening between the receiver and aComposite."
+	"Answer the bounding box of the receiver with respect to the transforms intervening between the receiver and aComposite."
 
 	|fontSize textFont anchor offset ptSize|
 	fontSize := (self composedStyle at: 'font-size').

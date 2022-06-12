@@ -1,11 +1,10 @@
 accessing
 userSpaceBoundingBoxWithRespectTo: aComposite
-	"Answer the bounding box of the receiver with respect to the transforms
-	intervening between the receiver and aComposite."
+	"Answer the bounding box of the receiver with respect to the transforms intervening between the receiver and aComposite."
 
 	|rect subRect trans|
 	self segments isEmpty
-		ifTrue: [^nil].
+		ifTrue: [^ nil].
 	trans := self transformFrom: aComposite.
 	rect := self segments first boundingBox boundsWithTransform: trans.
 	self segments do: [:s |
@@ -13,4 +12,4 @@ userSpaceBoundingBoxWithRespectTo: aComposite
 		subRect notNil
 			ifTrue: [subRect := subRect boundsWithTransform: trans.
 					rect := rect merge: subRect]].
-	^rect
+	^ rect

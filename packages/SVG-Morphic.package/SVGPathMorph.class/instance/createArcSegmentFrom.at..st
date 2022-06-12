@@ -1,7 +1,6 @@
 as yet unclassified
 createArcSegmentFrom: data at: aPoint
-	"Create an arc segment from the path data at the given position.
-	Evil apporximation required for compatability with Balloon - no arcs!"
+	"Create an arc segment from the path data at the given position. Evil apporximation required for compatability with Balloon - no arcs!"
 
 	|position radii angle sweep large sp cp pd num root s cd c theta1 dtheta nSegs delta t ps|
 	radii := (data first @ data second) abs.
@@ -12,10 +11,10 @@ createArcSegmentFrom: data at: aPoint
 	ps := aPoint.
 
 	position = aPoint
-		ifTrue: [^position].
+		ifTrue: [^ position].
 
 	(radii x = 0 or: [radii y = 0])
-		ifTrue: [^self createLineSegmentFrom: aPoint to: position].
+		ifTrue: [^ self createLineSegmentFrom: aPoint to: position].
 
 	sp := angle sin.
 	cp := angle cos.
@@ -60,4 +59,4 @@ createArcSegmentFrom: data at: aPoint
 			to: pe.
 		theta1 := theta2.
 		ps := pe].
-	^position
+	^ position

@@ -1,6 +1,7 @@
 as yet unclassified
 fullDrawOn: aCanvas
 	"Draw the full Morphic structure on the given Canvas"
+	
 	|transformedBounds|
 	transformedBounds := (self transformFrom: self world) localBoundsToGlobal: self fullBounds.
 	self visible ifFalse: [^ self].

@@ -1,7 +1,6 @@
 as yet unclassified
 userSpaceBoundingBoxWithRespectTo: aComposite
-	"Answer the bounding box of the receiver with respect to the transforms
-	intervening between the receiver and aComposite."
+	"Answer the bounding box of the receiver with respect to the transforms intervening between the receiver and aComposite."
 
 	|fontSize textFont anchor offset ptSize trans|
 	trans := self transformFrom: aComposite.
@@ -15,4 +14,4 @@ userSpaceBoundingBoxWithRespectTo: aComposite
 		ifTrue: [offset := (textFont widthOfString: self text) // 2 @ textFont ascent].
 	anchor  = 'end'
 		ifTrue: [offset := (textFont widthOfString: self text) @ textFont ascent].
-	^(trans transformPoint: self location) - offset extent: (textFont widthOfString: self text) @ textFont height
+	^ (trans transformPoint: self location) - offset extent: (textFont widthOfString: self text) @ textFont height
