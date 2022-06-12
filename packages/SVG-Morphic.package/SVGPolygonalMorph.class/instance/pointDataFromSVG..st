@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 pointDataFromSVG: anElement
 	"Answer a collection of points from the polygon data."
 

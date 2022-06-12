@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 displayName
 
 	^ super displayName , self textForDisplayName

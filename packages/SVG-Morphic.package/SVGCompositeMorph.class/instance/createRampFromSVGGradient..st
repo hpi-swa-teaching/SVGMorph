@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createRampFromSVGGradient: anElement
 	"Create a color ramp from the given element."
 

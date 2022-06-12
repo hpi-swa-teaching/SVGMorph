@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createLineFromSVGLine: anElement
 	"Create a line from the svg line."
 

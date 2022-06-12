@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createTextFromSVG: anElement
 	"Create the text from the svg text. Doesn't handle tspans yet!"
 

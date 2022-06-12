@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createFillFromSVGLinearGradient: anElement
 	"Create a linear fill style from the given element."
 

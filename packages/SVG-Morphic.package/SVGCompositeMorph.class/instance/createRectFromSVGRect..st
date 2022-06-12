@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createRectFromSVGRect: anElement
 	"Create a rect from the svg rect."
 

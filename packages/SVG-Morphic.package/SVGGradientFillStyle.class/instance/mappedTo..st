@@ -1,4 +1,4 @@
-accessing
+helpers
 mappedTo: anSVGComponentMorph
 	"Answer a copy of the receiver with the appropriate origin and direction."
 

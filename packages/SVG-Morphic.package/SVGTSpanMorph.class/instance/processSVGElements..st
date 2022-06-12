@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 processSVGElements: anElement
 	"Process the elements of the given tspan type element. Do nothing for this."

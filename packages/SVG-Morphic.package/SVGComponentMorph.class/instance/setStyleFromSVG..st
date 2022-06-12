@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 setStyleFromSVG: anElement
 	"Set the dictionary of the style parameters from the element."
 

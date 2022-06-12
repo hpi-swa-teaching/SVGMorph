@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 setFill: name to: aFillStyle
 	"Set the fill with the given name."
 

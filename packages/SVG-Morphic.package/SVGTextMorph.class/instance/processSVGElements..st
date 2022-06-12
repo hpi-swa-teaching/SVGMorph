@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 processSVGElements: anElement
 	"Process the elements of the given text type element."
 

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 getFill: name
 	"Get the fill with the given name."
 

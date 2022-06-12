@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 computeBounds
 	"Answer the bounding box of the receiver with respect to the transforms intervening between the receiver and aComposite."
 

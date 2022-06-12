@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 createArcSegmentFrom: data at: aPoint
 	"Create an arc segment from the path data at the given position. Evil apporximation required for compatability with Balloon - no arcs!"
 

@@ -1,4 +1,4 @@
-accessing
+helpers
 computePixelRampOfSize: length
 	"Compute the pixel ramp in the receiver"
 

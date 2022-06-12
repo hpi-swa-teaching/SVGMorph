@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 createLineSegmentFrom: data at: aPoint
 	"Create a line segment from the path data (stream) at the given position."
 

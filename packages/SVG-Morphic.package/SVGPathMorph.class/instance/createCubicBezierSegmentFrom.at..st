@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 createCubicBezierSegmentFrom: data at: aPoint
 	"Create a cubic bezier segment from the path data (stream) at the given position."
 

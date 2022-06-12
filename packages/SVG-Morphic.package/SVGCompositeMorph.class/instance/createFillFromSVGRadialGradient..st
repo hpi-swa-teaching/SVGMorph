@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createFillFromSVGRadialGradient: anElement
 	"Create a radial fill style from the given element.."
 

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createPathFromSVGPath: anElement
 	"Create a path from the svg path."
 

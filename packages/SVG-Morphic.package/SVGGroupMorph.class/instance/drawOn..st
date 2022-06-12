@@ -1,3 +1,3 @@
-as yet unclassified
+rendering
 drawOn: aCanvas
 	"Shouldn't be visible"

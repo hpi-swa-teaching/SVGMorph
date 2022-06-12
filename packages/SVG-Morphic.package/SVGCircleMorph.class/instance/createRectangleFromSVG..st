@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createRectangleFromSVG: anElement
 	"Create the bounding rectangle from the svg circle."
 

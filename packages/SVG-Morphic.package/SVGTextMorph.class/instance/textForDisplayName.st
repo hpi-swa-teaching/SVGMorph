@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 textForDisplayName
 
 	^ (self text isEmpty)

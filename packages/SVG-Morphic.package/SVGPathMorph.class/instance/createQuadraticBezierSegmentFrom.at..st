@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 createQuadraticBezierSegmentFrom: data at: aPoint
 	"Create a quadratic bezier segment from the path data (stream) at the given position."
 

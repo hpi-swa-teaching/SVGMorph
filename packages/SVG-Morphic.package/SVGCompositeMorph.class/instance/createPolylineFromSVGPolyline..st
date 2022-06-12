@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createPolylineFromSVGPolyline: anElement
 	"Create a polyline from the svg polyline."
 

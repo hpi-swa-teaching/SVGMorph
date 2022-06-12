@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 fillFromSVGSpec: svgColor
 	"Answer a balloon fill style/color for the given svg color spec."
 

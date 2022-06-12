@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 fills: aDictionary
 	"Set the value of fills"
 

@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createFromSVG: anElement
 
 	super createFromSVG: anElement.

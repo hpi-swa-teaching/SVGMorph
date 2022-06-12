@@ -1,4 +1,4 @@
-accessing
+helpers
 interpolatedAlphaMix: ratio of: rgba1 and: rgba2
 	"Answer a proper interpolated value between to RGBA color words. Theta is 0..1.."
 

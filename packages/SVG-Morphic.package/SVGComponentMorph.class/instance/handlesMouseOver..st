@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 handlesMouseOver: evt
 
 	Transcript showln: self.

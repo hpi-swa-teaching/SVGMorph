@@ -1,4 +1,4 @@
-accessing
+rendering
 drawOn: aCanvas
 	"Display the receiver."
 

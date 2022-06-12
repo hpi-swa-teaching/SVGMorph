@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createFromSVG: anElement
 	"Create a rectangle from the svg rect."
 

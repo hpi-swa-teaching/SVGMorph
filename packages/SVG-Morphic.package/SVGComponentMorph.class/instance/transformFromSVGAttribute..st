@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 transformFromSVGAttribute: trans
 	"Answer a new MatrixTransform2x3 for the transform attribute."
 

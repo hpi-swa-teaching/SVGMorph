@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 globalBoundingBox
 	"Answer the bounding box of the receiver with resepect to the top level."
 

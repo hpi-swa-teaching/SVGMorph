@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createCircleFromSVGCircle: anElement
 	"Create a circle from the svg circle."
 

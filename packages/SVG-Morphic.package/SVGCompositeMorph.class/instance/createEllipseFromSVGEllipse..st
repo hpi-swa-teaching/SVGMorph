@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createEllipseFromSVGEllipse: anElement
 	"Create an ellipse from the svg ellipse."
 

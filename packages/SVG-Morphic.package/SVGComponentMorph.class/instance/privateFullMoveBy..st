@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 privateFullMoveBy: delta
 
 	self privateMoveBy: delta.

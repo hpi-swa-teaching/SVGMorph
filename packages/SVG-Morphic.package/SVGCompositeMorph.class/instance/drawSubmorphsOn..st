@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 drawSubmorphsOn: aCanvas
 	"Display the receiver."
 

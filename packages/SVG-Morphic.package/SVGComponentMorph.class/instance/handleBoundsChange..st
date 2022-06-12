@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 handleBoundsChange: aBlock
 
 	|oldBounds newBounds|

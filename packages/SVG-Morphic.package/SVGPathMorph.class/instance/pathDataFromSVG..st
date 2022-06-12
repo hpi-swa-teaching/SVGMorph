@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 pathDataFromSVG: anElement
 	"Answer a collection of parameters from the path data."
 

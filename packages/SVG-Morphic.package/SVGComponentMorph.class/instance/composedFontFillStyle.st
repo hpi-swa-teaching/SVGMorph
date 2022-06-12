@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 composedFontFillStyle
 	"Answer the composed font fill style."
 

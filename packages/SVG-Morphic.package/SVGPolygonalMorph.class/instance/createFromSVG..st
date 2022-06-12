@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createFromSVG: anElement
 	"Create a polygon from the svg polygon."
 

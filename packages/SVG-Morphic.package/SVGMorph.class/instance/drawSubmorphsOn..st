@@ -1,4 +1,4 @@
-accessing
+rendering
 drawSubmorphsOn: aCanvas
 	"Display the receiver."
 

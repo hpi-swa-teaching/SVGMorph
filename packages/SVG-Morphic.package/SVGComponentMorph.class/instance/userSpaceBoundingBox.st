@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 userSpaceBoundingBox
 	"Answer the bounding box of the receiver."
 

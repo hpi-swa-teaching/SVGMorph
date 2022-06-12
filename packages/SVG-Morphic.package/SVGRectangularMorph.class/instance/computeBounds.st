@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 computeBounds
 
 	self rectangle ifNil: [^ self].

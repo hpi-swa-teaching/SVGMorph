@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 createFixupLineSegmentFrom: start to: end
 	"Create a line segment from the start to the end."
 

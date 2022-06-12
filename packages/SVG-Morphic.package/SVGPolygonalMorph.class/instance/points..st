@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 points: aCollection
 	"Set the value of points"
 

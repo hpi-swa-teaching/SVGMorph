@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createGroupFromSVGGroup: anElement
 	"Create a group from the svg group."
 

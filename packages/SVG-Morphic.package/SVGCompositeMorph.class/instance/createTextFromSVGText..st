@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createTextFromSVGText: anElement
 	"Create a text from the svg text."
 

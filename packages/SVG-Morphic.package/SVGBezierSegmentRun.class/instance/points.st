@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 points
 	"Answer the collection of points that are formed by the segments.."
 

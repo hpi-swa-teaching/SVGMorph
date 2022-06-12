@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 transformFromSVGAttributeStream: str
 	"Answer a new MatrixTransform2x3 for the transform (sub)attribute."
 

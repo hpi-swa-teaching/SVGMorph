@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createSegmentsFromSVG: anElement
 	"Create the segments from the path."
 

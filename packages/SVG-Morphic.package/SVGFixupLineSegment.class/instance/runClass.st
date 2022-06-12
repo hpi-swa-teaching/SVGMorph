@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 runClass
 	"Answer the run class for the receiver."
 

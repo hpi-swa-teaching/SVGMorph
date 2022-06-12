@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 hasFill
 	"Answer whether there is a fill for the receiver."
 

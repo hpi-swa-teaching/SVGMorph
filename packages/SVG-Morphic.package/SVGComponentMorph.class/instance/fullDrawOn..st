@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 fullDrawOn: aCanvas
 	"Draw the full Morphic structure on the given Canvas"
 	

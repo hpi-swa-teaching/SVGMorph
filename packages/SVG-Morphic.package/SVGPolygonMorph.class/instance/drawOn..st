@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 drawOn: aCanvas
 	"Draw the component on the canvas."
 

@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 computeBounds
 
 	self points size == 0 ifTrue: [^ self].

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 composedStyle
 	"Answer the composed style dictionary"
 

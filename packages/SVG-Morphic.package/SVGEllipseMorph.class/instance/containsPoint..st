@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 containsPoint: aPoint
 
 	| semiMin semiMax center i lPoint |

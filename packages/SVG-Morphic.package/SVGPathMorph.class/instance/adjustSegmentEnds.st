@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 adjustSegmentEnds
 	"Adjust the end segments if not closed."
 

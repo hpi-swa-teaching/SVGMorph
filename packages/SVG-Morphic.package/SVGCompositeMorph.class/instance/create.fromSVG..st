@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 create: anSVGComponentMorphClass fromSVG: anElement
 	"Create a component from the svg."
 

@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 addSegment: aLineSegment
 	"Add a line segment to the list of segments."
 

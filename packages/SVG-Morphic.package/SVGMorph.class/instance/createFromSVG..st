@@ -1,4 +1,4 @@
-accessing
+initialization
 createFromSVG: anElement
 	"Create the receiver from the given svg element"
 

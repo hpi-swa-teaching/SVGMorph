@@ -1,4 +1,4 @@
-accessing
+initialization
 setDimensionsFromSVG: anElement
 	"Set the receiver's dimensions from the given svg element."
 

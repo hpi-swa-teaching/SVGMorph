@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 antialiasingLevel
 	"Answer the level of antialiasing to use when drawing"
 
