@@ -4,5 +4,5 @@ createTextFromSVG: anElement
 
 	super createTextFromSVG: anElement.
 	self location:
-		(anElement attributeAt: 'x' ifAbsent: [self owner location x]) asSVGNumber @ 
+		(anElement attributeAt: 'x' ifAbsent: [self owner location x]) asSVGNumber @
 		(anElement attributeAt: 'y' ifAbsent: [self owner location y]) asSVGNumber
