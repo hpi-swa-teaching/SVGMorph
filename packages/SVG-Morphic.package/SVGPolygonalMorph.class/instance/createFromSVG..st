@@ -5,4 +5,3 @@ createFromSVG: anElement
 	super createFromSVG: anElement.
 	self createPointsFromSVG: anElement.
 	self computeBounds
-

@@ -13,7 +13,7 @@
 		"createLineFromSVGLine:" : "gvc 7/31/2005 16:38",
 		"createPathFromSVGPath:" : "gvc 7/31/2005 16:38",
 		"createPolygonFromSVGPolygon:" : "gvc 7/31/2005 16:39",
-		"createPolylineFromSVGPolyline:" : "gvc 7/31/2005 16:39",
+		"createPolylineFromSVGPolyline:" : "lra 6/12/2022 16:29",
 		"createRampFromSVGGradient:" : "gvc 10/4/2005 08:32",
 		"createRectFromSVGRect:" : "gvc 7/31/2005 16:39",
 		"createTextFromSVGText:" : "gvc 7/31/2005 16:40",
