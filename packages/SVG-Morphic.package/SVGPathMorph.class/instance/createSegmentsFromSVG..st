@@ -7,6 +7,9 @@ createSegmentsFromSVG: anElement
 	initialPosition := nil.
 	data := self pathDataFromSVG: anElement.
 	position := 0 @ 0.
+	subpathStartPosition := 0 @ 0.
+	lastCubicControl := 0 @ 0.
+	lastQuadraticControl := 0 @ 0.
 	data do: [:cmd |
 		((cmd = $S or: [cmd = $s]) and: ['CcSs' includes: c not])
 			ifTrue: [lastCubicControl := position].
