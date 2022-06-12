@@ -1,0 +1,1 @@
+A SVGCircleMorph is a morph representing the svg <circle> element.

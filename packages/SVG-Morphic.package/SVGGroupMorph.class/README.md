@@ -1,0 +1,1 @@
+A SVGGroupMorph is a morph representing the svg <g> element.

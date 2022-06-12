@@ -1,5 +1,1 @@
-Allows an SVGMorph to be opened in space
-
-A SVGMorph is xxxxxxxxx.
-
-Instance Variables
+A SVGMorph is a morph used to encapsule a whole svg structure. It allows an SVG to be opened in the world.

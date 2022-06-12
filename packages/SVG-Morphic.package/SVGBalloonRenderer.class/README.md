@@ -1,0 +1,1 @@
+A SVGBalloonRenderer is a renderer for svgs, using the balloon engine.

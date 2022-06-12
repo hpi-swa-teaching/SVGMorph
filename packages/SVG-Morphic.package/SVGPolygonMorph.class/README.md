@@ -1,0 +1,1 @@
+A SVGPolygonMorph is a morph representing the svg <polygon> element.

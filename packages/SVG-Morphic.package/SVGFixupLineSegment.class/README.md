@@ -1,0 +1,1 @@
+A SVGFixupLineSegment is a line segment used as last segment for SVG <path> elements that should not appear as closed paths.
