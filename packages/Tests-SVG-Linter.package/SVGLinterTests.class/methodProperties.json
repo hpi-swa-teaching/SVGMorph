@@ -19,7 +19,6 @@
 		"testCorrectClassPrefix" : "JB 6/7/2021 09:25",
 		"testIfTrueReturnsRule" : "js 6/13/2020 18:35",
 		"testInstanceVarAccess" : "js 6/13/2020 16:54",
-		"testLongMethods" : "JB 6/10/2021 22:45",
 		"testMethodHasEmptyLine" : "j 7/16/2020 12:29",
 		"testMethodNameIsLowerCase" : "JB 6/13/2021 10:53",
 		"testMethodNoConsecutiveEmptyLines" : "RS 6/23/2021 15:53",
