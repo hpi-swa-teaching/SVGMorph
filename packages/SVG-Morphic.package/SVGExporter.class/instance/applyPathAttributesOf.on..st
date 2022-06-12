@@ -3,4 +3,4 @@ applyPathAttributesOf: aPath on: anElement
 
 	anElement
 		name: 'path';
-		attributeAt: 'd' put: aPath d
+		attributeAt: 'd' put: aPath originalD

@@ -6,4 +6,4 @@ createFromSVG: anElement
 	self
 		createSegmentsFromSVG: anElement;
 		computeBounds;
-		d: (anElement attributeAt: 'd')
+		originalD: (anElement attributeAt: 'd')

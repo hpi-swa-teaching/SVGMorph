@@ -1,0 +1,4 @@
+accessing
+originalD
+
+	^ originalD
