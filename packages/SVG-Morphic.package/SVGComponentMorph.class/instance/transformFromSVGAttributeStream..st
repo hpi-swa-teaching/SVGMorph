@@ -12,39 +12,39 @@ transformFromSVGAttributeStream: str
 		whileFalse: [args add: argStream nextNumber].
 	(type = 'matrix')
 		ifTrue: [matrix
-				a11: (args at: 1);
-				a21: (args at: 2);
-				a12: (args at: 3);
-				a22: (args at: 4);
-				a13: (args at: 5);
-				a23: (args at: 6)].
+				a11: (args first);
+				a21: (args second);
+				a12: (args third);
+				a22: (args fourth);
+				a13: (args fifth);
+				a23: (args sixth)].
 	(type = 'translate')
 		ifTrue: [
 			(args size < 2)
 				ifTrue: [args add: 0].
 			matrix
-					setOffset: (args at: 1) @ (args at: 2)].
+					setOffset: (args first) @ (args second)].
 	(type = 'scale')
 		ifTrue: [
 			(args size < 2)
-				ifTrue: [args add: (args at: 1)].
+				ifTrue: [args add: (args first)].
 			matrix
-					setScale: (args at: 1) @ (args at: 2)].
+					setScale: (args first) @ (args second)].
 	(type = 'rotate')
 		ifTrue: [
 				matrix
-					setAngle: (args at: 1).
+					setAngle: (args first).
 				(args size >= 3)
-					ifTrue: [matrix := ((MatrixTransform2x3 withOffset: (args at: 1) @ (args at: 2))
+					ifTrue: [matrix := ((MatrixTransform2x3 withOffset: (args first) @ (args second))
 									composedWithLocal: matrix)
-									composedWithLocal: (MatrixTransform2x3 withOffset: (args at: 1) @ (args at: 2) negated)]].
+									composedWithLocal: (MatrixTransform2x3 withOffset: (args first) @ (args second) negated)]].
 
 	"The X and Y may seem switched here, however, this is correct for SVG parsing"
 	(type = 'skewX')
 		ifTrue: [matrix
-					setSkew: 0 @ (args at: 1)].
+					setSkew: 0 @ (args first)].
 	(type = 'skewY')
 		ifTrue: [
 				matrix
-					setSkew: (args at: 1) @ 0].
-	^matrix
+					setSkew: (args first) @ 0].
+	^ matrix

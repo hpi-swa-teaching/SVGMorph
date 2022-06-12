@@ -5,6 +5,6 @@ primAddToEngine: aBalloonEngine fills: fills lineWidth: lineWidth
 	aBalloonEngine
 		primAddBezierShape: self points
 		segments: self segments size
-		fill: (fills at: 1)
+		fill: (fills first)
 		lineWidth: lineWidth
-		lineFill: (fills at: 2)
+		lineFill: (fills second)

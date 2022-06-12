@@ -5,6 +5,6 @@ primAddToEngine: aBalloonEngine fills: fills lineWidth: lineWidth
 	aBalloonEngine
 		primAddPolygon: {self start . self end}
 		segments: 2
-		fill: (fills at: 1)
+		fill: (fills first)
 		lineWidth: 1
 		lineFill: 0
