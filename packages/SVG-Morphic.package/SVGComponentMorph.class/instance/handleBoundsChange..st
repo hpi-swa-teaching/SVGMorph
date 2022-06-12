@@ -1,7 +1,8 @@
 as yet unclassified
 handleBoundsChange: aBlock
-	| oldBounds newBounds |
-	oldBounds := bounds.
+
+	|oldBounds newBounds|
+	oldBounds := self bounds.
 	aBlock value.
-	newBounds := bounds.
+	newBounds := self bounds.
 	self boundsChangedFrom: oldBounds to: newBounds

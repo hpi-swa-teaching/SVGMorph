@@ -1,11 +1,11 @@
 accessing
 selectElement: anElement
 
-	|current|
-	selectedPath := OrderedCollection new.
+	|current path|
+	path := OrderedCollection new.
 	current := anElement.
-	selectedPath addFirst: current.
+	path addFirst: current.
 	[current = self svg]
 		whileFalse: [current := current owner.
-			selectedPath addFirst: current].
-	self changed: #selectedPath
+			path addFirst: current].
+	self selectedPath: path

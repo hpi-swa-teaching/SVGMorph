@@ -20,4 +20,6 @@ setDimensionsFromSVG: anElement
 		ifFalse: [(h withBlanksTrimmed endsWith: 'mm')
 				ifTrue: [viewBox := viewBox withHeight: (h asNumber * 3.571429) rounded]
 				ifFalse: [viewBox := viewBox withHeight: h asInteger]].
-	fullBounds := bounds := viewBox
+	self
+		privateBounds: viewBox;
+		privateFullBounds: self bounds

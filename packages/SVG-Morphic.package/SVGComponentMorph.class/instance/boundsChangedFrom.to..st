@@ -1,5 +1,8 @@
 as yet unclassified
 boundsChangedFrom: oldBounds to: newBounds
+
+	|transform|
+	transform := self transform.
 	oldBounds extent = newBounds extent ifFalse:[
 		transform := transform composedWithGlobal:
 			(MatrixTransform2x3 withOffset: oldBounds origin negated).
@@ -9,4 +12,4 @@ boundsChangedFrom: oldBounds to: newBounds
 			(MatrixTransform2x3 withOffset: newBounds origin).
 	].
 	transform offset: transform offset + (newBounds origin - oldBounds origin).
-	self computeBounds
+	self transform: transform
