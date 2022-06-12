@@ -3,12 +3,12 @@ computePixelRampOfSize: length
 	"Compute the pixel ramp in the receiver"
 
 	|bits lastColor lastIndex nextIndex nextColor distance theta ramp step lastWord nextWord|
-	ramp := self colorRamp asSortedCollection:[:a1 :a2| a1 key < a2 key].
+	ramp := self colorRamp asSortedCollection: [:a1 :a2| a1 key < a2 key].
 	bits := Bitmap new: length.
 	lastColor := ramp first value.
 	lastWord := lastColor pixelWord32.
 	lastIndex := 0.
-	ramp do:[:assoc|
+	ramp do: [:assoc|
 		nextIndex := (assoc key * length) rounded.
 		nextColor := assoc value.
 		nextWord := nextColor pixelWord32.
