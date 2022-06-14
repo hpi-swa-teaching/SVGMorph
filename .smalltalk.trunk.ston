@@ -1,0 +1,19 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'SVGMorph',
+      #directory : 'packages',
+      #platforms : [ #squeak ],
+      #load : [ 'tests' ],
+      #useLatestMetacello : true
+    }
+  ],
+  #preLoading : [
+    'scripts/preLoading.st'
+  ],
+  #testing : {
+    #coverage : {
+      #packages : [ 'SVG-Morphic', 'SVG-Editor']
+    }
+  }
+}
