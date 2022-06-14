@@ -1,4 +1,4 @@
 as yet unclassified
 renderText: anSVGText on: aCanvas
-
-	self increment: #renderText
+	
+	self increment: #renderText.

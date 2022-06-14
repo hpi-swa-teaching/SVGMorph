@@ -1,10 +1,10 @@
 rendering
 renderPolyline: anSVGPolyine on: aCanvas
 	"Render the given object on the canvas."
-
+	
 	| lineWidth lineColor|
 	anSVGPolyine points isEmpty
-		ifTrue: [^ anSVGPolyine].
+		ifTrue: [^anSVGPolyine].
 	lineWidth := anSVGPolyine composedStyle at: 'stroke-width'.
 	lineColor := anSVGPolyine composedStyle at: 'stroke'.
 	aCanvas asBalloonCanvas preserveStateDuring: [:bc|

@@ -1,7 +1,7 @@
-initialization
+as yet unclassified
 createRampFromSVGGradient: anElement
 	"Create a color ramp from the given element."
-
+	
 	|ramp stopStyle colour ic io stopColor stopOpacity offset|
 	ramp := OrderedCollection new.
 	anElement tagsNamed: #stop do: [:stop |
@@ -18,4 +18,4 @@ createRampFromSVGGradient: anElement
 		stopOpacity isNil ifTrue: [stopOpacity := 1.0].
 		colour := stopColor alpha: stopOpacity.
 		ramp add: offset -> colour].
-	^ ramp
+	^ramp

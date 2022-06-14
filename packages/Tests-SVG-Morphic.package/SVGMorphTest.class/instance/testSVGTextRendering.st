@@ -1,13 +1,14 @@
 testing - rendering
 testSVGTextRendering
 
-	|renderer|
-
+	| renderer |
+	
 	renderer := SVGRendererMock new.
 
-	self
+	self 
 		wantsToTestText;
 		addRenderer: renderer on: SVGTextMorph;
 		render: SVGTextMorph;
 		assert:  (renderer renderCount at: #renderText ifAbsent: 0) equals: 1.
-
+	
+	

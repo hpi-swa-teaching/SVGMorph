@@ -1,4 +1,4 @@
-initialization
+accessing
 saveSVGBoundsInformation: anElement
 	"Store the original sizing information for a later export."
 

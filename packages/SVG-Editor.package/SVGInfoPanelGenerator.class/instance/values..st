@@ -1,4 +1,3 @@
 accessing
-values: aCollection
-
-	values := aCollection
+values: anObject
+	values := anObject

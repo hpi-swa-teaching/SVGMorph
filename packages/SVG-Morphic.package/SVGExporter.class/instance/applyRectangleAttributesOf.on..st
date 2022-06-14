@@ -1,6 +1,6 @@
 serializer
 applyRectangleAttributesOf: aRectangle on: anElement
-
+	
 	anElement
 		name: 'rect';
 		attributeAt: 'x' put: aRectangle rectangle origin x asString;

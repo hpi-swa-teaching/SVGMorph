@@ -1,6 +1,7 @@
 initialize-release
 initialize
 
-	self
+	self 
 		keys: OrderedCollection new;
 		values: OrderedCollection new
+	

@@ -7,11 +7,11 @@ renderText: anSVGText on: aCanvas
 	fill := anSVGText composedFontFillStyle.
 	textFont := anSVGText fontToUse.
 	anchor := anSVGText composedStyle at: 'text-anchor'.
-	offset := 0 @ textFont ascent.
-	anchor = 'middle'
-		ifTrue: [offset := (textFont widthOfString: anSVGText text) // 2 @ textFont ascent].
-	anchor = 'end'
-		ifTrue: [offset := (textFont widthOfString: anSVGText text) @ textFont ascent].
+	offset := 0@textFont ascent.
+	anchor  = 'middle'
+		ifTrue: [offset := (textFont widthOfString: anSVGText text) // 2@textFont ascent].
+	anchor  = 'end'
+		ifTrue: [offset := (textFont widthOfString: anSVGText text)@textFont ascent].
 	aCanvas asBalloonCanvas preserveStateDuring: [:bc|
 		bc copy
 			aaLevel: anSVGText antialiasingLevel;

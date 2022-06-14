@@ -1,4 +1,4 @@
 tests
 testExportRotation
-
+	
 	self assertTestCaseToBeCorrect: self rotatedRectangleTestCase

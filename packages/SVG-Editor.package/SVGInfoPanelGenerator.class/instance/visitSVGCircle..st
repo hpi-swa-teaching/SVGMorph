@@ -1,7 +1,8 @@
 visiting
 visitSVGCircle: aCircle
-
-	self
+	
+	^ self 
 		readCommonAttributesOf: aCircle;
-		readCircleAttributesOf: aCircle.
-	^ self asList
+		readCircleAttributesOf: aCircle;
+		asList
+	

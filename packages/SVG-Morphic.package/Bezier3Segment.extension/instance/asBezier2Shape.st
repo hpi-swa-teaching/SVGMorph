@@ -5,16 +5,16 @@ asBezier2Shape
 
 	|pts pa pb d c1 c2 c3 c4 a1 a2 a3|
 	pts := PointArray new: 12.
-	pa := start interpolateTo: via1 at: 3/4.
-	pb := end interpolateTo: via2 at: 3/4.
-	d := end  - start / 16.
-	c1 := start interpolateTo: via1 at: 3/8.
-	c2 := (pa interpolateTo: pb at: 3/8) - d.
-	c3 := (pb interpolateTo: pa at: 3/8) + d.
-	c4 := end interpolateTo: via2 at: 3/8.
-	a1 := c1 interpolateTo: c2 at: 1/2.
-	a2 := pa interpolateTo: pb at: 1/2.
-	a3 := c3 interpolateTo: c4 at: 1/2.
+	pa _ start interpolateTo: via1 at: 3/4.
+	pb _ end interpolateTo: via2 at: 3/4.
+	d _ end  - start / 16.
+	c1 _ start interpolateTo: via1 at: 3/8.
+	c2 _ (pa interpolateTo: pb at: 3/8) - d.
+	c3 _ (pb interpolateTo: pa at: 3/8) + d.
+	c4 _ end interpolateTo: via2 at: 3/8.
+	a1 _ c1 interpolateTo: c2 at: 1/2.
+	a2 _ pa interpolateTo: pb at: 1/2.
+	a3 _ c3 interpolateTo: c4 at: 1/2.
 	pts
 		at: 1 put: start;
 		at: 2 put: c1;

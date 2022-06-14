@@ -1,7 +1,7 @@
 accessing
-selectedElement: anElement
-
-	selectedElement := anElement.
-	self
+selectedElement: anObject
+	
+	selectedElement := anObject.
+	self 
 		changed: #selectedElement;
 		changed: #infoForSelectedElement

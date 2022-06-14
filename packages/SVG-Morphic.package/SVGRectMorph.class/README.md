@@ -1,1 +1,0 @@
-A SVGRectMorph is a morph representing the svg <rect> element.

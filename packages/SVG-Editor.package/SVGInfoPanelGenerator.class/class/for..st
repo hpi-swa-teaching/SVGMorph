@@ -1,6 +1,6 @@
 accessing
 for: aMorph
 
-	aMorph
+	aMorph 
 		ifNil: [^ Array new].
 	^ aMorph accept: self new

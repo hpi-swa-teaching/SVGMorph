@@ -1,6 +1,6 @@
 serializer
 applyLineAttributesOf: aLine on: anElement
-
+	
 	anElement
 		name: 'line';
 		attributeAt: 'x1' put: aLine rectangle origin x asString;

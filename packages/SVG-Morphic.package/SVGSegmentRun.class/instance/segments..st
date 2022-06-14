@@ -1,5 +1,5 @@
 accessing
-segments: aCollection
+segments: anObject
 	"Set the value of segments"
 
-	segments := aCollection
+	segments _ anObject

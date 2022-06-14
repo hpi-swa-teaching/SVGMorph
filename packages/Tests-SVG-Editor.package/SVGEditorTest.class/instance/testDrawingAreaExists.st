@@ -1,6 +1,6 @@
 testing
 testDrawingAreaExists
 
-	|button|
+	| button |
 	button := self subject findByName: #drawingArea.
 	self deny: button morphs isEmpty

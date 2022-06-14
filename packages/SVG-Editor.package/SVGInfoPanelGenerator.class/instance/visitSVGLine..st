@@ -1,7 +1,7 @@
 visiting
 visitSVGLine: aLine
-
-	self
+	
+	^ self 
 		readCommonAttributesOf: aLine;
-		readLineAttributesOf: aLine.
-	^ self asList
+		readLineAttributesOf: aLine;
+		asList

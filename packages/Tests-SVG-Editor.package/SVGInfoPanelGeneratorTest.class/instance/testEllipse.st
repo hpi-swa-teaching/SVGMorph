@@ -3,8 +3,8 @@ testEllipse
 
 	|panelInfo|
 	panelInfo :=  SVGInfoPanelGenerator for: (self subject findByClass: SVGEllipseMorph).
-
-	self
+	
+	self 
 		hasValue: 'Ellipse' atKey: 'Type' in: panelInfo;
 		hasValue: '100@120' atKey: 'Position' in: panelInfo;
 		hasValue: '20' atKey: 'Horizontal Radius' in: panelInfo;

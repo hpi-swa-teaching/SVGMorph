@@ -1,10 +1,10 @@
 assertions
 assertExportOf: anXMLString toBe: anotherXMLString
-
-	|morph exporter|
+	
+	|morph exportedString|
 	morph := SVGMorph fromString: anXMLString.
-
-	exporter := SVGExporter new
+	
+	exportedString := SVGExporter new 
 		visitSVGMorph: morph;
-		yourself.
-	self assert: anotherXMLString equals: (exporter exportString)
+		exportString.
+	self assert: anotherXMLString equals: exportedString

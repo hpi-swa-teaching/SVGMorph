@@ -1,4 +1,3 @@
-helpers
+nil
 computeBounds
-
 	self subclassResponsibility

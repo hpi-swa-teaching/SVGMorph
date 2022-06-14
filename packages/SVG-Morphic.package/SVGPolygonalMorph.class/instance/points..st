@@ -1,5 +1,5 @@
-accessing
-points: aCollection
+as yet unclassified
+points: anObject
 	"Set the value of points"
 
-	points := aCollection
+	points := anObject

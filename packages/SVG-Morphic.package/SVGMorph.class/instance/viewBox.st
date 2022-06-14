@@ -1,4 +1,3 @@
 accessing
 viewBox
-
 	^ viewBox

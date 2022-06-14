@@ -1,7 +1,7 @@
 visiting
 visitSVGRectangle: aRectangle
-
-	self
+	
+	^ self 
 		readCommonAttributesOf: aRectangle;
-		readRectangleAttributesOf: aRectangle.
-	^ self asList
+		readRectangleAttributesOf: aRectangle;
+		asList

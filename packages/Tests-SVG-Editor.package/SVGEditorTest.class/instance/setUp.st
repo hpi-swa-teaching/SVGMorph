@@ -7,7 +7,6 @@ setUp
 	builder := MorphicToolBuilder new.
 	windowSpec := SVGEditor new
 		model: self modelMock;
-		buildWith: builder;
-		yourself.
+		buildWith: builder.
 	morph := builder build: windowSpec.
-	self wantsToTest: morph
+	self wantsToTest: morph.

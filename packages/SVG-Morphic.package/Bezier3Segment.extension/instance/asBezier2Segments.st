@@ -13,4 +13,5 @@ asBezier2Segments
 					from: prev
 					via: (4 * (self valueAt: (c*2-1)*step) - prev - (prev := self valueAt: (c*2)*step)) / 2
 					to: prev)].
-	^segs
+	^segs.
+	

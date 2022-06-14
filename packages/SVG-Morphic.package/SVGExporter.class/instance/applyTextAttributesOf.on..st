@@ -1,6 +1,6 @@
 serializer
 applyTextAttributesOf: aText on: anElement
-
+	
 	anElement
 		name: 'text';
 		attributeAt: 'x' put: aText location x asString;

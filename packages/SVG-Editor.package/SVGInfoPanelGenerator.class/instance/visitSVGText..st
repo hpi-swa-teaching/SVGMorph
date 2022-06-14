@@ -1,7 +1,7 @@
 visiting
 visitSVGText: aText
 
-	self
+	^ self 
 		readCommonAttributesOf: aText;
-		readTextAttributesOf: aText.
-	^ self asList
+		readTextAttributesOf: aText;
+		asList

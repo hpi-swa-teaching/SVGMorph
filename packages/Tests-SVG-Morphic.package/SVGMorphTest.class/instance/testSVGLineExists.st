@@ -1,8 +1,8 @@
 testing - existence
 testSVGLineExists
 
-	|line|
+	| line |
 	self wantsToTestLine.
-
+	
 	line := self subject findByClass: SVGLineMorph.
 	self deny: line morphs isEmpty

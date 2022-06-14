@@ -1,5 +1,5 @@
 accessing
-units: aSymbol
+units: anObject
 	"Set the value of units"
 
-	units := aSymbol
+	units _ anObject

@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 composedStyle
 	"Answer the composed style dictionary"
 
@@ -7,4 +7,4 @@ composedStyle
 				cachedComposedStyle: (self context composedStyle copy
 					addAll: self style;
 					yourself)].
-	^ self cachedComposedStyle
+	^self cachedComposedStyle

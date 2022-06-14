@@ -1,7 +1,7 @@
 visiting
 visitSVGPolyline: aPolyline
 
-	self
+	^ self 
 		readCommonAttributesOf: aPolyline;
-		readPointsOf: aPolyline.
-	^ self asList
+		readPointsOf: aPolyline;
+		asList

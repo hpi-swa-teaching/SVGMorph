@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 points
 	"Answer the collection of points that are formed by the segments.."
 
@@ -9,4 +9,4 @@ points
 			add: s start;
 			add: s via;
 			add: s end].
-	^ answer asArray
+	^answer asArray

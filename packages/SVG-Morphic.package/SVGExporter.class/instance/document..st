@@ -1,4 +1,3 @@
 accessing
-document: anXMLElement
-
-	document := anXMLElement
+document: anObject
+	document := anObject

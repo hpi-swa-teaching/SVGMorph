@@ -1,1 +1,0 @@
-A SVGPanelSpec is a pluggableComponentSpec designed to build SVGPanels.

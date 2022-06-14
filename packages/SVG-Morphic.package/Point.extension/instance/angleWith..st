@@ -4,8 +4,8 @@ angleWith: aPoint
 	the receiver and aPoint from the origin."
 
 	|ar ap|
-	ar := self angle.
-	ap := aPoint angle.
+	ar _ self angle.
+	ap _ aPoint angle.
 	^ap >= ar
 		ifTrue: [ap - ar]
 		ifFalse: [Float pi * 2 - ar + ap]

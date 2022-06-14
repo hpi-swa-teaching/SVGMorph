@@ -1,7 +1,7 @@
-initialization
+as yet unclassified
 initialize
 	"Initialize the receiver."
 
 	super initialize.
-	self
+	self 
 		segments: OrderedCollection new

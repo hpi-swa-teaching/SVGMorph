@@ -1,1 +1,0 @@
-A SVGRenderer is an abstract superclass for svg renderers.

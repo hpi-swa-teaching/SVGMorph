@@ -1,1 +1,0 @@
-A SVGLineMorph is a morph representing the svg <line> element.

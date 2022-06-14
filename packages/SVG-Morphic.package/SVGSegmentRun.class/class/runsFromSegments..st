@@ -3,20 +3,21 @@ runsFromSegments: aCollection
 	"Answer a collection of runs from the given segments."
 
 	|answer str seg run runClass position|
-	answer := OrderedCollection new.
+	answer _ OrderedCollection new.
 	aCollection isEmpty
-		ifTrue: [^ answer].
-	str := aCollection readStream.
-	run := str next run.
-	runClass := aCollection first runClass.
-	position := aCollection first end.
+		ifTrue: [^answer].
+	str _ aCollection readStream.
+	run  _ str next run.
+	runClass _ aCollection first runClass.
+	position _ aCollection first end.
 	[str atEnd] whileFalse: [
-		seg := str next.
+		seg _ str next.
 		(seg runClass ~= runClass or: [seg start ~= position])
 			ifTrue: [answer add: run.
-					runClass := seg runClass.
-					run := seg run]
+					runClass _ seg runClass.
+					run _ seg run]
 			ifFalse: [run add: seg run].
-		position := seg end].
+		position _ seg end].
 	answer add: run.
-	^ answer
+	^answer
+		

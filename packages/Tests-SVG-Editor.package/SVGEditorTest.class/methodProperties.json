@@ -4,7 +4,7 @@
 	"instance" : {
 		"modelMock" : "lha 5/17/2022 19:57",
 		"modelMock:" : "lha 5/17/2022 19:57",
-		"setUp" : "lra 6/12/2022 19:55",
+		"setUp" : "lha 5/17/2022 19:57",
 		"tearDown" : "lha 5/17/2022 18:03",
 		"testCloseButtonAction" : "lha 5/17/2022 20:12",
 		"testCloseButtonActionWithoutSVG" : "lha 5/18/2022 12:35",

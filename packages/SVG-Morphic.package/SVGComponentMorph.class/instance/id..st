@@ -1,5 +1,5 @@
 accessing
-id: aString
+id: anObject
 	"Set the value of id"
 
-	id := aString
+	id _ anObject

@@ -10,5 +10,4 @@ buildTreeViewWith: aToolBuilder
 		setSelected: #selectedElement:;
 		getSelected: #selectedElement;
 		getSelectedPath: #selectedPath;
-		label: #displayNameOf:;
-		yourself
+		label: #displayNameOf:

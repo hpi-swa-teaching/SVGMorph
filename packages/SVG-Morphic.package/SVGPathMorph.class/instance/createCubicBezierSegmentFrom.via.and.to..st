@@ -1,4 +1,4 @@
-helpers
+as yet unclassified
 createCubicBezierSegmentFrom: start via: control1 and: control2 to: end
 	"Create a cubic bezier segment from the start to the end via the control points."
 

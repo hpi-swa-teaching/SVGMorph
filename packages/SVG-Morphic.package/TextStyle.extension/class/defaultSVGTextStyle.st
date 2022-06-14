@@ -2,4 +2,4 @@
 defaultSVGTextStyle
 
 	self installDefaultSVGTextStyle.
-	^ self named: #OpenSans
+	^ self named: #OpenSans.

@@ -1,10 +1,11 @@
-helpers
+as yet unclassified
 adjustSegmentEnds
 	"Adjust the end segments if not closed."
 
 	|p1 p2 sw angle first last|
+	self halt.
 	self segments isEmpty
-		ifTrue: [^ self].
+		ifTrue: [^self].
 	first := self segments first.
 	last := self segments last.
 	first class == LineSegment

@@ -1,8 +1,7 @@
-helpers
+as yet unclassified
 handleBoundsChange: aBlock
-
-	|oldBounds newBounds|
-	oldBounds := self bounds.
+	| oldBounds newBounds |
+	oldBounds := bounds.
 	aBlock value.
-	newBounds := self bounds.
-	self boundsChangedFrom: oldBounds to: newBounds
+	newBounds := bounds.
+	self boundsChangedFrom: oldBounds to: newBounds.

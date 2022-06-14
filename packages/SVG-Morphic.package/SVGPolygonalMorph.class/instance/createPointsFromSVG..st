@@ -1,4 +1,4 @@
-initialization
+as yet unclassified
 createPointsFromSVG: anElement
 	"Create the points from the polygon."
 

@@ -1,8 +1,8 @@
 accessing
-model: aModel
-
-	self model = aModel ifTrue: [^ self].
-
+model: anObject
+	
+	self model = anObject ifTrue: [^ self].
+	
 	self model ifNotNil: [self model removeDependent: self].
-	model := aModel.
+	model := anObject.
 	self model addDependent: self

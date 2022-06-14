@@ -1,4 +1,4 @@
-helpers
+style
 styleIn: aComponent fromSVGStyle: svgStyle
 	"Answer a dictionary of the style parameters for the given svg style dictionary."
 
@@ -11,7 +11,7 @@ styleIn: aComponent fromSVGStyle: svgStyle
 				ifFalse: [balloonStyle at: 'font-size' put: self defaultSVGTextSize]].
 	(svgStyle includesKey: 'font-family')
 		ifTrue: [textStyle := TextStyle named: (svgStyle at: 'font-family').
-				textStyle isNil ifTrue: [textStyle := TextStyle default].
+				textStyle isNil ifTrue: [textStyle := TextStyle defaultSVGTextStyle].
 				balloonStyle at: 'font' put: (textStyle fontOfSize: (balloonStyle at: 'font-size'))]
 		ifFalse: [(balloonStyle includesKey: 'font')
 				ifFalse: [balloonStyle at: 'font' put: (TextStyle defaultSVGFont)]].
@@ -21,7 +21,7 @@ styleIn: aComponent fromSVGStyle: svgStyle
 				ifFalse: [balloonStyle at: 'text-anchor' put: 'start']].
 	(svgStyle includesKey: 'opacity')
 		ifTrue: [balloonStyle at: 'opacity' put: (svgStyle at: 'opacity').
-				regenFill := true]
+				regenFill := true.]
 		ifFalse: [(balloonStyle includesKey: 'opacity')
 				ifFalse: [balloonStyle at: 'opacity' put: 1.0]].
 	(svgStyle includesKey: 'fill-opacity')
@@ -34,7 +34,7 @@ styleIn: aComponent fromSVGStyle: svgStyle
 				regenFill := true]
 		ifFalse: [(balloonStyle includesKey: 'fill')
 						ifFalse: [balloonStyle at: 'fill' put: Color black]].
-	regenFill
+	regenFill 
 		ifTrue: [balloonStyle at: 'fill' put: ((balloonStyle at: 'fill')
 					alphaMixed: (balloonStyle at: 'fill-opacity') * (balloonStyle at: 'opacity'))].
 	(svgStyle includesKey: 'fill-rule')
@@ -69,4 +69,4 @@ styleIn: aComponent fromSVGStyle: svgStyle
 	(balloonStyle at: 'stroke') isColor
 		ifTrue: [(balloonStyle at: 'stroke') isTransparent
 			ifFalse: [balloonStyle at: 'stroke' put: ((balloonStyle at: 'stroke') alpha: (balloonStyle at: 'stroke-opacity'))]].
-	^ balloonStyle
+	^balloonStyle

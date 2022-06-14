@@ -1,2 +1,1 @@
-A SVGTSpanMorph is a morph representing the svg <tspan> element.
 The SVG <tspan> element defines a subtext within a <text> element or another <tspan> element. It allows for adjustment of the style and/or position of that subtext as needed.
