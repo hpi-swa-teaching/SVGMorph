@@ -1,6 +1,6 @@
-![CI Status](https://github.com/hpi-swa-teaching/SVGMorph/actions/workflows/ci.yml/badge.svg)
-![Trunk Status](https://github.com/hpi-swa-teaching/SVGMorph/actions/workflows/ci-trunk.yml/badge.svg)
-![Linter Status](https://github.com/hpi-swa-teaching/SVGMorph/actions/workflows/ci-linter.yml/badge.svg)
+![CI Status](https://github.com/hpi-swa-teaching/SVGMorph/actions/workflows/ci.yml/badge.svg?branch=dev)
+![Trunk Status](https://github.com/hpi-swa-teaching/SVGMorph/actions/workflows/ci-trunk.yml/badge.svg?branch=dev)
+![Linter Status](https://github.com/hpi-swa-teaching/SVGMorph/actions/workflows/ci-linter.yml/badge.svg?branch=dev)
 [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/SVGMorph/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/SVGMorph?branch=dev)
 
 # SVGMorph
