@@ -8,9 +8,14 @@
 		"defaultColor" : "tw 6/2/2022 12:12",
 		"defaultFont" : "tw 6/2/2022 13:27",
 		"defaultFontSize" : "tw 6/2/2022 21:31",
+		"knownFontTextSVG" : "tw 6/14/2022 22:37",
 		"scalingTextSVG" : "tw 6/2/2022 11:59",
 		"testDefaultFont" : "tw 6/2/2022 13:27",
 		"testDefaultFontInSVGText" : "tw 6/2/2022 13:27",
+		"testKnownFont" : "tw 6/14/2022 22:45",
 		"testTextColor" : "tw 6/2/2022 12:25",
-		"testTextScaling" : "tw 6/2/2022 12:00",
-		"testTextSize" : "tw 6/2/2022 11:41" } }
+		"testTextScaling" : "tw 6/14/2022 22:36",
+		"testTextSize" : "tw 6/2/2022 11:41",
+		"testUnknownFontInSVGText" : "tw 6/14/2022 21:45",
+		"unknownFont" : "tw 6/14/2022 21:44",
+		"unknownFontTextSVG" : "tw 6/14/2022 22:24" } }
