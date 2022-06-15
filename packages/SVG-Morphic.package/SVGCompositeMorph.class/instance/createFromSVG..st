@@ -3,4 +3,4 @@ createFromSVG: anElement
 	"Create the receiver's state from the svg group."
 
 	super createFromSVG: anElement.
-	self processSVGElements: anElement
+	self processSVGElements: anElement.
