@@ -12,11 +12,11 @@ createFillFromSVGRadialGradient: anElement
 			linkFill := self getFill: xlink copyWithoutFirst.
 			ramp isEmpty
 				ifTrue: [ramp :=linkFill colorRamp].
-			p1 := (anElement attributeAt: 'cx' ifAbsent: [linkFill origin x]) asSVGNumberOrPercentage @ (anElement attributeAt: 'cy' ifAbsent: [linkFill origin y]) asSVGNumberOrPercentage.
-			p2 := (anElement attributeAt: 'r' ifAbsent: [linkFill direction x]) asSVGNumberOrPercentage asPoint]
+			p1 := (anElement attributeAt: 'cx' ifAbsent: 0.5) asSVGNumberOrPercentage @ (anElement attributeAt: 'cy' ifAbsent: 0.5) asSVGNumberOrPercentage.
+			p2 := (anElement attributeAt: 'r' ifAbsent: 0.5) asSVGNumberOrPercentage asPoint]
 		ifFalse: [
-			p1 := (anElement attributeAt: 'cx' ifAbsent: [50]) asSVGNumberOrPercentage @ (anElement attributeAt: 'cy' ifAbsent: [50]) asSVGNumberOrPercentage.
-			p2 := (anElement attributeAt: 'r' ifAbsent: [50]) asSVGNumberOrPercentage asPoint].
+			p1 := (anElement attributeAt: 'cx' ifAbsent: 0.5) asSVGNumberOrPercentage @ (anElement attributeAt: 'cy' ifAbsent: 0.5) asSVGNumberOrPercentage.
+			p2 := (anElement attributeAt: 'r' ifAbsent: 0.5) asSVGNumberOrPercentage asPoint].
 	origin := trans transformPoint: p1.
 	direction := (trans transformPoint: p2 + p1) - origin.
 	self setFill: idg to: ((SVGGradientFillStyle ramp: ramp)
@@ -24,6 +24,6 @@ createFillFromSVGRadialGradient: anElement
 		direction: direction x @ 0;
 		normal: 0 @ direction y;
 		radial: true;
-		units: (anElement attributeAt: 'gradientUnits' ifAbsent: [#userSpaceOnUse]) asSymbol;
+		units: (anElement attributeAt: 'gradientUnits' ifAbsent: [#objectBoundingBox]) asSymbol;
 		spread: (anElement attributeAt: 'spreadMethod' ifAbsent: [#pad]) asSymbol;
 		yourself)
