@@ -1,4 +1,4 @@
 building
 wantsToTestTSpan
 
-	self wantsToTest: (SVGMorph fromString: self tSpanTestSVG)
+	self wantsToTest: (SVGMorph fromString: self tSpanTestSVGString)

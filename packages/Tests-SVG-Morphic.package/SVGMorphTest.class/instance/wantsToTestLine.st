@@ -1,4 +1,4 @@
 building
 wantsToTestLine
 
-	self wantsToTest: (SVGMorph fromString: self lineTestSVG)
+	self wantsToTest: (SVGMorph fromString: self lineTestSVGString)

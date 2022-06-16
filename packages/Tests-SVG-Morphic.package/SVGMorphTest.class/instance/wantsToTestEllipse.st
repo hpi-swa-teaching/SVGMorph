@@ -1,4 +1,4 @@
 building
 wantsToTestEllipse
 
-	self wantsToTest: (SVGMorph fromString: self ellipseTestSVG)
+	self wantsToTest: (SVGMorph fromString: self ellipseTestSVGString)

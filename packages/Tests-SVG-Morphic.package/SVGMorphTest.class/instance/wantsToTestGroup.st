@@ -1,4 +1,4 @@
 building
 wantsToTestGroup
 
-	self wantsToTest: (SVGMorph fromString: self groupTestSVG)
+	self wantsToTest: (SVGMorph fromString: self groupTestSVGString)

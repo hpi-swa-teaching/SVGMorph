@@ -1,4 +1,4 @@
 building
 wantsToTestPolygon
 
-	self wantsToTest: (SVGMorph fromString: self polygonTestSVG)
+	self wantsToTest: (SVGMorph fromString: self polygonTestSVGString)
