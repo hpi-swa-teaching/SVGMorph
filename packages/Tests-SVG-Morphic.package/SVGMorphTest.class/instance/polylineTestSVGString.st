@@ -1,4 +1,4 @@
-resources
+resources - svg strings
 polylineTestSVGString
 
 	^ '<svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">

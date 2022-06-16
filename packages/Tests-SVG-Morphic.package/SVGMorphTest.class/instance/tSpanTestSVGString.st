@@ -1,4 +1,4 @@
-resources
+resources - svg strings
 tSpanTestSVGString
 
 	^ '<svg viewBox="0 0 240 40" xmlns="http://www.w3.org/2000/svg">

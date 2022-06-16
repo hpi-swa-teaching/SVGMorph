@@ -1,4 +1,4 @@
-resources
+resources - svg strings
 polygonTestSVGString
 
 	^ '<svg width="120" height="120" viewBox="0 0 120 120"
