@@ -2,7 +2,7 @@ initialization
 createFillFromSVGLinearGradient: anElement
 	"Create a linear fill style from the given element."
 
-	| start end ramp transformation |
+	|start end ramp transformation|
 	transformation := self transformFromSVGAttribute: (anElement attributeAt: 'gradientTransform').
 	ramp := self createRampFromSVGGradient: anElement.
 	

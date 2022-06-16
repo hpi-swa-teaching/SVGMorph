@@ -2,7 +2,7 @@ initialization
 createFillFromSVGRadialGradient: anElement
 	"Create a radial fill style from the given element.."
 
-	| center radius ramp transformation origin direction |
+	|center radius ramp transformation origin direction|
 	transformation := self transformFromSVGAttribute: (anElement attributeAt: 'gradientTransform').
 	ramp := self createRampFromSVGGradient: anElement.
 	
@@ -20,4 +20,4 @@ createFillFromSVGRadialGradient: anElement
 		radial: true;
 		units: (anElement attributeAt: 'gradientUnits' ifAbsent: [#objectBoundingBox]) asSymbol;
 		spread: (anElement attributeAt: 'spreadMethod' ifAbsent: [#pad]) asSymbol;
-		yourself).
+		yourself)
