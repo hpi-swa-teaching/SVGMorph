@@ -18,7 +18,10 @@ renderEllipse: anSVGEllipse on: aCanvas
 		bc transformBy: matrix during: [:balloonCanvas |
 			balloonCanvas
 				aaLevel: 4;
-				drawOval: rectangle
+				drawBezierShape: {0@30 . 50@80 . 300@30} color: fill borderWidth: 0 borderColor: lineColor
+				
+				
+				"drawOval: rectangle
 				color: fill
 				borderWidth: lineWidth
-				borderColor: lineColor]]
+				borderColor: lineColor" "Cascade expected ->"]]
