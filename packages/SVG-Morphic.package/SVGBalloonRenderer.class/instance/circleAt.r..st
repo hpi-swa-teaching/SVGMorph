@@ -3,7 +3,7 @@ circleAt: c r: r
 
 
 	| pcdist n angle d pts  start end|
-	n := 100.
+	n := 4.
 	
 	pcdist := 4 / 3 * ((90 / n) degreeTan).
 	d := 0 @ pcdist.
