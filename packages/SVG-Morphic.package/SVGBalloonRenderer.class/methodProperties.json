@@ -4,10 +4,10 @@
 	"instance" : {
 		"defaultSVGTextSize" : "tw 6/2/2022 21:29",
 		"renderEllipse:on:" : "nh 6/5/2022 18:56",
-		"renderLine:on:" : "aes 6/16/2022 17:37",
+		"renderLine:on:" : "AS 6/19/2022 11:39",
 		"renderPath:on:" : "lra 6/12/2022 18:44",
 		"renderPolygon:on:" : "lra 6/12/2022 18:44",
 		"renderPolyline:on:" : "lra 6/12/2022 18:44",
-		"renderRect:on:" : "aes 6/16/2022 16:20",
+		"renderRect:on:" : "AS 6/19/2022 11:36",
 		"renderText:on:" : "lra 6/12/2022 16:38",
 		"styleIn:fromSVGStyle:" : "lra 6/12/2022 18:43" } }
