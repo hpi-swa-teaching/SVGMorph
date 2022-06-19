@@ -1,8 +1,7 @@
 helpers
 computePixelRampOfSize: length
+	
 	"Compute the pixel ramp in the receiver"
-
-
 	|bits lastColor lastIndex nextIndex nextColor distance theta ramp step lastWord nextWord|
 	
 	ramp := self colorRamp asSortedCollection: [:a1 :a2| a1 key < a2 key].
