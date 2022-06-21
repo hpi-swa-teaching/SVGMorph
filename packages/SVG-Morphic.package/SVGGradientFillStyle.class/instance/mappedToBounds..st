@@ -6,7 +6,7 @@ mappedToBounds: aRectangle
 	self mapsToObjectBounds
 		ifTrue: [^ self copy
 			origin: (o := aRectangle origin + (self origin * aRectangle extent));
-			direction: self direction + self origin * aRectangle extent - o;
+			direction: aRectangle extent * self direction;
 			normal: nil;
 			yourself].
 	^ self
