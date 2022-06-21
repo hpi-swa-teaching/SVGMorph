@@ -11,7 +11,7 @@ styleIn: aComponent fromSVGStyle: svgStyle
 				ifFalse: [balloonStyle at: 'font-size' put: self defaultSVGTextSize]].
 	(svgStyle includesKey: 'font-family')
 		ifTrue: [textStyle := TextStyle named: (svgStyle at: 'font-family').
-				textStyle isNil ifTrue: [textStyle := TextStyle default].
+				textStyle isNil ifTrue: [textStyle := TextStyle defaultSVGTextStyle].
 				balloonStyle at: 'font' put: (textStyle fontOfSize: (balloonStyle at: 'font-size'))]
 		ifFalse: [(balloonStyle includesKey: 'font')
 				ifFalse: [balloonStyle at: 'font' put: (TextStyle defaultSVGFont)]].
