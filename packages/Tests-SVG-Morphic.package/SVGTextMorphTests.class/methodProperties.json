@@ -8,7 +8,7 @@
 		"defaultColor" : "tw 6/2/2022 12:12",
 		"defaultFont" : "AS 6/21/2022 12:26",
 		"defaultFontSize" : "tw 6/2/2022 21:31",
-		"knownFontTextSVG" : "tw 6/14/2022 22:37",
+		"knownFontTextSVG" : "AS 6/21/2022 12:30",
 		"scalingTextSVG" : "tw 6/2/2022 11:59",
 		"testDefaultFont" : "AS 6/21/2022 12:26",
 		"testDefaultFontInSVGText" : "AS 6/21/2022 12:25",
@@ -16,6 +16,6 @@
 		"testTextColor" : "tw 6/2/2022 12:25",
 		"testTextScaling" : "tw 6/14/2022 22:36",
 		"testTextSize" : "tw 6/2/2022 11:41",
-		"testUnknownFontInSVGText" : "AS 6/21/2022 12:24",
+		"testUnknownFontInSVGText" : "AS 6/21/2022 12:30",
 		"unknownFont" : "tw 6/14/2022 21:44",
 		"unknownFontTextSVG" : "AS 6/15/2022 22:00" } }
