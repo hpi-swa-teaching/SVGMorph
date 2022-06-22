@@ -14,6 +14,7 @@ createFillFromSVGRadialGradient: anElement
 	
 	self setFill: (anElement attributeAt: 'id')
 		to: ((SVGGradientFillStyle ramp: ramp)
+		originalElement: anElement;
 		origin: origin;
 		direction: direction x @ 0;
 		normal: 0 @ direction y;
