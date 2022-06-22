@@ -7,8 +7,6 @@ renderEllipse: anSVGEllipse on: aCanvas
 	lineColor := anSVGEllipse composedStyle at: 'stroke'.
 	matrix := anSVGEllipse transformFrom: anSVGEllipse world.
 	rectangle := anSVGEllipse rectangle.
-	
-	rectangle := anSVGEllipse rectangle.
 
 	
 	scale := matrix compositeScale.
@@ -33,12 +31,7 @@ renderEllipse: anSVGEllipse on: aCanvas
 	aCanvas asBalloonCanvas preserveStateDuring: [:bc|
 		bc transformBy: (matrix) during: [:balloonCanvas |
 			balloonCanvas
-				aaLevel: anSVGEllipse antialiasingLevel;
-				drawPolygon: (self getOffsetFromBeziers:  (self circleAt: (rectangle center) r: (rectangle extent / 2)) by: (lineWidth /2))
-				color: lineColor
-				borderWidth: 0
-				borderColor: lineColor;
-				
+				aaLevel: anSVGEllipse antialiasingLevel;				
 				drawPolygon: (self getOffsetFromBeziers:  (self circleAt: (rectangle center) r: (rectangle extent / 2)) by: (lineWidth /2))
 				color: lineColor
 				borderWidth: 1
