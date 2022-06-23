@@ -1,3 +1,4 @@
 SVGTestMorphs
 emptySVG
+
 	^ '<svg></svg>'
