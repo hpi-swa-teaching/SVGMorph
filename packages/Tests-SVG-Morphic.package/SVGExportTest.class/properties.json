@@ -1,0 +1,14 @@
+{
+	"category" : "Tests-SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lra 6/23/2022 17:54",
+	"instvars" : [
+		"builder" ],
+	"name" : "SVGExportTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
