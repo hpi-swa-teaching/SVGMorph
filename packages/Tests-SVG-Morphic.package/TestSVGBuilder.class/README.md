@@ -1,0 +1,2 @@
+A TestSVGBuilder is a builder that can be used to create composite object structures of SVGs without having an XML based representation.
+This allows writing units tests that do not depend on the XML import feature.
