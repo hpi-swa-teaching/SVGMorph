@@ -34,6 +34,6 @@ renderEllipse: anSVGEllipse on: aCanvas
 				aaLevel: anSVGEllipse antialiasingLevel;				
 				drawPolygon: (self getOffsetFromBeziers:  (self circleAt: (rectangle center) r: (rectangle extent / 2)) by: (lineWidth /2))
 				color: lineColor
-				borderWidth: 1
-				borderColor: Color orange
+				borderWidth: 0
+				borderColor: lineColor
 		]]

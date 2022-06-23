@@ -7,7 +7,7 @@ renderPath: anSVGPath on: aCanvas
 		ifTrue: [^ self].
 	fill := anSVGPath composedFillStyle.
 	lineWidth := (anSVGPath composedStyle at: 'stroke-width') rounded max: 1.
-	lineWidth := 10.
+	lineWidth := anSVGPath composedStyle at: 'stroke-width'.
 	lineColor := anSVGPath composedStyle at: 'stroke'.
 	
 	"auslagerbar"
