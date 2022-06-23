@@ -1,0 +1,1 @@
+A Templates is a class that contains helpers for testing SVGs.

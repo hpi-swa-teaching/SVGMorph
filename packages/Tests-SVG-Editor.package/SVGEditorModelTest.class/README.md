@@ -1,0 +1,1 @@
+A SVGEditorModelTest is a class that contains tests for the SVGEditorModel.
