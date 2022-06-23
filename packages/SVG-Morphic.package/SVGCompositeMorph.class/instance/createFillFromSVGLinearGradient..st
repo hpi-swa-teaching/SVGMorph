@@ -14,6 +14,7 @@ createFillFromSVGLinearGradient: anElement
 	
 	self setFill: (anElement attributeAt: 'id')
 		to: ((SVGGradientFillStyle ramp: ramp)
+		originalElement: anElement;
 		origin: start;
 		direction: end - start;
 		normal: nil;
