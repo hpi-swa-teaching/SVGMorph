@@ -9,9 +9,6 @@ demoSVG
 		<path d="M10 10" />
 		<polygon points="60,20 100,40 100,80 60,100 20,80 20,40" />
 		<polyline points="0,100 50,25 50,75 100,0" />
-		<text x="20" y="30">
-			Test
-			<tspan>Test2</tspan>
-		</text>
+		<text x="20" y="30">Test<tspan>Test2</tspan></text>
 		<g></g>
 	</svg>'
