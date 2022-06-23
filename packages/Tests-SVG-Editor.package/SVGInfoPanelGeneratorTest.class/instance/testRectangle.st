@@ -2,7 +2,7 @@ as yet unclassified
 testRectangle
 
 	|panelInfo|
-	panelInfo :=  SVGInfoPanelGenerator for: (self subject findByClass: SVGRectMorph).
+	panelInfo := SVGInfoPanelGenerator for: (self subject findByClass: SVGRectMorph).
 
 	self
 		hasValue: 'Rectangle' atKey: 'Type' in: panelInfo;

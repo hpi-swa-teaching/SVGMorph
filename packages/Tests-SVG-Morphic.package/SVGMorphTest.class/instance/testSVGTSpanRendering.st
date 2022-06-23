@@ -9,4 +9,4 @@ testSVGTSpanRendering
 		wantsToTestTSpan;
 		addRenderer: renderer on: SVGTSpanMorph;
 		render: SVGTSpanMorph;
-		assert:  (renderer renderCount at: #renderText ifAbsent: 0) equals: 1.
+		assert: (renderer renderCount at: #renderText ifAbsent: 0) equals: 1.

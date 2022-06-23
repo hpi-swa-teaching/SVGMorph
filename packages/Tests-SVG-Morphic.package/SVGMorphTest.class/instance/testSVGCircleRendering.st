@@ -9,4 +9,4 @@ testSVGCircleRendering
 		wantsToTestCircle;
 		addRenderer: renderer on: SVGCircleMorph;
 		render: SVGCircleMorph;
-		assert:  (renderer renderCount at: #renderEllipse ifAbsent: 0) equals: 1.
+		assert: (renderer renderCount at: #renderEllipse ifAbsent: 0) equals: 1.

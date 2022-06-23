@@ -2,7 +2,7 @@ as yet unclassified
 testEllipse
 
 	|panelInfo|
-	panelInfo :=  SVGInfoPanelGenerator for: (self subject findByClass: SVGEllipseMorph).
+	panelInfo := SVGInfoPanelGenerator for: (self subject findByClass: SVGEllipseMorph).
 
 	self
 		hasValue: 'Ellipse' atKey: 'Type' in: panelInfo;

@@ -2,7 +2,7 @@ as yet unclassified
 testLine
 
 	|panelData|
-	panelData :=  SVGInfoPanelGenerator for: (self subject findByClass: SVGLineMorph).
+	panelData := SVGInfoPanelGenerator for: (self subject findByClass: SVGLineMorph).
 
 	self
 		hasValue: 'Line' atKey: 'Type' in: panelData;

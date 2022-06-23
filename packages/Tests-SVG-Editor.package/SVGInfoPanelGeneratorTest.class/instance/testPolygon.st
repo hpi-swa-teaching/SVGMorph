@@ -2,7 +2,7 @@ as yet unclassified
 testPolygon
 
 	|panelInfo|
-	panelInfo :=  SVGInfoPanelGenerator for: (self subject findByClass: SVGPolygonMorph).
+	panelInfo := SVGInfoPanelGenerator for: (self subject findByClass: SVGPolygonMorph).
 
 	self
 		hasValue: 'Polygon' atKey: 'Type' in: panelInfo;

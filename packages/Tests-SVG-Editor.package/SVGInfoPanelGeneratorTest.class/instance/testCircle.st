@@ -2,7 +2,7 @@ as yet unclassified
 testCircle
 
 	|panelInfo|
-	panelInfo :=  SVGInfoPanelGenerator for: (self subject findByClass: SVGCircleMorph).
+	panelInfo := SVGInfoPanelGenerator for: (self subject findByClass: SVGCircleMorph).
 
 	self
 		hasValue: 'Circle' atKey: 'Type' in: panelInfo;

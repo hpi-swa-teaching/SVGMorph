@@ -2,7 +2,7 @@ as yet unclassified
 testText
 
 	|panelInfo|
-	panelInfo :=  SVGInfoPanelGenerator for: (self subject findByClass: SVGTextMorph).
+	panelInfo := SVGInfoPanelGenerator for: (self subject findByClass: SVGTextMorph).
 
 	self
 		hasValue: 'Text' atKey: 'Type' in: panelInfo;

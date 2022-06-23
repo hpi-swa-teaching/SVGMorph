@@ -8,5 +8,5 @@ testSVGRectangleBounds
 	self
 		assert: 50 equals: bounds origin x;
 		assert: 50 equals: bounds origin y ;
-		assert: 80  equals: bounds corner x ;
+		assert: 80 equals: bounds corner x ;
 		assert: 90 equals: bounds corner y

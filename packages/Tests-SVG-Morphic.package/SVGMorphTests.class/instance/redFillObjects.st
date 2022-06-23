@@ -1,4 +1,4 @@
 SVG colors - selector sets
 redFillObjects
 
-^#(#circleRedFillOrangeStrokeMorph #ellipseRedFillOrangeStrokeMorph #polygonRedFillOrangeStrokeMorph #polylineRedFillOrangeStrokeMorph #rectangleRedFillOrangeStrokeMorph)
+	^#(#circleRedFillOrangeStrokeMorph #ellipseRedFillOrangeStrokeMorph #polygonRedFillOrangeStrokeMorph #polylineRedFillOrangeStrokeMorph #rectangleRedFillOrangeStrokeMorph)

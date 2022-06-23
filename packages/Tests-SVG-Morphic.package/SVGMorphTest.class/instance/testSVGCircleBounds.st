@@ -8,5 +8,5 @@ testSVGCircleBounds
 	self
 		assert: -30 equals: bounds origin x;
 		assert: -20 equals: bounds origin y ;
-		assert: 90  equals: bounds corner x ;
+		assert: 90 equals: bounds corner x ;
 		assert: 100 equals: bounds corner y

@@ -2,7 +2,7 @@ as yet unclassified
 testPolyline
 
 	|panelInfo|
-	panelInfo :=  SVGInfoPanelGenerator for: (self subject findByClass: SVGPolylineMorph).
+	panelInfo := SVGInfoPanelGenerator for: (self subject findByClass: SVGPolylineMorph).
 
 	self
 		hasValue: 'Polyline' atKey: 'Type' in: panelInfo;

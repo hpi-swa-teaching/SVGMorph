@@ -2,7 +2,7 @@ as yet unclassified
 testTSpan
 
 	|panelInfo|
-	panelInfo :=  SVGInfoPanelGenerator for: (self subject findByClass: SVGTSpanMorph).
+	panelInfo := SVGInfoPanelGenerator for: (self subject findByClass: SVGTSpanMorph).
 
 	self
 		hasValue: 'TSpan' atKey: 'Type' in: panelInfo;
