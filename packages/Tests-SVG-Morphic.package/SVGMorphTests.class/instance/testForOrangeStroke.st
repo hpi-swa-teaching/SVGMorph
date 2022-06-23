@@ -5,4 +5,4 @@ testForOrangeStroke
 	|orangeStrokeObjects orangeStrokeMorphs|
 	orangeStrokeObjects := self orangeStrokeObjects.
 	orangeStrokeMorphs := orangeStrokeObjects collect: [:aSVGMorph| (SVGMorph fromString: (self perform: aSVGMorph)) submorphs first].
-	^orangeStrokeMorphs do: [:aSVGMorph| self testStrokeIn: aSVGMorph with: (Color r: 1 g: 0.647 b: 0.0)]
+	^ orangeStrokeMorphs do: [:aSVGMorph| self testStrokeIn: aSVGMorph with: (Color r: 1 g: 0.647 b: 0.0)]
