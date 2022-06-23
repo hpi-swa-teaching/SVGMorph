@@ -6,12 +6,7 @@
 		 ],
 	"commentStamp" : "E.R 8/7/2020 23:24",
 	"instvars" : [
-		"orangeStrokeObjects",
-		"brownStrokeObjects",
-		"balckStrokeObjects",
-		"redFillObjects",
-		"blueFillObjects",
-		"transparentFillObjects" ],
+		 ],
 	"name" : "SVGMorphTests",
 	"pools" : [
 		 ],
