@@ -1,4 +1,4 @@
 SVG colors - selector sets
 blueFillObjects
 
-^#(#CircleBlueFillBrownStrokeMorph #EllipseBlueFillBrownStrokeMorph #PolylineBlueFillBrownStrokeMorph #RectangleBlueFillBrownStrokeMorph #PolygonBlueFillBrownStrokeMorph)
+^#(#circleBlueFillBrownStrokeMorph #ellipseBlueFillBrownStrokeMorph #polylineBlueFillBrownStrokeMorph #rectangleBlueFillBrownStrokeMorph #polygonBlueFillBrownStrokeMorph)

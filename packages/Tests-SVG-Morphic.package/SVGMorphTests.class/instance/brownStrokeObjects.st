@@ -1,4 +1,4 @@
 SVG colors - selector sets
 brownStrokeObjects
 
-^self blueFillObjects union: #(#LineBrownStrokeMorph #Path3BrownStrokeMorph)
+^self blueFillObjects union: #(#lineBrownStrokeMorph #path3BrownStrokeMorph)
