@@ -1,5 +1,5 @@
 accessing
-canCloseFile: anObject
+canCloseFile: aBoolean
 
-	canCloseFile := anObject.
+	canCloseFile := aBoolean.
 	self changed: #canCloseFile

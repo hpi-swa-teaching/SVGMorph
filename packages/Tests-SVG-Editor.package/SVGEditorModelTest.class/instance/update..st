@@ -1,4 +1,4 @@
 updating
-update: anObject
+update: aSymbol
 
-	self updateObjects add: anObject
+	self updateObjects add: aSymbol

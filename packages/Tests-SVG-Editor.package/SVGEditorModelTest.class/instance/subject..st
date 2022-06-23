@@ -1,4 +1,4 @@
 accessing
-subject: anObject
+subject: anSVGEditorModel
 
-	subject := anObject
+	subject := anSVGEditorModel

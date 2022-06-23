@@ -1,4 +1,4 @@
 accessing
-subject: anObject
+subject: aMatrixTransform2x3
 
-	subject := anObject
+	subject := aMatrixTransform2x3

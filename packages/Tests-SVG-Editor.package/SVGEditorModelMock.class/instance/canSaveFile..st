@@ -1,5 +1,5 @@
 accessing
-canSaveFile: anObject
+canSaveFile: aBoolean
 
-	canSaveFile := anObject.
+	canSaveFile := aBoolean.
 	self changed: #canSaveFile

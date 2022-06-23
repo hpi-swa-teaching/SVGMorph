@@ -1,4 +1,4 @@
 accessing
-actionOpenFileCount: anObject
+actionOpenFileCount: anInteger
 
-	actionOpenFileCount := anObject
+	actionOpenFileCount := anInteger

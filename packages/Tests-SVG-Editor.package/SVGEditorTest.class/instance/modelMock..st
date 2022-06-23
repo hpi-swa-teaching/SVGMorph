@@ -1,4 +1,4 @@
 accessing
-modelMock: anObject
+modelMock: anSVGEditorModelMock
 
-	modelMock := anObject
+	modelMock := anSVGEditorModelMock

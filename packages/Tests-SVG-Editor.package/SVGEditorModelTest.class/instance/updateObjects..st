@@ -1,4 +1,4 @@
 accessing
-updateObjects: anObject
+updateObjects: aCollection
 
-	updateObjects := anObject
+	updateObjects := aCollection

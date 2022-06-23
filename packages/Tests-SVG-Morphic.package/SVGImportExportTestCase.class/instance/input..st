@@ -1,4 +1,4 @@
 accessing
-input: anObject
+input: aString
 
-	input := anObject
+	input := aString

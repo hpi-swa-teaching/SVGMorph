@@ -1,4 +1,4 @@
 accessing
-expected: anObject
+expected: aString
 
-	expected := anObject
+	expected := aString

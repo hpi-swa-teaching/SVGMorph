@@ -1,4 +1,4 @@
 accessing
-actionCloseFileCount: anObject
+actionCloseFileCount: anInteger
 
-	actionCloseFileCount := anObject
+	actionCloseFileCount := anInteger
