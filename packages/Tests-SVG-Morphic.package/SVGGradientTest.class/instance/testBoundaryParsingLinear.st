@@ -10,5 +10,3 @@ testBoundaryParsingLinear
 	
 	self assert: start equals: gradient origin.
 	self assert: end-start equals: gradient direction.
-	
-	

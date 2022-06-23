@@ -10,5 +10,3 @@ testDefaultBoundariesRadial
 	
 	self assert: start equals: gradient origin.
 	self assert: direction equals: gradient direction.
-	
-	
