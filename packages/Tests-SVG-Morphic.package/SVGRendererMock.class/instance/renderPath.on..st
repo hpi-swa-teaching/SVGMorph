@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderPath: anSVGPath on: aCanvas
 
 	self increment: #renderPath

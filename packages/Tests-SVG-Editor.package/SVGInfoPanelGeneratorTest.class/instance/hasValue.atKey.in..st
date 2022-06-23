@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 hasValue: aValue atKey: aKey in: anArrayOfLists
 
 	|keys values|

@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderTSpan: anSVGTSpan on: aCanvas
 
 	self increment: #renderTSpan

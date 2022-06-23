@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderPolygon: anSVGPolygon on: aCanvas
 
 	self increment: #renderPolygon

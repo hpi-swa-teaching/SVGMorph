@@ -1,4 +1,4 @@
-as yet unclassified
+setup
 setUp
 
 	self wantsToTest: (SVGMorph fromString: self demoSVG)

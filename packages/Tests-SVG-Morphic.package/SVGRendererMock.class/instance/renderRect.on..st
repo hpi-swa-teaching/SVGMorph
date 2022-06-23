@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderRect: anSVGRect on: aCanvas
 
 	self increment: #renderRect
