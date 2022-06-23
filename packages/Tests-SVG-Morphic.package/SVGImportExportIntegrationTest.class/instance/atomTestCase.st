@@ -1,7 +1,7 @@
 test cases
 atomTestCase
 
-	^  SVGExportTestCase
+	^  SVGImportExportTestCase
 		for:
 '<svg xmlns="http://www.w3.org/2000/svg" viewBox="-52 -53 100 100" stroke-width="2">
  <g fill="none">

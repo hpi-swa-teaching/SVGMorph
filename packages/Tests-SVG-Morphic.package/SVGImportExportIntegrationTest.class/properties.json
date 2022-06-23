@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "<historical>",
+	"commentStamp" : "lra 6/23/2022 17:51",
 	"instvars" : [
 		 ],
-	"name" : "SVGExportTest",
+	"name" : "SVGImportExportIntegrationTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

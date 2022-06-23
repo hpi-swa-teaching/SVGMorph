@@ -1,7 +1,7 @@
 test cases
 polylineTestCase
 
-	^ SVGExportTestCase
+	^ SVGImportExportTestCase
 		for:
 '<svg width="200" height="200" version="1.1" xmlns="http://www.w3.org/2000/svg">
     <polyline stroke="red" stroke-width="5px" fill="transparent" points="0,0 100,100 50,200 100,200"/>

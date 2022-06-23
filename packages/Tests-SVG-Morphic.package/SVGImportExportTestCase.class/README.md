@@ -1,4 +1,4 @@
-A SVGExportTestCase is a combination of two SVG XML strings to test the SVG export.
+A SVGExportTestCase is a combination of two SVG XML strings to perform integration testing of SVG import and export.
 
 Instance Variables
 	expected:		<String>
