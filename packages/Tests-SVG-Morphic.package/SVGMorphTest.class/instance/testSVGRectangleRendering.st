@@ -9,4 +9,4 @@ testSVGRectangleRendering
 		wantsToTestRectangle;
 		addRenderer: renderer on: SVGRectMorph;
 		render: SVGRectMorph;
-		assert: (renderer renderCount at: #renderRect ifAbsent: 0) equals: 1.
+		assert: (renderer renderCount at: #renderRect ifAbsent: 0) equals: 1

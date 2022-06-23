@@ -6,4 +6,4 @@ testMethodNameIsLowerCase
 		firstChar := lines first first.
 		firstChar isLetter
 			ifTrue: [self assert: firstChar isLowercase]
-		].
+		]

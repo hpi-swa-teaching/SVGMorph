@@ -1,4 +1,4 @@
 tests
 testsmallLintOnlyReadOrWrittenTemporary
 
-	self arbitraryCodeRule: #smallLintOnlyReadOrWrittenTemporary.
+	self arbitraryCodeRule: #smallLintOnlyReadOrWrittenTemporary

@@ -9,4 +9,4 @@ testSVGPathRendering
 		wantsToTestPath;
 		addRenderer: renderer on: SVGPathMorph;
 		render: SVGPathMorph;
-		assert: (renderer renderCount at: #renderPath ifAbsent: 0) equals: 1.
+		assert: (renderer renderCount at: #renderPath ifAbsent: 0) equals: 1

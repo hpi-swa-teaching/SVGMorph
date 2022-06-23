@@ -7,4 +7,4 @@ initializeForClasses: aCollection test: aSymbol plugIn: aPlugin
 	self
 		initializeInstanceVariables;
 		loadTest: aSymbol plugIn: aPlugin;
-		fetchClasses: aCollection.
+		fetchClasses: aCollection

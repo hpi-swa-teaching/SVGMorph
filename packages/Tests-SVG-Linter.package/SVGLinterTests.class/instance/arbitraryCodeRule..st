@@ -1,4 +1,4 @@
 private
 arbitraryCodeRule: aRule
 
-	self arbitraryCodeRule: aRule plugIn: SLSmallLintPlugIn.
+	self arbitraryCodeRule: aRule plugIn: SLSmallLintPlugIn

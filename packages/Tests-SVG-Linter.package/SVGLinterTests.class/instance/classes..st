@@ -1,4 +1,4 @@
 accessing
 classes: aCollection
 
-	classes := aCollection.
+	classes := aCollection

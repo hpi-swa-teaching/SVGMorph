@@ -1,4 +1,4 @@
 accessing
 systemClasses: aCollection
 
-	systemClasses := aCollection.
+	systemClasses := aCollection

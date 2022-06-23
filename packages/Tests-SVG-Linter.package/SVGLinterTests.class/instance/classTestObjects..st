@@ -1,4 +1,4 @@
 accessing
 classTestObjects: aCollection
 
-	classTestObjects := aCollection.
+	classTestObjects := aCollection
