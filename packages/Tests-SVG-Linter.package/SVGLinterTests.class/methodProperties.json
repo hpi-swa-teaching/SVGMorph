@@ -29,7 +29,6 @@
 		"testMethodNoTwoWhitespacesNextToEachOther" : "lra 6/23/2022 19:55",
 		"testMethodParamsHaveMeaningfulNames" : "lra 6/23/2022 19:55",
 		"testNoClassComments" : "lra 6/23/2022 19:55",
-		"testNoDotAfterReturn" : "lra 6/23/2022 19:55",
 		"testNoLastDot" : "lra 6/23/2022 18:39",
 		"testNoUnclassifiedMethods" : "lra 6/23/2022 19:55",
 		"testNoUnconditionalRecursion" : "lra 6/23/2022 19:56",
