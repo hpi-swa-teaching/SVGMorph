@@ -48,7 +48,7 @@ styleIn: aComponent fromSVGStyle: svgStyle
 	(svgStyle includesKey: 'stroke-linecap')
 		ifTrue: [balloonStyle at: 'stroke-linecap' put: (svgStyle at: 'stroke-linecap')]
 		ifFalse: [(balloonStyle includesKey: 'stroke-linecap')
-				ifFalse: [balloonStyle at: 'stroke-linecap' put: #square]].
+				ifFalse: [balloonStyle at: 'stroke-linecap' put: #butt]].
 	(svgStyle includesKey: 'stroke-opacity')
 		ifTrue: [balloonStyle at: 'stroke-opacity' put: (svgStyle at: 'stroke-opacity')]
 		ifFalse: [(balloonStyle includesKey: 'stroke-opacity')
