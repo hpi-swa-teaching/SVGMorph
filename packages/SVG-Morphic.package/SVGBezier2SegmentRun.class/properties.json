@@ -7,7 +7,7 @@
 	"commentStamp" : "lra 6/12/2022 20:15",
 	"instvars" : [
 		 ],
-	"name" : "SVGBezierSegmentRun",
+	"name" : "SVGBezier2SegmentRun",
 	"pools" : [
 		 ],
 	"super" : "SVGSegmentRun",
