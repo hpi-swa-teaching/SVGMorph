@@ -2,23 +2,35 @@ rendering
 renderEllipse: anSVGEllipse on: aCanvas
 	"Render the given object on the canvas."
 
-	| fill lineWidth lineColor matrix rectangle scale |
+	|fill lineWidth lineColor matrix rectangle circ|
 	fill := anSVGEllipse composedFillStyle.
 	lineColor := anSVGEllipse composedStyle at: 'stroke'.
 	matrix := anSVGEllipse transformFrom: anSVGEllipse world.
 	rectangle := anSVGEllipse rectangle.
+	lineWidth := anSVGEllipse composedStyle at: 'stroke-width'..
+"
+	circ := self circleAt: (rectangle center) r: (rectangle extent / 2).
 
-	scale := matrix compositeScale.
-	rectangle := rectangle scaleBy: scale .
-	matrix := matrix composedWithLocal: (MatrixTransform2x3 withScale: scale reciprocal).
-
-	lineWidth := ((anSVGEllipse composedStyle at: 'stroke-width') * scale x) rounded clampLow: 1.
-
-	aCanvas preserveStateDuring: [:bc|
-		bc transformBy: matrix during: [:balloonCanvas |
-			balloonCanvas
-				aaLevel: 4;
-				drawOval: rectangle
+	self
+		renderStrokeBezier3: circ
+		fill: fill
+		stroke: lineColor
+		strokeWidth: lineWidth
+		transform: matrix
+		on: aCanvas"
+	circ := SVGBezierSegmentRun
+		fromBezier3Segments: (Bezier3Segment makeEllipseSegments: rectangle)
+		precision: 0.001.
+		
+	aCanvas preserveStateDuring: [:bc |
+		bc
+			aaLevel: 4;
+			drawBezierShape: (circ points collect: [:p | matrix transformPoint: p])
 				color: fill
-				borderWidth: lineWidth
-				borderColor: lineColor]]
+				borderWidth: 0
+				borderColor: nil.
+		bc
+			drawGeneralBezierShape: (circ stroke: lineWidth transform: matrix)
+			color: lineColor
+			borderWidth: 0
+			borderColor: nil]
