@@ -1,8 +1,9 @@
 {
 	"class" : {
 		"defaultSVGFont" : "tw 5/31/2022 16:51",
-		"defaultSVGTextStyle" : "tw 5/31/2022 16:51",
-		"installDefaultSVGTextStyle" : "tw 5/31/2022 16:51",
-		"openSansData" : "tw 5/31/2022 16:34" },
+		"defaultSVGTextStyle" : "AS 7/3/2022 21:31",
+		"installDefaultSVGTextStyle" : "AS 7/3/2022 21:30",
+		"sansData" : "AS 7/3/2022 21:30",
+		"serifData" : "AS 7/3/2022 21:28" },
 	"instance" : {
 		 } }
