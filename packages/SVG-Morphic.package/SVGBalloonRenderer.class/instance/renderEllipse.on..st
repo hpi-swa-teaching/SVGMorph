@@ -4,7 +4,7 @@ renderEllipse: anSVGEllipse on: aCanvas
 	
 	self
 		renderBezier3Segments: (Bezier3Segment
-			makeEllipseSegments: anSVGEllipse rectangle)
+			makeEllipseSegments: anSVGEllipse rectangle count: 10)
 		fill: anSVGEllipse composedFillStyle
 		stroke: (anSVGEllipse composedStyle at: 'stroke')
 		strokeWidth: (anSVGEllipse composedStyle at: 'stroke-width')
