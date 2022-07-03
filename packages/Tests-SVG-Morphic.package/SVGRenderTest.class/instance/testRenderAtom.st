@@ -1,4 +1,4 @@
 tests
 testRenderAtom
 
-	self testRender: 'atom' errorRate: 0
+	self testRender: 'atom' errorRate: 0.001
