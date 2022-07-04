@@ -4,11 +4,11 @@ renderBezier2SegmentRun: segments fill: fillStyle stroke: strokeStyle strokeWidt
 	aCanvas preserveStateDuring: [:bc |
 		bc
 			aaLevel: 4;
-			drawBezierShape: (segments points collect: [:p | aMatrix transformPoint: p])
+			drawBezierShape: (segments stitchedClosed points collect: [:p | aMatrix transformPoint: p])
 				color: fillStyle
 				borderWidth: 0
-				borderColor: nil;
+				borderColor: Color transparent;
 			drawGeneralBezierShape: (segments stroke: aNumber transform: aMatrix)
 				color: strokeStyle
 				borderWidth: 0
-				borderColor: nil]
+				borderColor: Color transparent]
