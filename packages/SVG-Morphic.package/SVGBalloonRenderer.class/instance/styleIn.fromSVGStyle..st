@@ -48,7 +48,7 @@ styleIn: aComponent fromSVGStyle: svgStyle
 	(svgStyle includesKey: 'stroke-linecap')
 		ifTrue: [balloonStyle at: 'stroke-linecap' put: (svgStyle at: 'stroke-linecap')]
 		ifFalse: [(balloonStyle includesKey: 'stroke-linecap')
-				ifFalse: [balloonStyle at: 'stroke-linecap' put: #butt]].
+				ifFalse: [balloonStyle at: 'stroke-linecap' put: #square]].
 	(svgStyle includesKey: 'stroke-opacity')
 		ifTrue: [balloonStyle at: 'stroke-opacity' put: (svgStyle at: 'stroke-opacity')]
 		ifFalse: [(balloonStyle includesKey: 'stroke-opacity')
@@ -66,7 +66,4 @@ styleIn: aComponent fromSVGStyle: svgStyle
 		ifTrue: [balloonStyle at: 'visibility' put: ((svgStyle at: 'visibility') withBlanksTrimmed = 'visible')]
 		ifFalse: [(balloonStyle includesKey: 'visibility')
 				ifFalse: [balloonStyle at: 'visibility' put: true]].
-	(balloonStyle at: 'stroke') isColor
-		ifTrue: [(balloonStyle at: 'stroke') isTransparent
-			ifFalse: [balloonStyle at: 'stroke' put: ((balloonStyle at: 'stroke') alpha: (balloonStyle at: 'stroke-opacity'))]].
 	^ balloonStyle
