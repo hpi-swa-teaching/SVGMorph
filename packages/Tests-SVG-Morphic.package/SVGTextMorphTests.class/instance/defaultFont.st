@@ -1,4 +1,4 @@
 defaultFont
 defaultFont
 
-	^ 'OpenSans'
+	^ 'sans-serif'
