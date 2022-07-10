@@ -3,6 +3,9 @@
 		 },
 	"instance" : {
 		"boundingBox" : "gvc 7/30/2005 19:27",
+		"equals:" : "lha 7/10/2022 13:13",
+		"equalsBezier2Segment:" : "lha 7/10/2022 13:22",
+		"equalsLineSegment:" : "lha 7/10/2022 13:13",
 		"isLineSegment" : "gvc 10/3/2005 09:48",
 		"offsetBy:" : "nh 7/2/2022 10:56",
 		"primAddToEngine:fills:lineWidth:" : "gvc 7/28/2005 17:12",
