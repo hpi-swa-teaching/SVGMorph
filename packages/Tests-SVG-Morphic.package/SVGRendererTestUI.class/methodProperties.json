@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"open" : "lha 7/10/2022 18:37" },
+	"instance" : {
+		"buildAndOpen" : "lha 7/10/2022 18:36",
+		"buildCreateButtonWith:" : "lha 7/10/2022 18:38",
+		"buildFormPanelWith:" : "lha 7/10/2022 20:39",
+		"buildIdentifierInputWith:" : "lha 7/10/2022 18:42",
+		"buildWith:" : "lha 7/10/2022 19:49",
+		"buildXMLInputWith:" : "lha 7/10/2022 19:51",
+		"buttonHeight" : "lha 7/10/2022 14:42",
+		"createButtonFrame" : "lha 7/10/2022 18:27",
+		"formFrame" : "lha 7/10/2022 19:49",
+		"identifierInputFrame" : "lha 7/10/2022 14:43",
+		"initialize" : "lha 7/10/2022 14:35",
+		"model" : "lha 7/10/2022 14:35",
+		"model:" : "lha 7/10/2022 14:35",
+		"xmlInputFrame" : "lha 7/10/2022 14:45" } }

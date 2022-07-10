@@ -1,5 +1,5 @@
 toolbuilder
-buildSwitchesWIth: aToolBuilder
+buildSwitchesWith: aToolBuilder
 
 	^ aToolBuilder pluggablePanelSpec new
 		layout: #horizontal;

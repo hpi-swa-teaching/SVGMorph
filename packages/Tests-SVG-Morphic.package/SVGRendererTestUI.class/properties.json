@@ -1,0 +1,14 @@
+{
+	"category" : "Tests-SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"model" ],
+	"name" : "SVGRendererTestUI",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
