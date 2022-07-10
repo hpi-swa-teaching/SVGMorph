@@ -4,13 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "lha 7/10/2022 22:14",
+	"commentStamp" : "lha 7/10/2022 22:13",
 	"instvars" : [
-		"form",
-		"identifier",
-		"svgString" ],
-	"name" : "SVGRendererTestUIModel",
+		"model" ],
+	"name" : "SVGRenderTestUI",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Object",
 	"type" : "normal" }

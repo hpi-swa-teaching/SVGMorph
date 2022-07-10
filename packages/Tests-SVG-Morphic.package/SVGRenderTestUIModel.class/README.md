@@ -1,4 +1,4 @@
-A SVGRendererTestUIModel is a model for the test ui window.
+A SVGRenderTestUIModel is a model for the test ui window.
 
 Instance Variables
 	form:		<Form>

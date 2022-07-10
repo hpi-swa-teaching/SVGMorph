@@ -2,4 +2,4 @@ initialize-release
 initialize
 
 	super initialize.
-	self model: SVGRendererTestUIModel new
+	self model: SVGRenderTestUIModel new
