@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "lha 7/10/2022 22:13",
 	"instvars" : [
 		"model" ],
 	"name" : "SVGRendererTestUI",
