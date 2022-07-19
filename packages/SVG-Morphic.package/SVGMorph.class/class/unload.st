@@ -1,4 +1,4 @@
 initialize-release
 unload
 
-	FileServices unregisterFileReader: self.
+	FileServices unregisterFileReader: self
