@@ -1,4 +1,4 @@
 class initialization
 initialize
 
-	FileServices registerFileReader: self.
+	FileServices registerFileReader: self
