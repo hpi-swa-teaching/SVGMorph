@@ -1,6 +1,5 @@
 *SVG-Morphic
 primAddToEngine: aBalloonEngine fills: fills lineWidth: lineWidth
-	"Add the receiver's description to the ballooon engine."
 
 	|points|
 	points := self asBezier2Shape: 0.5.

@@ -1,6 +1,5 @@
 rendering
 renderPolygon: anSVGPolygon on: aCanvas
-	"Render the given object on the canvas."
 
 	|fill lineWidth lineColor|
 	anSVGPolygon points isEmpty
