@@ -1,4 +1,4 @@
-as yet unclassified
+styling
 setDisplayVisibilityStyle
 
 	(self svgStyle includesKey: 'display')

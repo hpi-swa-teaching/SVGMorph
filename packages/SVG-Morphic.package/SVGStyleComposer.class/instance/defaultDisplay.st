@@ -1,4 +1,4 @@
-nil
+defaultStyles
 defaultDisplay
 
 	 ^ true

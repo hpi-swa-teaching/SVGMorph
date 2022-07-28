@@ -9,5 +9,5 @@ createTestSVG: aString bounded: aRect transformed: aMatrixTransform2x3 styled: a
 		transform: aMatrixTransform2x3;
 		yourself.
 	morph style addAll: aDictionary.
-	(SVGStyleComposer newFrom: morph composedStyle and: morph style)	styleIn.
+	SVGStyleComposer composeStyleFor: morph with: morph style.
 	^ morph

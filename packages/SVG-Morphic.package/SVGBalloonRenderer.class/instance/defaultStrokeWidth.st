@@ -1,4 +1,0 @@
-defaultStyles
-defaultStrokeWidth
-
-	 ^ 1

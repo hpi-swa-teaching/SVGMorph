@@ -1,4 +1,0 @@
-defaultStyles
-defaultFill
-
-	 ^  Color black

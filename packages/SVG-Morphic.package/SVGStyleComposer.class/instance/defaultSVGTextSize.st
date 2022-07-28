@@ -1,4 +1,4 @@
-as yet unclassified
+defaultStyles
 defaultSVGTextSize
 
 	^ 16

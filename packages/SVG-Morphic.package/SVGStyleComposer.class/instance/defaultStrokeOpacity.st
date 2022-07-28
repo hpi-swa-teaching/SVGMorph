@@ -1,4 +1,4 @@
-as yet unclassified
+defaultStyles
 defaultStrokeOpacity
 
 	 ^ 1.0

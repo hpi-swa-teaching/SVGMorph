@@ -1,4 +1,4 @@
-as yet unclassified
+defaultStyles
 defaultFillOpacity
 
 	 ^  1.0

@@ -6,7 +6,7 @@ addPath: aString of: aCollectionOfSegments describedBy: anotherString transforme
 	path := SVGPathMorph new.
 	aSVGCompositeMorph addMorph: path.
 	path style addAll: aDictionary.
-	(SVGStyleComposer newFrom: path composedStyle and: path style) styleIn.
+SVGStyleComposer composeStyleFor: path with: path style.
 	path segments addAll: aCollectionOfSegments.
 	^ path
 		id: aString;

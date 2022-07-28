@@ -5,7 +5,7 @@ addEllipse: aString at: aPoint sized: anotherPoint transformed: aMatrixTransform
 	ellipse := SVGEllipseMorph new.
 	aSVGCompositeMorph addMorph: ellipse.
 	ellipse style addAll: aDictionary.
-	(SVGStyleComposer newFrom: ellipse composedStyle and: ellipse style) styleIn.
+SVGStyleComposer composeStyleFor: ellipse with: ellipse style.
 	^ ellipse
 		id: aString;
 		rectangle: (anotherPoint center: aPoint);

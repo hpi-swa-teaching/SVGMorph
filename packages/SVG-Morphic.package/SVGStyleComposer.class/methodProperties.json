@@ -1,7 +1,8 @@
 {
 	"class" : {
-		"newFrom:and:" : "tw 7/28/2022 12:21" },
+		"composeStyleFor:with:" : "AS 7/28/2022 17:03" },
 	"instance" : {
+		"addStyleAt:defaultValue:" : "AS 7/28/2022 16:15",
 		"balloonStyle" : "tw 7/28/2022 12:19",
 		"balloonStyle:" : "tw 7/28/2022 12:19",
 		"defaultDisplay" : "AS 7/28/2022 15:29",
@@ -16,15 +17,12 @@
 		"defaultStrokeWidth" : "AS 7/28/2022 15:31",
 		"defaultTextAnchor" : "AS 7/28/2022 15:31",
 		"defaultVisibility" : "AS 7/28/2022 15:31",
+		"newFillOpacity" : "AS 7/28/2022 16:45",
+		"newStrokeOpacity" : "AS 7/28/2022 16:49",
 		"setDisplayVisibilityStyle" : "AS 7/28/2022 15:40",
-		"setDisplayVisibilityStyle:from:" : "AS 7/28/2022 15:31",
-		"setFillStyle" : "AS 7/28/2022 15:35",
-		"setFillStyle:from:" : "AS 7/28/2022 15:31",
-		"setFontStyle" : "AS 7/28/2022 15:38",
-		"setFontStyle:from:" : "AS 7/28/2022 15:31",
-		"setStrokeStyle" : "AS 7/28/2022 15:39",
-		"setStrokeStyle:from:" : "AS 7/28/2022 15:32",
-		"styleIn" : "AS 7/28/2022 15:40",
-		"styleIn:fromSVGStyle:" : "AS 7/28/2022 15:34",
+		"setFillStyle" : "AS 7/28/2022 16:47",
+		"setFontStyle" : "AS 7/28/2022 16:17",
+		"setStrokeStyle" : "AS 7/28/2022 16:52",
+		"setStyles" : "AS 7/28/2022 17:03",
 		"svgStyle" : "tw 7/28/2022 12:19",
 		"svgStyle:" : "tw 7/28/2022 12:19" } }

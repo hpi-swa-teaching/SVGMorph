@@ -2,18 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"defaultDisplay" : "tw 7/28/2022 12:10",
-		"defaultFill" : "tw 7/28/2022 12:09",
-		"defaultFillOpacity" : "tw 7/28/2022 12:08",
-		"defaultFillRule" : "tw 7/28/2022 12:10",
-		"defaultOpacity" : "tw 7/28/2022 12:08",
-		"defaultSVGTextSize" : "tw 7/28/2022 11:50",
-		"defaultStroke" : "tw 7/28/2022 12:07",
-		"defaultStrokeLinecap" : "tw 7/28/2022 11:57",
-		"defaultStrokeOpacity" : "tw 7/28/2022 11:57",
-		"defaultStrokeWidth" : "tw 7/28/2022 11:56",
-		"defaultTextAnchor" : "tw 7/28/2022 11:55",
-		"defaultVisibility" : "tw 7/28/2022 12:11",
 		"renderBezier2SegmentRun:fill:stroke:strokeWidth:transform:on:" : "nh 7/4/2022 09:27",
 		"renderBezier3Segments:fill:stroke:strokeWidth:transform:on:" : "nh 7/2/2022 11:58",
 		"renderEllipse:on:" : "nh 7/4/2022 10:12",
@@ -22,9 +10,4 @@
 		"renderPolygon:on:" : "lra 6/12/2022 18:44",
 		"renderPolyline:on:" : "lra 6/12/2022 18:44",
 		"renderRect:on:" : "AS 6/19/2022 11:36",
-		"renderText:on:" : "lra 6/12/2022 16:38",
-		"setDisplayVisibilityStyle:from:" : "tw 7/28/2022 12:11",
-		"setFillStyle:from:" : "tw 7/28/2022 12:10",
-		"setFontStyle:from:" : "tw 7/28/2022 11:55",
-		"setStrokeStyle:from:" : "tw 7/28/2022 12:07",
-		"styleIn:fromSVGStyle:" : "AS 7/28/2022 15:34" } }
+		"renderText:on:" : "lra 6/12/2022 16:38" } }

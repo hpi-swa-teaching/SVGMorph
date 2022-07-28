@@ -1,4 +1,0 @@
-defaultStyles
-defaultStrokeLinecap
-
-	 ^ #butt
