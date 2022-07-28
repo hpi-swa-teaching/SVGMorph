@@ -1,4 +1,4 @@
 accessing
-svgStyle: anObject
+svgStyle: aSVGStyle
 
-	svgStyle := anObject
+	svgStyle := aSVGStyle

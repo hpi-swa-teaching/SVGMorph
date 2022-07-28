@@ -1,4 +1,4 @@
 accessing
-balloonStyle: anObject
+balloonStyle: aBalloonStyle
 
-	balloonStyle := anObject
+	balloonStyle := aBalloonStyle
