@@ -1,4 +1,4 @@
 accessing
 svgStyle: anObject
 
-	svgStyle := anObject.
+	svgStyle := anObject

@@ -8,4 +8,4 @@ setDisplayVisibilityStyle
 	(self svgStyle includesKey: 'visibility')
 		ifTrue: [self balloonStyle at: 'visibility' put: ((self svgStyle at: 'visibility') withBlanksTrimmed = 'visible')]
 		ifFalse: [(self balloonStyle includesKey: 'visibility')
-				ifFalse: [self balloonStyle at: 'visibility' put: self defaultVisibility]].
+				ifFalse: [self balloonStyle at: 'visibility' put: self defaultVisibility]]

@@ -1,7 +1,7 @@
 styling
 setFontStyle
 
-	| textStyle|
+	|textStyle|
 	self addStyleAt: 'font-size' defaultValue: self defaultSVGTextSize.
 	(self svgStyle includesKey: 'font-family')
 		ifTrue: [textStyle := TextStyle named: (self svgStyle at: 'font-family').

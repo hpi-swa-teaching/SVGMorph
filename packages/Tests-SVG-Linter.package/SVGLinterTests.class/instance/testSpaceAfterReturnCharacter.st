@@ -4,4 +4,4 @@ testSpaceAfterReturnCharacter
 
 	self methodsLinesDo: [:lines |
 		lines do: [:line |
-			self assert: ((line includes: $^) ==> [('\^[^ ]' asRegex search: line) not])]]
+			self assert: ((line includes: $^) ==> [('\^[^]' asRegex search: line) not])]]

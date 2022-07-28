@@ -6,7 +6,7 @@ renderBezier3Segments: segments fill: fillStyle stroke: strokeStyle strokeWidth:
 	bezier2Run := SVGBezier2SegmentRun
 		fromBezier3Segments: segments
 		precision: aMatrix compositeScale r reciprocal.
-	
+
 	self
 		renderBezier2SegmentRun: bezier2Run
 		fill: fillStyle

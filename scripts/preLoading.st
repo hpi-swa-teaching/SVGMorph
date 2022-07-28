@@ -1,1 +1,1 @@
-Deprecation showDeprecationWarnings: false.
+Deprecation showDeprecationWarnings: false

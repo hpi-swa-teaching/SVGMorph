@@ -1,7 +1,7 @@
 styling
 setStyles
 
-	self 
+	self
 		setFontStyle;
 		setFillStyle;
 		setStrokeStyle;

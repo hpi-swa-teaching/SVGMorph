@@ -7,6 +7,6 @@ applyStyleOf: aMorph on: anXMLElement
 		((key = 'stroke') or: [key = 'fill'])
 			ifTrue: [(value isColor)
 				ifTrue: [convertedValue := value asHTMLColor]
-				ifFalse: [ convertedValue := self urlForGradient: value]].
+				ifFalse: [convertedValue := self urlForGradient: value]].
 
 			anXMLElement attributeAt: key put: convertedValue asString]
