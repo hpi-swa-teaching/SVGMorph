@@ -1,5 +1,4 @@
-defaults
+defaultStyles
 defaultSVGTextSize
-"medium in the standard"
 
-	 ^ 16
+	^ 16

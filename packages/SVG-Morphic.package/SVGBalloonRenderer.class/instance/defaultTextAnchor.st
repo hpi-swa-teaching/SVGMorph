@@ -1,0 +1,4 @@
+defaultStyles
+defaultTextAnchor
+
+	 ^ 'start'

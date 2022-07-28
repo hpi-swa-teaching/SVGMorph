@@ -1,0 +1,15 @@
+{
+	"category" : "SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"balloonStyle",
+		"svgStyle" ],
+	"name" : "SVGStyleComposer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
