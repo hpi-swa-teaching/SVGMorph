@@ -5,4 +5,5 @@ setStyleFromSVG: anElement
 	|svgStyle|	
 	svgStyle := self styleFromSVG: anElement.
 	self style addAll: svgStyle.
-	self renderer styleIn: self fromSVGStyle: svgStyle
+	(SVGStyleComposer newFrom: self composedStyle and: svgStyle) styleIn.
+	"self renderer styleIn: self fromSVGStyle: svgStyle"

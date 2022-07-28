@@ -1,4 +1,4 @@
-style
+as yet unclassified
 styleIn: aComponent fromSVGStyle: svgStyle
 	"Answer a dictionary of the style parameters for the given svg style dictionary."
 
@@ -6,8 +6,8 @@ styleIn: aComponent fromSVGStyle: svgStyle
 	balloonStyle := aComponent composedStyle.	
 	self 
 		setFontStyle;
-		setFillStyle: balloonStyle from: svgStyle;
-		setStrokeStyle: balloonStyle from: svgStyle;
-		setDisplayVisibilityStyle: balloonStyle from: svgStyle.
+		setFillStyle;
+		setStrokeStyle;
+		setDisplayVisibilityStyle.
 
 	^ balloonStyle

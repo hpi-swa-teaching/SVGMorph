@@ -5,7 +5,7 @@ addText: aString at: aPoint labeled: anotherString transformed: aMatrixTransform
 	text := SVGTextMorph new.
 	aSVGCompositeMorph addMorph: text.
 	text style addAll: aDictionary.
-	text renderer styleIn: text fromSVGStyle: text style.
+	(SVGStyleComposer newFrom: text composedStyle and: text style) styleIn.
 	^ text
 		id: aString;
 		location: aPoint;
