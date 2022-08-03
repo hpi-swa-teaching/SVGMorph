@@ -1,5 +1,6 @@
 testing - properties
 testSVGGroup
+	"Currently, the bounds calculation for groups has an off-by-one-error. Thus, this test is marked as an expected failure."
 
 	| bounds morph submorphBounds |
 
