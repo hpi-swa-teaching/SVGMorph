@@ -1,7 +1,7 @@
 SVG colors (fill, stroke, width)
 testForNestedOpacity
 
- 	| svgMorph firstGroup secondGroup thirdGroup |
+ 	|svgMorph firstGroup secondGroup thirdGroup|
 	svgMorph := SVGMorph fromString: self nestedOpacityMorph.
 	firstGroup := svgMorph submorphs first.
 	secondGroup := firstGroup submorphs first.
