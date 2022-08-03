@@ -1,6 +1,5 @@
 rendering
 renderRect: anSVGRect on: aCanvas
-	"Render the given object on the canvas."
 
 	|fill lineWidth lineColor transform scale rectangle|
 	fill := anSVGRect composedFillStyle.
