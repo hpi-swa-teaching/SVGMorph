@@ -1,4 +1,0 @@
-SVGTestMorphs
-emptySVG
-
-	^ '<svg></svg>'

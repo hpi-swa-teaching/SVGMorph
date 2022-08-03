@@ -11,7 +11,6 @@
 		"ellipseBlackStrokeMorph" : "lra 6/23/2022 20:07",
 		"ellipseBlueFillBrownStrokeMorph" : "lra 6/23/2022 20:07",
 		"ellipseRedFillOrangeStrokeMorph" : "lra 6/23/2022 20:07",
-		"emptySVG" : "lra 6/23/2022 18:34",
 		"lineBlackStrokeMorph" : "lra 6/23/2022 20:07",
 		"lineBrownStrokeMorph" : "lra 6/23/2022 20:07",
 		"lineOrangeStrokeMorph" : "lra 6/23/2022 20:07",
@@ -53,5 +52,4 @@
 		"testSVGValue:at:against:" : "lra 6/23/2022 20:09",
 		"testStrokeIn:with:" : "lra 6/23/2022 20:09",
 		"testStrokeWidth:with:" : "lra 6/23/2022 20:09",
-		"testWidthHeightEmptySVG" : "lra 6/23/2022 18:54",
 		"transparentFillObjects" : "lra 6/23/2022 20:09" } }
