@@ -1,14 +1,15 @@
 rendering
-renderBezier2SegmentRun: segments fill: fillStyle stroke: strokeStyle strokeWidth: aNumber transform: aMatrix on: aCanvas
+
+renderBezier2SegmentRun: aSegmentRun fill: aFillStyle stroke: aStrokeStyle strokeWidth: aNumber transform: aMatrix on: aCanvas
 
 	aCanvas preserveStateDuring: [:bc |
 		bc
 			aaLevel: 4;
-			drawBezierShape: (segments stitchedClosed points collect: [:p | aMatrix transformPoint: p])
-				color: fillStyle
+			drawBezierShape: (aSegmentRun stitchedClosed points collect: [:p | aMatrix transformPoint: p])
+				color: aFillStyle
 				borderWidth: 0
 				borderColor: Color transparent;
-			drawGeneralBezierShape: (segments stroke: aNumber transform: aMatrix)
-				color: strokeStyle
+			drawGeneralBezierShape: (aSegmentRun stroke: aNumber transform: aMatrix)
+				color: aStrokeStyle
 				borderWidth: 0
 				borderColor: Color transparent]

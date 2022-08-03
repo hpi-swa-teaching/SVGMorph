@@ -1,6 +1,5 @@
 rendering
 renderText: anSVGText on: aCanvas
-	"Render the given object on the canvas."
 
 	|fill textFont anchor offset trans|
 	trans := anSVGText transformFrom: anSVGText world.

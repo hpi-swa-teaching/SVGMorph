@@ -1,5 +1,6 @@
 testing - properties
 testSVGCircleBounds
+	"Currently, the bounds calculation for circles has an off-by-one-error. Thus, this test is marked as an expected failure."
 
 	|bounds|
 

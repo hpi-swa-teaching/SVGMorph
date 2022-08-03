@@ -1,6 +1,5 @@
 rendering
 renderEllipse: anSVGEllipse on: aCanvas
-	"Render the given object on the canvas."
 
 	self
 		renderBezier3Segments: (Bezier3Segment

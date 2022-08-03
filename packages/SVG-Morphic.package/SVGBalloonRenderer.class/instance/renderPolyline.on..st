@@ -1,6 +1,5 @@
 rendering
 renderPolyline: anSVGPolyine on: aCanvas
-	"Render the given object on the canvas."
 
 	| lineWidth lineColor|
 	anSVGPolyine points isEmpty
