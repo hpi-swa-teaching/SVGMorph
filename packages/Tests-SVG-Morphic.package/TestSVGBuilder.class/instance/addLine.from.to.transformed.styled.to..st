@@ -5,7 +5,7 @@ addLine: aString from: aPoint to: anotherPoint transformed: aMatrixTransform2x3 
 	line := SVGLineMorph new.
 	aSVGCompositeMorph addMorph: line.
 	line style addAll: aDictionary.
-	line renderer styleIn: line fromSVGStyle: line style.
+SVGStyleComposer composeStyleFor: line with: line style.
 	^ line
 		id: aString;
 		rectangle: (aPoint corner: anotherPoint);

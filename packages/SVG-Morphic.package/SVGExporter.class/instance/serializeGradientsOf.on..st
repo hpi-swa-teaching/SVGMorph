@@ -5,6 +5,6 @@ serializeGradientsOf: anSVGMorph on: anXMLElement
 		|defs|
 		defs := XMLElement new
 			name: 'defs'.
-		anSVGMorph fills do: [ :fill |
-			defs addElement: fill originalElement.].
+		anSVGMorph fills do: [:fill |
+			defs addElement: fill originalElement].
 		anXMLElement addElement: defs]

@@ -1,0 +1,4 @@
+defaultStyles
+defaultSVGTextSize
+
+	^ 16

@@ -5,13 +5,13 @@ createFillFromSVGRadialGradient: anElement
 	|center radius ramp transformation origin direction|
 	transformation := self transformFromSVGAttribute: (anElement attributeAt: 'gradientTransform').
 	ramp := self createRampFromSVGGradient: anElement.
-	
+
 	center := (anElement attributeAt: 'cx' ifAbsent: 0.5) asSVGNumberOrPercentage @ (anElement attributeAt: 'cy' ifAbsent: 0.5) asSVGNumberOrPercentage.
 	radius := (anElement attributeAt: 'r' ifAbsent: 0.5) asSVGNumberOrPercentage.
-	
+
 	origin := transformation transformPoint: center.
 	direction := (transformation transformPoint: radius asPoint + center) - origin.
-	
+
 	self setFill: (anElement attributeAt: 'id')
 		to: ((SVGGradientFillStyle ramp: ramp)
 		originalElement: anElement;

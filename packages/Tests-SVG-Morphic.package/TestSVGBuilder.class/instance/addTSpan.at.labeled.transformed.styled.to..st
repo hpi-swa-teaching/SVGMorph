@@ -5,7 +5,7 @@ addTSpan: aString at: aPoint labeled: anotherString transformed: aMatrixTransfor
 	tSpan := SVGTSpanMorph new.
 	aSVGTextMorph addMorph: tSpan.
 	tSpan style addAll: aDictionary.
-	tSpan renderer styleIn: tSpan fromSVGStyle: tSpan style.
+SVGStyleComposer composeStyleFor: tSpan with: tSpan style.
 	^ tSpan
 		id: aString;
 		location: aPoint;

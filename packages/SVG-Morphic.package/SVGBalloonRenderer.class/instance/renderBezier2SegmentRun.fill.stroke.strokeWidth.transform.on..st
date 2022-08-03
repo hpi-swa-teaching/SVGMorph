@@ -1,6 +1,7 @@
 rendering
+
 renderBezier2SegmentRun: aSegmentRun fill: aFillStyle stroke: aStrokeStyle strokeWidth: aNumber transform: aMatrix on: aCanvas
-		
+
 	aCanvas preserveStateDuring: [:bc |
 		bc
 			aaLevel: 4;

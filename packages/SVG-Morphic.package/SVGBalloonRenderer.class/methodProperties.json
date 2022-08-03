@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+
 		"defaultSVGTextSize" : "tw 6/2/2022 21:29",
 		"renderBezier2SegmentRun:fill:stroke:strokeWidth:transform:on:" : "nh 8/3/2022 15:26",
 		"renderBezier3Segments:fill:stroke:strokeWidth:transform:on:" : "nh 8/3/2022 15:18",
@@ -13,3 +14,4 @@
 		"renderRect:on:" : "nh 7/26/2022 18:30",
 		"renderText:on:" : "nh 7/26/2022 18:31",
 		"styleIn:fromSVGStyle:" : "lra 7/6/2022 18:27" } }
+

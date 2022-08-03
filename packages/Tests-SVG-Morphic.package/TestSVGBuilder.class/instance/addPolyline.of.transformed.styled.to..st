@@ -5,7 +5,7 @@ addPolyline: aString of: aCollectionOfPoints transformed: aMatrixTransform2x3 st
 	polyline := SVGPolylineMorph new.
 	aSVGCompositeMorph addMorph: polyline.
 	polyline style addAll: aDictionary.
-	polyline renderer styleIn: polyline fromSVGStyle: polyline style.
+SVGStyleComposer composeStyleFor: polyline with: polyline style.
 	^ polyline
 		id: aString;
 		points: aCollectionOfPoints;

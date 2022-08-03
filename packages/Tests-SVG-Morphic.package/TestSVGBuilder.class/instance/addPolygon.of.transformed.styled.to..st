@@ -5,7 +5,7 @@ addPolygon: aString of: aCollectionOfPoints transformed: aMatrixTransform2x3 sty
 	polygon := SVGPolygonMorph new.
 	aSVGCompositeMorph addMorph: polygon.
 	polygon style addAll: aDictionary.
-	polygon renderer styleIn: polygon fromSVGStyle: polygon style.
+SVGStyleComposer composeStyleFor: polygon with: polygon style.
 	^ polygon
 		id: aString;
 		points: aCollectionOfPoints;

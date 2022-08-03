@@ -1,7 +1,7 @@
 helpers
 fullDrawOn: aCanvas
 	"Draw the full Morphic structure on the given Canvas"
-	
+
 	self visible ifFalse: [^ self].
 	(self hasProperty: #errorOnDraw) ifTrue:[^ self drawErrorOn: aCanvas].
 	"Note: At some point we should generalize this into some sort of

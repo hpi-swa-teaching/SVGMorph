@@ -5,7 +5,7 @@ addRectangle: aString at: aPoint sized: anotherPoint transformed: aMatrixTransfo
 	rect := SVGRectMorph new.
 	aSVGCompositeMorph addMorph: rect.
 	rect style addAll: aDictionary.
-	rect renderer styleIn: rect fromSVGStyle: rect style.
+SVGStyleComposer composeStyleFor: rect with: rect style.
 	^ rect
 		id: aString;
 		rectangle: (aPoint extent: anotherPoint);

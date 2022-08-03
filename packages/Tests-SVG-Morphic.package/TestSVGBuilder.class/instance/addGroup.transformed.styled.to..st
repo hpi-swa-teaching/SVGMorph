@@ -5,7 +5,7 @@ addGroup: aString transformed: aMatrixTransform2x3 styled: aDictionary to: aSVGC
 	group := SVGGroupMorph new.
 	aSVGCompositeMorph addMorph: group.
 	group style addAll: aDictionary.
-	group renderer styleIn: group fromSVGStyle: group style.
+SVGStyleComposer composeStyleFor: group with: group style.
 	^ group
 		id: aString;
 		transform: aMatrixTransform2x3;

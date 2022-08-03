@@ -1,7 +1,7 @@
 helpers
 stitchedClosed
 	"Answer a version of the receiver where the ends of successive segments match."
-	
+
 	|result avg|
 	result := self copy.
 	result segments ifEmpty: [^ result].
