@@ -2,8 +2,9 @@
 	"class" : {
 		"defaultSVGFont" : "tw 5/31/2022 16:51",
 		"defaultSVGTextStyle" : "AS 7/3/2022 21:31",
-		"installDefaultSVGTextStyle" : "AS 7/3/2022 21:30",
-		"sansData" : "AS 7/3/2022 21:30",
-		"serifData" : "AS 7/3/2022 21:28" },
+		"installDefaultSVGTextStyle" : "tw 8/3/2022 13:59",
+		"installFontFrom:" : "tw 8/3/2022 13:58",
+		"sansData" : "tw 8/3/2022 13:56",
+		"serifData" : "tw 8/3/2022 13:56" },
 	"instance" : {
 		 } }
