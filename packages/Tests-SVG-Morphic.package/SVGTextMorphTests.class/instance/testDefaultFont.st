@@ -1,5 +1,8 @@
 defaultFont
 testDefaultFont
 
-	self assert: TextStyle defaultSVGFont isTTCFont.
-	self assert: self defaultFont equals: TextStyle defaultSVGFont familyName
+	|defaultSVGFont|
+	defaultSVGFont := SVGStyleComposer new defaultFont.
+
+	self assert: defaultSVGFont isTTCFont.
+	self assert: self defaultFont equals: defaultSVGFont familyName
