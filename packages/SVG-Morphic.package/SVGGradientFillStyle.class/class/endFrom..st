@@ -1,5 +1,5 @@
 attribute parsing
-endFrom: anElement 
+endFrom: anElement
 
 	|x y|
 	

@@ -1,5 +1,5 @@
 attribute parsing
-centerFrom: anElement 
+centerFrom: anElement
 
 	|x y|
 	

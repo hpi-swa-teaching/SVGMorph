@@ -1,4 +1,4 @@
 attribute parsing
 radiusFrom: anElement
 
-	^ anElement attributeAt: 'r' ifAbsent: self defaultRadius
+	^ (anElement attributeAt: 'r' ifAbsent: self defaultRadius) asSVGNumberOrPercentage
