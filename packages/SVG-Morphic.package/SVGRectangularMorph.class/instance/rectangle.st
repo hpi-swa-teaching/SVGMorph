@@ -1,5 +1,4 @@
-as yet unclassified
+accessing
 rectangle
-	"Answer the value of rectangle"
 
 	^ rectangle

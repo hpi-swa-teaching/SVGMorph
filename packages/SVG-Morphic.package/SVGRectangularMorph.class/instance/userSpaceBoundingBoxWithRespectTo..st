@@ -1,6 +1,5 @@
-as yet unclassified
+helpers
 userSpaceBoundingBoxWithRespectTo: aComposite
-	"Answer the bounding box of the receiver with respect to the transforms
-	intervening between the receiver and aComposite."
+	"Answer the bounding box of the receiver with respect to the transforms intervening between the receiver and aComposite."
 
-	^self rectangle boundsWithTransform: (self transformFrom: aComposite)
+	^ self rectangle scaleBy: (self transformFrom: aComposite) compositeScale

@@ -1,0 +1,1 @@
+A SVGEditorModelTestSubclass is a class that contains tests for the SVGEditorModel.

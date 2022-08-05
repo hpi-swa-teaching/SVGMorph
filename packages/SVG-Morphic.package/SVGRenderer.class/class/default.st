@@ -1,5 +1,5 @@
-as yet unclassified
+defaults
 default
 	"Answer the default renderer."
 
-	^DefaultRenderer ifNil: [^DefaultRenderer := SVGBalloonRenderer new]
+	^ DefaultRenderer ifNil: [^ DefaultRenderer := SVGBalloonRenderer new]

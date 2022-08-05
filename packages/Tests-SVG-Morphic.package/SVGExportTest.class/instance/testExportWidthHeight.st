@@ -1,0 +1,4 @@
+tests
+testExportWidthHeight
+
+	self assertTestCaseToBeCorrect: self widthHeightTestCase

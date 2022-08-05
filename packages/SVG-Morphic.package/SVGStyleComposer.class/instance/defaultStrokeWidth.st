@@ -1,0 +1,4 @@
+defaultStyles
+defaultStrokeWidth
+
+	^ 1

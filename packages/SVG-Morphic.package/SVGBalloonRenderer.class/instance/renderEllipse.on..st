@@ -1,16 +1,11 @@
-as yet unclassified
+rendering
 renderEllipse: anSVGEllipse on: aCanvas
-	"Render the given object on the canvas."
-	
-	|fill lineWidth lineColor|
-	fill := anSVGEllipse composedFillStyle.
-	lineWidth := (anSVGEllipse composedStyle at: 'stroke-width') rounded max: 1.
-	lineColor := anSVGEllipse composedStyle at: 'stroke'.
-	aCanvas asBalloonCanvas preserveStateDuring: [:bc|
-		bc transformBy: anSVGEllipse transform during: [:balloonCanvas |
-			balloonCanvas
-				aaLevel: anSVGEllipse antialiasingLevel;
-				drawOval: anSVGEllipse rectangle
-				color: fill
-				borderWidth: lineWidth
-				borderColor: lineColor]]
+
+	self
+		renderBezier3Segments: (Bezier3Segment
+			makeEllipseSegments: anSVGEllipse rectangle)
+		fill: anSVGEllipse composedFillStyle
+		stroke: (anSVGEllipse composedStyle at: 'stroke')
+		strokeWidth: (anSVGEllipse composedStyle at: 'stroke-width')
+		transform: (anSVGEllipse transformFrom: anSVGEllipse world)
+		on: aCanvas

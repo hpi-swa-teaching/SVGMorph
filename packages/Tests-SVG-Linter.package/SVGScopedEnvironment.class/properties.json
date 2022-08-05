@@ -1,0 +1,14 @@
+{
+	"category" : "Tests-SVG-Linter",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "js 6/13/2020 17:24",
+	"instvars" : [
+		 ],
+	"name" : "SVGScopedEnvironment",
+	"pools" : [
+		 ],
+	"super" : "SLEnvironment",
+	"type" : "normal" }

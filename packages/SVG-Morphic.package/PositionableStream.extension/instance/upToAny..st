@@ -1,7 +1,7 @@
 *SVG-Morphic
-upToAny: aCollection 
-	"Answer a subcollection from the current access position to the 
-	occurrence (if any, but not inclusive) of any objects in the given coellection in the receiver. If 
+upToAny: aCollection
+	"Answer a subcollection from the current access position to the
+	occurrence (if any, but not inclusive) of any objects in the given coellection in the receiver. If
 	any of these is not in the collection, answer the entire rest of the receiver."
 	| newStream element |
 	newStream := WriteStream on: (collection species new: 100).

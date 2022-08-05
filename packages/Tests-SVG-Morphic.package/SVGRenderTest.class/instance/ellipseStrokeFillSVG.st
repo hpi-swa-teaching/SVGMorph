@@ -1,0 +1,15 @@
+test cases
+ellipseStrokeFillSVG
+
+	|svg style|
+	style := Dictionary new.
+	style
+		at: 'fill' put: Color green;
+		at: 'stroke' put: Color red;
+		at: 'stroke-width' put: 30.
+	svg := self builder createTestSVG: nil bounded: (-100 @ -100 extent: 200 @ 200) transformed: (MatrixTransform2x3 identity) styled: Dictionary new.
+
+	self builder addEllipse: nil at: (0 @ 0) sized: (160 @ 80) transformed: (MatrixTransform2x3 identity) styled: style to: svg.
+
+	self builder finalizeTestSVG: svg.
+	^ svg

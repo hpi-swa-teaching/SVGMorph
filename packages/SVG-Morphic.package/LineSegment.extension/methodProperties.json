@@ -2,8 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"boundingBox" : "gvc 7/30/2005 19:29",
-		"isBezier3Segment" : "gvc 10/3/2005 09:47",
-		"primAddToEngine:fills:lineWidth:" : "gvc 7/28/2005 17:11",
-		"run" : "gvc 10/25/2005 12:40",
-		"runClass" : "gvc 10/25/2005 12:39" } }
+		"boundingBox" : "nh 7/26/2022 18:24",
+		"equals:" : "lha 7/10/2022 13:11",
+		"equalsBezier2Segment:" : "lha 7/10/2022 13:12",
+		"equalsBezier3Segment:" : "lha 7/10/2022 13:12",
+		"equalsClosingLineSegment:" : "lha 7/10/2022 13:13",
+		"equalsFixupLineSegment:" : "lha 7/10/2022 13:13",
+		"equalsLineSegment:" : "lha 7/10/2022 13:22",
+		"isBezier3Segment" : "nh 7/26/2022 18:24",
+		"primAddToEngine:fills:lineWidth:" : "nh 7/26/2022 18:24",
+		"run" : "nh 7/26/2022 18:24",
+		"runClass" : "nh 7/26/2022 18:24" } }

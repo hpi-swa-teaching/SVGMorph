@@ -1,4 +1,4 @@
-accessing
+initialization
 createFromSVGDocument: aDocument
 	"Create the receiver from the given xml document"
 

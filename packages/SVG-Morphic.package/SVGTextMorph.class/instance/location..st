@@ -1,5 +1,5 @@
 accessing
-location: anObject
+location: aPoint
 	"Set the value of location"
 
-	location _ anObject
+	location := aPoint

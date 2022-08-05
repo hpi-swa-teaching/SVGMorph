@@ -1,0 +1,4 @@
+tests
+testExportPathLine
+
+	self assertTestCaseToBeCorrect: self pathLineTestCase

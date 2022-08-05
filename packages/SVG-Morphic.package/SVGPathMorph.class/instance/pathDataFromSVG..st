@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 pathDataFromSVG: anElement
 	"Answer a collection of parameters from the path data."
 
@@ -7,6 +7,7 @@ pathDataFromSVG: anElement
 	sizes := #(0 2 2 2 2 6 6 4 4 7 7 1 1 1 1 4 4 2 2).
 	path := (anElement attributeAt: 'd') readStream.
 	data := OrderedCollection new.
+	n := nil.
 	[path atEnd] whileFalse: [
 		(path upToAny: cmds).
 		c := path next.
@@ -28,4 +29,4 @@ pathDataFromSVG: anElement
 		size > 0
 			ifTrue: [1 to: params size by: (size := sizes at: (cmds indexOf: c)) do: [:i |
 					data add: c -> (params copyFrom: i to: i + size - 1)]]].
-	^data
+	^ data

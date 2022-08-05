@@ -1,0 +1,4 @@
+tests
+testExportEmptyGroups
+
+	self assertTestCaseToBeCorrect: self groupEmptyTestCase

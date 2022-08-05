@@ -1,6 +1,6 @@
 *SVG-Morphic
 asSVGNumber
-	"Answer the number from the string. 
+	"Answer the number from the string.
 	Number of the form .7 are allowed."
 
 	^((self beginsWith: '.')

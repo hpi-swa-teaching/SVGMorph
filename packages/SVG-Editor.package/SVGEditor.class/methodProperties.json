@@ -1,0 +1,27 @@
+{
+	"class" : {
+		"open" : "lha 5/15/2022 19:13",
+		"openFromFile:" : "lha 5/15/2022 19:22",
+		"openFromStream:" : "lha 5/15/2022 19:24",
+		"openFromString:" : "lha 5/15/2022 19:27" },
+	"instance" : {
+		"buildAndOpen" : "lra 6/12/2022 16:44",
+		"buildAndOpenFromFile:" : "lha 5/17/2022 19:37",
+		"buildAndOpenFromStream:" : "lha 5/17/2022 19:37",
+		"buildAndOpenFromString:" : "lha 5/17/2022 19:37",
+		"buildCloseButtonWith:" : "lha 5/17/2022 19:31",
+		"buildDrawingAreaWith:" : "lha 5/17/2022 19:32",
+		"buildInfoPanelWith:" : "lra 6/12/2022 19:55",
+		"buildOpenButtonWith:" : "lha 5/17/2022 19:32",
+		"buildSaveButtonWith:" : "lha 5/17/2022 19:32",
+		"buildSwitchesWIth:" : "lra 8/5/2022 16:17",
+		"buildTreeViewWith:" : "lra 6/12/2022 19:55",
+		"buildWith:" : "lra 8/5/2022 16:17",
+		"buttonHeight" : "nh 5/15/2022 15:51",
+		"infoPanelFrame" : "aes 5/28/2022 12:29",
+		"initialize" : "lha 5/17/2022 19:31",
+		"model" : "lra 6/12/2022 16:15",
+		"model:" : "lra 6/12/2022 16:58",
+		"panelDrawingFrame" : "aes 5/27/2022 13:48",
+		"switchesFrame" : "lha 5/15/2022 19:10",
+		"treeFrame" : "aes 5/28/2022 12:30" } }

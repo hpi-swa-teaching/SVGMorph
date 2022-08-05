@@ -1,6 +1,5 @@
 *SVG-Morphic
 primAddToEngine: aBalloonEngine fills: fills lineWidth: lineWidth
-	"Add the receiver's description to the ballooon engine."
 
 	aBalloonEngine
 		primAddPolygon: {start. end}

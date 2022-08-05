@@ -3,10 +3,14 @@
 		 },
 	"instance" : {
 		"asBezier2Segments" : "gvc 10/3/2005 10:40",
+		"asBezier2Segments:" : "nh 7/2/2022 11:24",
 		"asBezier2Shape" : "gvc 10/10/2005 13:48",
 		"asBezier2Shape:" : "gvc 10/10/2005 13:54",
 		"boundingBox" : "gvc 7/30/2005 20:47",
-		"isBezier3Segment" : "gvc 10/3/2005 09:49",
-		"isLineSegment" : "gvc 10/3/2005 09:48",
-		"primAddToEngine:fills:lineWidth:" : "gvc 10/10/2005 13:54",
-		"runClass" : "gvc 10/25/2005 12:44" } }
+		"equals:" : "lha 7/10/2022 13:15",
+		"equalsBezier3Segment:" : "lha 7/10/2022 13:22",
+		"equalsLineSegment:" : "lha 7/10/2022 13:15",
+		"isBezier3Segment" : "nh 7/26/2022 18:27",
+		"isLineSegment" : "nh 7/26/2022 18:28",
+		"primAddToEngine:fills:lineWidth:" : "nh 7/26/2022 18:28",
+		"runClass" : "nh 7/26/2022 18:28" } }

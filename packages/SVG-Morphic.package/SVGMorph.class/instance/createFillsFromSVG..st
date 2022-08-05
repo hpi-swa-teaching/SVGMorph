@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createFillsFromSVG: anElement
 	"Create the receiver's fills from the given element."
 

@@ -1,0 +1,4 @@
+assertions
+assertTestCaseToBeCorrect: anSVGExportTestCase
+
+	self assertExportOf: anSVGExportTestCase input toBe: anSVGExportTestCase expected

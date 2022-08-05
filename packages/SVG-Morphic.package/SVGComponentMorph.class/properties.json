@@ -4,13 +4,15 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "lra 6/12/2022 20:09",
 	"instvars" : [
 		"id",
 		"style",
-		"cachedComposedStyle" ],
+		"cachedComposedStyle",
+		"transform",
+		"renderer" ],
 	"name" : "SVGComponentMorph",
 	"pools" : [
 		 ],
-	"super" : "MatrixTransformMorph",
+	"super" : "Morph",
 	"type" : "normal" }

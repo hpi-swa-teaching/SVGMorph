@@ -1,0 +1,4 @@
+tests
+testExportPathBezier3
+
+	self assertTestCaseToBeCorrect: self pathBezier3TestCase

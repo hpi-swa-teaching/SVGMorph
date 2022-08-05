@@ -1,0 +1,4 @@
+defaultStyles
+defaultFill
+
+	^ Color black

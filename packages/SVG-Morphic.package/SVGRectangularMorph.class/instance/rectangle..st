@@ -1,5 +1,5 @@
-as yet unclassified
-rectangle: anObject
-	"Set the value of rectangle"
+accessing
+rectangle: aRectangle
 
-	rectangle := anObject
+	rectangle := aRectangle.
+	self computeBounds

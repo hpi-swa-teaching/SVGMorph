@@ -1,0 +1,1 @@
+A SVGLineSegmentRun is a segment run used for lines.

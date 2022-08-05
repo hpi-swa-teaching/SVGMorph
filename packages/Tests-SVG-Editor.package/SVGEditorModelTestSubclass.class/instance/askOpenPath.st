@@ -1,0 +1,4 @@
+accessing
+askOpenPath
+
+	^ self path

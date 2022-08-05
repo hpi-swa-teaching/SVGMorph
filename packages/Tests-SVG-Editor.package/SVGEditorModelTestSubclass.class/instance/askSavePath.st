@@ -1,0 +1,4 @@
+accessing
+askSavePath
+
+	^ self path

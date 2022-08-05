@@ -1,0 +1,1 @@
+A SVGGradientTest is a class that contains tests for SVG gradients.

@@ -1,0 +1,4 @@
+defaultFont
+defaultFont
+
+	^ 'sans-serif'

@@ -1,4 +1,4 @@
-accessing
+initialization
 createFromSVG: anElement
 	"Create the receiver from the given svg element"
 
@@ -6,4 +6,5 @@ createFromSVG: anElement
 	self setDimensionsFromSVG: anElement.
 	anElement tagsNamed: #defs do: [:defs |
 		self createDefsFromSVGDefs: defs].
+	self saveSVGBoundsInformation: anElement.
 	super createFromSVG: anElement

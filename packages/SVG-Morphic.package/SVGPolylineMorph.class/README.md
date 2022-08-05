@@ -1,0 +1,1 @@
+A SVGPolylineMorph is a morph representing the svg <polyline> element.

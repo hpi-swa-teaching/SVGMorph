@@ -1,0 +1,14 @@
+{
+	"category" : "Tests-SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lra 6/23/2022 17:39",
+	"instvars" : [
+		 ],
+	"name" : "TestSVGBuilder",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

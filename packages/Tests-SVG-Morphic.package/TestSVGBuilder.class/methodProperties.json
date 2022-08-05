@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addCircle:at:sized:transformed:styled:to:" : "AS 7/28/2022 16:57",
+		"addEllipse:at:sized:transformed:styled:to:" : "AS 7/28/2022 16:58",
+		"addGroup:transformed:styled:to:" : "AS 7/28/2022 16:58",
+		"addLine:from:to:transformed:styled:to:" : "AS 7/28/2022 16:58",
+		"addPath:of:describedBy:transformed:styled:to:" : "AS 7/28/2022 16:59",
+		"addPolygon:of:transformed:styled:to:" : "AS 7/28/2022 16:59",
+		"addPolyline:of:transformed:styled:to:" : "AS 7/28/2022 16:59",
+		"addRectangle:at:sized:transformed:styled:to:" : "AS 7/28/2022 16:59",
+		"addTSpan:at:labeled:transformed:styled:to:" : "AS 7/28/2022 17:00",
+		"addText:at:labeled:transformed:styled:to:" : "AS 7/28/2022 17:00",
+		"createTestSVG:bounded:transformed:styled:" : "AS 7/28/2022 17:00",
+		"finalizeTestSVG:" : "lra 6/23/2022 17:43" } }

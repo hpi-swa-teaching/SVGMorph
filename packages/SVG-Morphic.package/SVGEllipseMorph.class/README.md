@@ -1,0 +1,1 @@
+A SVGEllipseMorph is a morph representing the svg <ellipse> element.

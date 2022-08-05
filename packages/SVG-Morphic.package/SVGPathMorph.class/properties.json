@@ -4,9 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "lra 6/12/2022 20:11",
 	"instvars" : [
-		"segments" ],
+		"segments",
+		"originalD" ],
 	"name" : "SVGPathMorph",
 	"pools" : [
 		 ],

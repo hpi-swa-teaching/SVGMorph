@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 points
 	"Answer the points describing the receiver's segments."
 

@@ -1,7 +1,8 @@
-as yet unclassified
+initialization
 initialize
 	"Initialize the receiver."
 
 	super initialize.
-	self 
-		style: Dictionary new
+	self
+		style: Dictionary new;
+		renderer: SVGRenderer default

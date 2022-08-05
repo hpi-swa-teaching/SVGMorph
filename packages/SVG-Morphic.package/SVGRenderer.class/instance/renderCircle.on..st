@@ -1,4 +1,4 @@
-as yet unclassified
+rendering
 renderCircle: anSVGLine on: aCanvas
 	"Render the given object on the canvas."
 

@@ -2,5 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createRectangleFromSVG:" : "gvc 10/4/2005 09:08",
-		"drawOn:" : "gvc 10/4/2005 09:06" } }
+		"accept:" : "aes 5/16/2022 15:54",
+		"containsPoint:" : "lra 8/5/2022 16:07",
+		"createRectangleFromSVG:" : "lra 8/5/2022 16:08",
+		"drawOn:" : "lra 6/12/2022 18:42",
+		"humanReadableClassName" : "aes 5/27/2022 14:29" } }

@@ -1,0 +1,16 @@
+{
+	"category" : "SVG-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lra 6/12/2022 20:08",
+	"instvars" : [
+		"svg",
+		"selectedElement",
+		"selectedPath" ],
+	"name" : "SVGEditorModel",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

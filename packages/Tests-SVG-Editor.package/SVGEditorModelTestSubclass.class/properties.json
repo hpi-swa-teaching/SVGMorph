@@ -1,0 +1,15 @@
+{
+	"category" : "Tests-SVG-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lra 6/23/2022 19:50",
+	"instvars" : [
+		"path",
+		"stream" ],
+	"name" : "SVGEditorModelTestSubclass",
+	"pools" : [
+		 ],
+	"super" : "SVGEditorModel",
+	"type" : "normal" }

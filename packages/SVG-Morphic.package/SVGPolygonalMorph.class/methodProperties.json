@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createFromSVG:" : "gvc 8/1/2005 13:54",
+		"computeBounds" : "lra 6/12/2022 17:39",
+		"createFromSVG:" : "lra 6/12/2022 16:31",
 		"createPointsFromSVG:" : "gvc 8/1/2005 13:54",
 		"initialize" : "gvc 8/1/2005 13:54",
-		"pointDataFromSVG:" : "gvc 8/3/2005 12:16",
+		"pointDataFromSVG:" : "lra 6/12/2022 17:52",
 		"points" : "gvc 8/1/2005 13:54",
-		"points:" : "gvc 8/1/2005 13:54" } }
+		"points:" : "lra 6/12/2022 17:00" } }

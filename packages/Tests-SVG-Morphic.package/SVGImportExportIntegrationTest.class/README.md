@@ -1,0 +1,1 @@
+A SVGImportExportIntegrationTest is a class containing various integration tests for SVG import and SVG export.

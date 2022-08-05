@@ -1,5 +1,5 @@
 accessing
-style: anObject
+style: aDictionary
 	"Set the value of style"
 
-	style _ anObject
+	style := aDictionary

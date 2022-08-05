@@ -7,5 +7,10 @@ SmalltalkCISpec {
       #load : [ 'tests' ],
       #useLatestMetacello : true
     }
-  ]
+  ],
+  #testing : {
+    #coverage : {
+      #packages : [ 'SVG-Morphic', 'SVG-Editor']
+    }
+  }
 }

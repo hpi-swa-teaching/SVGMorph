@@ -1,0 +1,15 @@
+{
+	"category" : "SVG-Editor",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lra 6/12/2022 20:27",
+	"instvars" : [
+		"keys",
+		"values" ],
+	"name" : "SVGInfoPanelGenerator",
+	"pools" : [
+		 ],
+	"super" : "SVGVisitor",
+	"type" : "normal" }

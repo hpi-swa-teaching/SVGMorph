@@ -1,0 +1,1 @@
+A SVGBezierSegmentRun is a segment run used for bezier curves.

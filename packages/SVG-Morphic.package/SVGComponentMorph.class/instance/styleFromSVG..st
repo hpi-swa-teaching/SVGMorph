@@ -1,9 +1,9 @@
-as yet unclassified
+initialization
 styleFromSVG: anElement
 	"Answer a dictionary of the style parameters from the element."
 
 	|svgStyle answer attrs|
-	answer := SVGPropertyDictionary withParent: self context.
+	answer := Dictionary new.
 	attrs := anElement attributes.
 	svgStyle := anElement attributeAt: 'style'.
 	svgStyle isNil ifFalse: [
@@ -23,16 +23,16 @@ styleFromSVG: anElement
 		ifTrue: [answer at: 'fill' put: (self fillFromSVGSpec: (attrs at:'fill'))].
 	(attrs includesKey: 'fill-opacity')
 		ifTrue: [answer at: 'fill-opacity' put: (attrs at: 'fill-opacity') asSVGNumberOrPercentage].
-	(attrs  includesKey: 'fill-rule')
+	(attrs includesKey: 'fill-rule')
 		ifTrue: [answer at: 'fill-rule' put: (attrs at: 'fill-rule') asSymbol].
-	(attrs  includesKey: 'stroke')
+	(attrs includesKey: 'stroke')
 		ifTrue: [answer at: 'stroke' put: (self fillFromSVGSpec: (attrs at:'stroke'))].
-	(attrs  includesKey: 'stroke-opacity')
+	(attrs includesKey: 'stroke-opacity')
 		ifTrue: [answer at: 'stroke-opacity' put: (attrs at: 'stroke-opacity') asSVGNumberOrPercentage].
-	(attrs  includesKey: 'stroke-width')
+	(attrs includesKey: 'stroke-width')
 		ifTrue: [answer at: 'stroke-width' put: (attrs at: 'stroke-width') asSVGNumber].
-	(attrs  includesKey: 'display')
+	(attrs includesKey: 'display')
 		ifTrue: [answer at: 'display' put: (attrs at: 'display') withBlanksTrimmed asSymbol].
-	(attrs  includesKey: 'visibility')
+	(attrs includesKey: 'visibility')
 		ifTrue: [answer at: 'visibility' put: (attrs at: 'visibility') withBlanksTrimmed asSymbol].
-	^answer
+	^ answer

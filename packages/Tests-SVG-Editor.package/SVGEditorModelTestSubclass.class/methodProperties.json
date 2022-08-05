@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"askOpenPath" : "lha 5/17/2022 19:40",
+		"askSavePath" : "lha 5/17/2022 19:40",
+		"getReadStreamForFileNamed:" : "lha 5/17/2022 19:40",
+		"getWriteStreamForFileNamed:" : "lha 5/17/2022 19:40",
+		"path" : "lra 6/23/2022 18:37",
+		"path:" : "lra 6/23/2022 19:35",
+		"stream" : "lra 6/23/2022 18:37",
+		"stream:" : "lra 6/23/2022 19:35" } }

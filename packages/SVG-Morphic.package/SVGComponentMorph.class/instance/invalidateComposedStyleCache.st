@@ -1,4 +1,4 @@
-as yet unclassified
+helpers
 invalidateComposedStyleCache
 	"Reset the style cache for the receiver."
 

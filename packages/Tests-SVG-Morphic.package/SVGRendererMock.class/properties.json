@@ -1,0 +1,18 @@
+{
+	"category" : "Tests-SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lra 6/23/2022 19:44",
+	"instvars" : [
+		"renderCircleCount",
+		"renderEllipseCount",
+		"renderLineCount",
+		"renderPathCount",
+		"renderCount" ],
+	"name" : "SVGRendererMock",
+	"pools" : [
+		 ],
+	"super" : "SVGRenderer",
+	"type" : "normal" }

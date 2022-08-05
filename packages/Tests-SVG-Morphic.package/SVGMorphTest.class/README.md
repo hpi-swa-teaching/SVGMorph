@@ -1,0 +1,1 @@
+A SVGMorphTest is a class that contains tests for SVGComponentMorphs and its subclasses.

@@ -1,0 +1,4 @@
+helpers
+computeBounds
+
+	self subclassResponsibility

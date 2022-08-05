@@ -1,0 +1,4 @@
+tests
+testExportTranslation
+
+	self assertTestCaseToBeCorrect: self transformTranslateTestCase

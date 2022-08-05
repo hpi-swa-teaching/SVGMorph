@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 createFromSVG: anElement
 	"Create the receiver's state from the svg group."
 

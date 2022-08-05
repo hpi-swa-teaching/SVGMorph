@@ -1,10 +1,10 @@
-as yet unclassified
+accessing
 composedFillStyle
 	"Answer the composed fill style."
 
 	|fill|
 	fill := self composedStyle at: 'fill'.
 	fill isGradientFill
-		ifFalse: [^fill].
+		ifFalse: [^ fill].
 	fill := fill mappedTo: self.
-	^fill
+	^ fill

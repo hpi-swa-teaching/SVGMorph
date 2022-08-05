@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"createTextFromSVG:" : "gvc 10/4/2005 09:10",
-		"processSVGElements:" : "gvc 8/1/2005 11:15" } }
+		"accept:" : "aes 5/16/2022 17:20",
+		"createTextFromSVG:" : "lra 6/12/2022 16:33",
+		"humanReadableClassName" : "aes 5/27/2022 14:28",
+		"processSVGElements:" : "lra 6/12/2022 16:13" } }

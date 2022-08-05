@@ -1,0 +1,14 @@
+{
+	"category" : "SVG-Morphic",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "lra 6/12/2022 20:15",
+	"instvars" : [
+		 ],
+	"name" : "SVGBezier2SegmentRun",
+	"pools" : [
+		 ],
+	"super" : "SVGSegmentRun",
+	"type" : "normal" }
