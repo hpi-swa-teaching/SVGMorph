@@ -4,7 +4,8 @@ visitSVGEllipse: anEllipse
 	|element|
 	element := SVGXMLElement new.
 
-	self applyCommonAttributesOf: anEllipse on: element.
-	self applyEllipseAttributesOf: anEllipse on: element.
+	self
+		applyCommonAttributesOf: anEllipse on: element;
+		applyEllipseAttributesOf: anEllipse on: element.
 
 	^ element

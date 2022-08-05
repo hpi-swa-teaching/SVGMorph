@@ -4,7 +4,8 @@ visitSVGCircle: aCircle
 	|element|
 	element := SVGXMLElement new.
 
-	self applyCommonAttributesOf: aCircle on: element.
-	self applyCircleAttributesOf: aCircle on: element.
+	self
+		applyCommonAttributesOf: aCircle on: element;
+		applyCircleAttributesOf: aCircle on: element.
 
 	^ element

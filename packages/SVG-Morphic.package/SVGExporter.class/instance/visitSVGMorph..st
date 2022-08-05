@@ -1,7 +1,8 @@
 visiting
 visitSVGMorph: aMorph
 
-	self applyCommonAttributesOf: aMorph on: self document.
-	self applySVGAttributesOf: aMorph on: self document.
-	self serializeGradientsOf: aMorph on: self document.
-	self addSubmorphsOf: aMorph to: self document
+	self
+		applyCommonAttributesOf: aMorph on: self document;
+		applySVGAttributesOf: aMorph on: self document;
+		serializeGradientsOf: aMorph on: self document;
+		addSubmorphsOf: aMorph to: self document
