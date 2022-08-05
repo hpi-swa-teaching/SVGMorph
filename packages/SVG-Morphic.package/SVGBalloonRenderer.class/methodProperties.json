@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"renderBezier2SegmentRun:fill:stroke:strokeWidth:transform:on:" : "nh 8/3/2022 15:26",
-		"renderBezier3Segments:fill:stroke:strokeWidth:transform:on:" : "nh 8/3/2022 15:18",
+		"renderBezier3Segments:fill:stroke:strokeWidth:transform:on:" : "lra 8/5/2022 16:11",
 		"renderEllipse:on:" : "nh 7/26/2022 18:30",
 		"renderLine:on:" : "nh 7/26/2022 18:30",
 		"renderPath:on:" : "nh 7/26/2022 18:30",
 		"renderPolygon:on:" : "nh 7/26/2022 18:30",
-		"renderPolyline:on:" : "nh 7/26/2022 18:30",
-		"renderRect:on:" : "nh 7/26/2022 18:30",
-		"renderText:on:" : "nh 7/26/2022 18:31" } }
+		"renderPolyline:on:" : "lra 8/5/2022 16:11",
+		"renderRect:on:" : "lra 8/5/2022 16:11",
+		"renderText:on:" : "lra 8/5/2022 16:12" } }

@@ -1,4 +1,4 @@
 defaultStyles
 defaultFill
 
-	 ^ Color black
+	^ Color black

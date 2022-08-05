@@ -5,7 +5,7 @@
 		"accept:" : "aes 5/23/2022 12:39",
 		"addSegment:" : "gvc 7/28/2005 15:40",
 		"adjustSegmentEnds" : "lra 6/12/2022 18:40",
-		"computeBounds" : "lra 6/12/2022 17:36",
+		"computeBounds" : "lra 8/5/2022 16:05",
 		"createArcSegmentFrom:at:" : "lra 6/12/2022 16:39",
 		"createClosingLineSegmentFrom:to:" : "lra 6/12/2022 18:40",
 		"createCubicBezierSegmentFrom:at:" : "lra 6/12/2022 18:40",

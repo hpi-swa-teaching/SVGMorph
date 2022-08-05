@@ -1,4 +1,4 @@
 defaultStyles
 defaultFillRule
 
-	 ^ 'nonzero'
+	^ 'nonzero'

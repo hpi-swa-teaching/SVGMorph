@@ -1,4 +1,4 @@
 defaultStyles
 defaultDisplay
 
-	 ^ true
+	^ true

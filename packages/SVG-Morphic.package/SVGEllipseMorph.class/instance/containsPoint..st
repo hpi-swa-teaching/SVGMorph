@@ -1,7 +1,7 @@
 helpers
 containsPoint: aPoint
 
-	| semiMin semiMax center i lPoint |
+	|semiMin semiMax center i lPoint|
 	lPoint := self transform globalPointToLocal: aPoint.
 	(self bounds containsPoint: aPoint) ifFalse: [^ false].
 	semiMin := self rectangle width asFloat / 2 min: self rectangle height asFloat / 2.

@@ -1,5 +1,5 @@
 defaultStyles
 defaultStroke
-"standard demands None"
+	"standard demands None"
 
-	 ^ Color transparent
+	^ Color transparent

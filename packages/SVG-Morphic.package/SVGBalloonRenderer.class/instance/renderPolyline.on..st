@@ -1,7 +1,7 @@
 rendering
 renderPolyline: anSVGPolyine on: aCanvas
 
-	| lineWidth lineColor|
+	|lineWidth lineColor|
 	anSVGPolyine points isEmpty
 		ifTrue: [^ anSVGPolyine].
 	lineWidth := anSVGPolyine composedStyle at: 'stroke-width'.

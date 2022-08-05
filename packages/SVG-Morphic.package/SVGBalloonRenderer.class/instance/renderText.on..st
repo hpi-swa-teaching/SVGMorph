@@ -11,7 +11,7 @@ renderText: anSVGText on: aCanvas
 		ifTrue: [offset := (textFont widthOfString: anSVGText text) // 2 @ textFont ascent].
 	anchor = 'end'
 		ifTrue: [offset := (textFont widthOfString: anSVGText text) @ textFont ascent].
-	aCanvas asBalloonCanvas preserveStateDuring: [:bc|
+	aCanvas asBalloonCanvas preserveStateDuring: [:bc |
 		bc copy
 			aaLevel: anSVGText antialiasingLevel;
 			drawString: anSVGText text

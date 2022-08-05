@@ -1,4 +1,4 @@
 defaultStyles
 defaultVisibility
 
-	 ^ true
+	^ true

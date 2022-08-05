@@ -1,7 +1,7 @@
 serializer
 applyTransformOf: aMorph on: anXMLElement
 
-	| transform description temp |
+	|transform description temp|
 	transform := aMorph transform.
 	transform isIdentity
 		ifTrue: [^ self].

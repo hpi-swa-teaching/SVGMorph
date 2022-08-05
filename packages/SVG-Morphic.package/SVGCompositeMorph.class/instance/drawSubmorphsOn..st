@@ -4,7 +4,7 @@ drawSubmorphsOn: aCanvas
 
 	(self composedStyle at: 'display')
 		ifFalse: [^ self].
-	aCanvas asBalloonCanvas preserveStateDuring:[:balloonCanvas|
+	aCanvas asBalloonCanvas preserveStateDuring: [:balloonCanvas |
 		balloonCanvas
 			aaLevel: 3.
 		super drawSubmorphsOn: balloonCanvas]

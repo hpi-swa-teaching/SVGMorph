@@ -1,4 +1,4 @@
 accessing
 canCloseFile
 
-	 ^ self svg notNil
+	^ self svg notNil
