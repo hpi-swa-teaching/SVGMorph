@@ -1,4 +1,4 @@
-initialization
+helpers
 createRampFromSVGGradient: anElement
 	"Create a color ramp from the given element."
 
